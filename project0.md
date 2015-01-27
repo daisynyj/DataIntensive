@@ -1,33 +1,33 @@
-#####1010data
-It provides a cloud-based software platform along with big data discovery and analytics service for both business and technical clients.  
+1010data  
+It provides a cloud-based software platform along with big data discovery and analytics service for both business and technical clients.   
 The cloud-based big data discovery leads a new generation solution. This new solution has significant superiorities in the performance, scalability and data sharing. It enables more convenient data governance through centralized management of data and analytics. Furthermore, this solution enables collaboration both within and beyond the enterprise with the feature data monetization.  
-######Weakness:
+Weakness:  
 As one of the cloud computing services, there should be concerns about the security and privacy in the cloud in the cloud-based software platform. Another problem is the so called vendor-lock-in. Since it is difficult when the customer wants to switch to a new provider. Transferring huge data from the old one to a new one is painful. There is implicit dependency on the provider. So clients should be careful when picking a vendor.   
-######Reference:
-White paper: "Data Discovery Meets Big Data in the Cloud, moving from conventional to next-generation data discovery"
-https://www.1010data.com/  
-http://www.javacodegeeks.com/2013/04/advantages-and-disadvantages-of-cloud-computing-cloud-computing-pros-and-cons.html, Ilias Tsagklis, Advantages and Disadvantages of Cloud Computing – Cloud computing pros and cons  
+Reference:  
+White paper: "Data Discovery Meets Big Data in the Cloud, moving from conventional to next-generation data discovery"  
+https://www.1010data.com/   
+http://www.javacodegeeks.com/2013/04/advantages-and-disadvantages-of-cloud-computing-cloud-computing-pros-and-cons.html, Ilias Tsagklis, Advantages and Disadvantages of Cloud Computing – Cloud computing pros and cons   
 
-#####Accumulo
-Apache Accumulo provides secure data delivery for government applications. It is a secure distributed NoSQL database based on Google's Big Table design and is built on top of Apache Hadoop, Zookeeper, and Thrift.   
-There are some advantages of it like Scale-out architecture, security, full consistency, high availability, automatic sharding and server-side programming. Among them, the cell-level security and server-side programming are the most outstanding two features. The former one allows us to store data with different security requirement in the same table. People can only see the data which they are authorized. The latter one enables us to perform additional processing on key/value pairs locally in order to reduce the data movement system.  
-######Reference:
+Accumulo  
+Apache Accumulo provides secure data delivery for government applications. It is a secure distributed NoSQL database based on Google's Big Table design and is built on top of Apache Hadoop, Zookeeper, and Thrift.    
+There are some advantages of it like Scale-out architecture, security, full consistency, high availability, automatic sharding and server-side programming. Among them, the cell-level security and server-side programming are the most outstanding two features. The former one allows us to store data with different security requirement in the same table. People can only see the data which they are authorized. The latter one enables us to perform additional processing on key/value pairs locally in order to reduce the data movement system.   
+Reference:  
 http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/accumulo.html  
-https://accumulo.apache.org/  
+https://accumulo.apache.org/   
 
-#####Actian Ingres 
-It is a relational database whose main clients are enterprises. It is able to reduce IT costs and time-to-value. 
-The latest version enables the internationalization of customer applications. It also enhances the performance and reduces the configuration overhead. Another key feature is that it supports the out-of-the-box spatial management. That is, Actian Ingres uses a file-based approach to remove the barriers for managing spatial data types. Users are able to manage spatial data as part of a transaction and develop applications on the platform to share data in spatial cases.  
-######Weakness:
+Actian Ingres   
+It is a relational database whose main clients are enterprises. It is able to reduce IT costs and time-to-value.   
+The latest version enables the internationalization of customer applications. It also enhances the performance and reduces the configuration overhead. Another key feature is that it supports the out-of-the-box spatial management. That is, Actian Ingres uses a file-based approach to remove the barriers for managing spatial data types. Users are able to manage spatial data as part of a transaction and develop applications on the platform to share data in spatial cases.    
+Weakness:  
 There is a discussion about the lock related issues users have in Ingres when using a thread going on Database. There is a separate set of limits for row locks.   
-######Reference:
-http://www.actian.com/products/operational-databases/ingres/  
+Reference:  
+http://www.actian.com/products/operational-databases/ingres/   
 
-#####Actian Matrix
+Actian Matrix  
 It is great at dealing with massive data, many users and significant analytic complexity.  
 Strengths:  
-Its key benefits included fast analytic, massive scalability, easy integration and flexible deployment options with its massively parallel processing architecture.
-Weaknesses:  
+Its key benefits included fast analytic, massive scalability, easy integration and flexible deployment options with its massively parallel processing architecture.  
+Weaknesses:   
 However, it is not necessary to use Actian Matrix for smaller data analysis.   
 Reference:  
 http://wwwcdn.actian.com/wp-content/uploads/2014/06/DS06-ActianMatrix.pdf  
@@ -70,361 +70,359 @@ Reference:
 http://www.odbms.org/wp-content/uploads/2013/11/NoSQL-Failover.pdf  
 http://www.aerospike.com/docs/architecture/  
 
-AffinityDB
-AffinityNG is a universal embedded platform for information processing, control and communication, with a graph database at its heart.
-The strengths of Affinity are designed to lower the barrier of entry for systems targeting the Internet of Things (IoT), Wireless Sensor Networks (WSNs), ubiquitous computing, control systems and robotics. It also maximizes the efficiency of writing, executing, tuning and maintaining applications for those contexts.
-Reference:
-http://pc1664.pharmazie.uni-marburg.de/affinity/
+AffinityDB  
+AffinityNG is a universal embedded platform for information processing, control and communication, with a graph database at its heart.  
+The strengths of Affinity are designed to lower the barrier of entry for systems targeting the Internet of Things (IoT), Wireless Sensor Networks (WSNs), ubiquitous computing, control systems and robotics. It also maximizes the efficiency of writing, executing, tuning and maintaining applications for those contexts.  
+Reference:  
+http://pc1664.pharmazie.uni-marburg.de/affinity/  
 
-Allegrograph
-It is a graph-database that can store anything in the subject, predicate, object and graph fields of its triples. It can be both more flexible and faster than RDBMSs. Besides, AllegroGraph has the ability to encode values directly into its triples.
-Weakness:
-First, the exact kind of reasoning used is not clear from outside. It could be anything from simple lookup to complex description logic reasoning. And second, the bar that inventors have set for hardware usage is pretty high.
-References:
-http://franz.com/agraph/cresources/white_papers/Master-Thesis_Neuenstadt.pdf
-http://franz.com/agraph/support/documentation/current/agraph-introduction.html#header3-46
+Allegrograph  
+It is a graph-database that can store anything in the subject, predicate, object and graph fields of its triples. It can be both more flexible and faster than RDBMSs. Besides, AllegroGraph has the ability to encode values directly into its triples.  
+Weakness:  
+First, the exact kind of reasoning used is not clear from outside. It could be anything from simple lookup to complex description logic reasoning. And second, the bar that inventors have set for hardware usage is pretty high. 
+References:  
+http://franz.com/agraph/cresources/white_papers/Master-Thesis_Neuenstadt.pdf  
+http://franz.com/agraph/support/documentation/current/agraph-introduction.html#header3-46  
 
-Altibase HDB
+Altibase HDB  
 It is an in-memory database with hybrid architecture. It is also a single database that delivers high-intensity data processing through the In-Memory database portion and large storage capacity through the on-disk database portion. 
-However, it has drawbacks in flexibility, strict durability and blazing speed.
-References:
-http://altibase.com/in-memory-database-hybrid-products/how-to-choose-between-in-memory-database-or-hybrid-database/
-http://altibase.com/in-memory-database-hybrid-products/hdbtm-hybrid-dbms/
+However, it has drawbacks in flexibility, strict durability and blazing speed.  
+References:  
+http://altibase.com/in-memory-database-hybrid-products/how-to-choose-between-in-memory-database-or-hybrid-database/  
+http://altibase.com/in-memory-database-hybrid-products/hdbtm-hybrid-dbms/  
 
-Altibase XDB 
-It is the world’s fastest In-Memory only database with direct attach mode (DCI mode) to eliminate overhead. Another advantage of it is the unmatched product maturity and long history of enterprise experience. It has rich set of tools and utilities and supported several operating systems.
-Reference:
-http://altibase.com/in-memory-database-hybrid-products/xdb/#toggle-id-2
+Altibase XDB   
+It is the world’s fastest In-Memory only database with direct attach mode (DCI mode) to eliminate overhead. Another advantage of it is the unmatched product maturity and long history of enterprise experience. It has richset of tools and utilities and supported several operating systems.  
+Reference:  
+http://altibase.com/in-memory-database-hybrid-products/xdb/#toggle-id-2  
 
-Altiscale
-This company developed a purpose-built, petabyte-scale infrastructure delivering Apache Hadoop as a cloud service. Altiscale’s optimized solution is faster, more reliable, easier to use, and more flexible than alternatives. 
-Reference:
-https://www.altiscale.com/hadoop-as-a-service/
+Altiscale  
+This company developed a purpose-built, petabyte-scale infrastructure delivering Apache Hadoop as a cloud service. Altiscale’s optimized solution is faster, more reliable, easier to use, and more flexible than alternatives.   
+Reference:  
+https://www.altiscale.com/hadoop-as-a-service/  
 
-Apache Drill
-Apache Drill provides direct queries on self-describing and semi-structured data in files (such as JSON, Parquet) and HBase tables without needing to define and maintain schemas in a centralized store such as Hive metastore. 
-With Drill, businesses can minimize switching costs and learning curves for users with the familiar ANSI SQL syntax. Users can also plug-and-play with Hive environments to enable ad-hoc low latency queries on existing Hive tables and reuse Hive's metadata, hundreds of file formats and UDFs out of the box.
-Reference:
-https://bigdatanerd.wordpress.com/2013/11/19/war-on-sql-over-hadoop/
-http://drill.apache.org/
+Apache Drill  
+Apache Drill provides direct queries on self-describing and semi-structured data in files (such as JSON, Parquet) and HBase tables without needing to define and maintain schemas in a centralized store such as Hive metastore.   
+With Drill, businesses can minimize switching costs and learning curves for users with the familiar ANSI SQL syntax. Users can also plug-and-play with Hive environments to enable ad-hoc low latency queries on existing Hive tables and reuse Hive's metadata, hundreds of file formats and UDFs out of the box.  
+Reference:  
+https://bigdatanerd.wordpress.com/2013/11/19/war-on-sql-over-hadoop/  
+http://drill.apache.org/  
 
-Apache Hive
-The Apache Hive data warehouse software supports querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL. At the same time this language also allows traditional map/reduce programmers to plug in their custom mappers and reducers when it is inconvenient or inefficient to express this logic in HiveQL.
-However, since it is using MapReduce, it has  all the drawbacks which MapReduce has. Such as expensive shuffle phase as well as huge IO operations. Besides, Hive still not support multiple reducers that make queries slower.
-Reference:
-https://bigdatanerd.wordpress.com/2013/11/19/war-on-sql-over-hadoop/
-https://hive.apache.org/
+Apache Hive  
+The Apache Hive data warehouse software supports querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL. At the same time this language also allows traditional map/reduce programmers to plug in their custom mappers and reducers when it is inconvenient or inefficient to express this logic in HiveQL.  
+However, since it is using MapReduce, it has  all the drawbacks which MapReduce has. Such as expensive shuffle phase as well as huge IO operations. Besides, Hive still not support multiple reducers that make queries slower.  
+Reference:  
+https://bigdatanerd.wordpress.com/2013/11/19/war-on-sql-over-hadoop/  
+https://hive.apache.org/  
 
-Apache S4
-S4 is a general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.
-Performance evauation according to the experimental results. Yahoo! S4 distributes the events unequally which leadsto more resource consumption on some nodes than others. The fault tolerance is not up to the expectation. The network is used heavily in Yahoo! S4 and the availability can be an issue for high network bandwidth demanding applications. 
-Reference:
-http://incubator.apache.org/s4/
-Jagmohan Chauhan, Shaiful Alam Chowdhury and Dwight Makaroff, Performance Evaluation of Yahoo! S4: A First Look, Department of Computer Science, University of Saskatchewan.
+Apache S4  
+S4 is a general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data.  
+Performance evauation according to the experimental results. Yahoo! S4 distributes the events unequally which leadsto more resource consumption on some nodes than others. The fault tolerance is not up to the expectation. The network is used heavily in Yahoo! S4 and the availability can be an issue for high network bandwidth demanding applications.   
+Reference:  
+http://incubator.apache.org/s4/  
+Jagmohan Chauhan, Shaiful Alam Chowdhury and Dwight Makaroff, Performance Evaluation of Yahoo! S4: A First Look, Department of Computer Science, University of Saskatchewan.  
 
-Apache storm
-Storm is a distributed real time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation. Storm is simple, can be used with any programming language, is used by many companies, and is a lot of fun to use!
-Apache Storm is a free and open source distributed real-time computation system. Storm makes it easy to reliably process unbounded streams of data, doing for real-time processing what Hadoop did for batch processing. Storm is simple, can be used with any programming language, and is a lot of fun to use!
-Storm has many use cases: real-time analytics, online machine learning, continuous computation, distributed RPC, ETL, and more. Storm is fast: a benchmark clocked it at over a million tuples processed per second per node. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
-Storm is a good choice if you need sub-second latency and no data loss. Spark Streaming is better if you need stateful computation, with the guarantee that each event is processed exactly once. Spark Streaming programming logic may also be easier because it is similar to batch programming, in that you are working with batches (albeit very small ones).
-Reference:
-http://xinhstechblog.blogspot.com/2014/06/storm-vs-spark-streaming-side-by-side.html
+Apache storm  
+Storm is a distributed real time computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing real-time computation. Storm is simple, can be used with any programming language, is used by many companies, and is a lot of fun to use!  
+Storm has many use cases: real-time analytics, online machine learning, continuous computation, distributed RPC, ETL, and more. Storm is fast: a benchmark clocked it at over a million tuples processed per second per node. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.  
+Storm is a good choice if you need sub-second latency and no data loss. Spark Streaming is better if you need stateful computation, with the guarantee that each event is processed exactly once. Spark Streaming programming logic may also be easier because it is similar to batch programming, in that you are working with batches (albeit very small ones).  
+Reference:  
+http://xinhstechblog.blogspot.com/2014/06/storm-vs-spark-streaming-side-by-side.html  
 
-Apache Tajo
-Apache Tajo is a robust big data relational and distributed data warehouse system for Apache Hadoop. Tajo is designed for low-latency and scalable ad-hoc queries, online aggregation, and ETL (extract-transform-load process) on large-data sets stored on HDFS (Hadoop Distributed File System) and other data sources. By supporting SQL standards and leveraging advanced database techniques, Tajo allows direct control of distributed execution and data flow across a variety of query evaluation strategies and optimization opportunities.
-Reference:
-http://tajo.apache.org/
+Apache Tajo  
+Apache Tajo is a robust big data relational and distributed data warehouse system for Apache Hadoop. Tajo is designed for low-latency and scalable ad-hoc queries, online aggregation, and ETL (extract-transform-load process) on large-data sets stored on HDFS (Hadoop Distributed File System) and other data sources. By supporting SQL standards and leveraging advanced database techniques, Tajo allows direct control of distributed execution and data flow across a variety of query evaluation strategies and optimization opportunities.  
+Reference:  
+http://tajo.apache.org/  
 
-ArangoDB
-It is a distributed free and open-source database with a flexible data model for documents, graphs and key-values. It has hgih performance and its query language is convenient and simple to use.
-Weakness:
-One limit is that the implementation is not optimized for very long-running or very voluminous operations, and may not be usable for these cases.
-Another is that a transaction operation information must fit into main memory.
-Ongoing transactions will also prevent the write-ahead logs from being fully garbage-collected. 
-Reference:
-https://www.arangodb.com/
-https://docs.arangodb.com/Transactions/Limitations.html
+ArangoDB  
+It is a distributed free and open-source database with a flexible data model for documents, graphs and key-values. It has hgih performance and its query language is convenient and simple to use.  
+Weakness:  
+One limit is that the implementation is not optimized for very long-running or very voluminous operations, and may not be usable for these cases.  
+Another is that a transaction operation information must fit into main memory.  
+Ongoing transactions will also prevent the write-ahead logs from being fully garbage-collected.   
+Reference:  
+https://www.arangodb.com/  
+https://docs.arangodb.com/Transactions/Limitations.html  
 
-Attivio
-Active intelligence engine provides power innovation across the enterprise with the Big Data Search and Dexterity platform that’s built for change. 
-Strengths:
-Immediate Visibility Into All Information and universal contextual enrichment. Besides, Attivio delivers all the information you need by connecting directly to any source while enforcing standards for performance, governance & usability.
-Reference:
-http://kentico.attivio.com/SiteMedia/Attivio/Active_Security_Technical_Brief.pdf
+Attivio  
+Active intelligence engine provides power innovation across the enterprise with the Big Data Search and Dexterity platform that’s built for change.   
+Strengths:  
+Immediate Visibility Into All Information and universal contextual enrichment. Besides, Attivio delivers all the information you need by connecting directly to any source while enforcing standards for performance, governance & usability.  
+Reference:  
+http://kentico.attivio.com/SiteMedia/Attivio/Active_Security_Technical_Brief.pdf  
 
-AWS DynamoDB
-Amazon DynamoDB is a fast and flexible NoSQL database service. It is a fully managed database and supports both document and key-value data models. It has benefits as flexible data model, reliability, and high performance. And it is a great fit for mobile, web, gaming, ad-tech, IoT, and many other applications.
-Limits:
-The base API for DynamoDB (even if your project uses the Java SDK) is a JSON HTTP interface. So there is the overhead of de/serializing JSON and making a HTTP request. 
-Design Limitations: Placing large data sets underneath any given hash key means that a client application has to sort through all of the data for a hash key to find a needed record. Besides, the use of local secondary indices brings the limitation on the amount of data associated with any given hash key in the system.
-It could bring performance issue. The application which frequently updates or inserts records under the same hash key can lead to poor performance.
-Reference:
-On the use of AWS DynamoDB, http://codinginthetrenches.com/2014/06/07/on-the-use-of-aws-dynamodb/
-http://aws.amazon.com/dynamodb/
+AWS DynamoDB  
+Amazon DynamoDB is a fast and flexible NoSQL database service. It is a fully managed database and supports both document and key-value data models. It has benefits as flexible data model, reliability, and high performance. And it is a great fit for mobile, web, gaming, ad-tech, IoT, and many other applications.  
+Limits:  
+The base API for DynamoDB (even if your project uses the Java SDK) is a JSON HTTP interface. So there is the overhead of de/serializing JSON and making a HTTP request.   
+Design Limitations: Placing large data sets underneath any given hash key means that a client application has to sort through all of the data for a hash key to find a needed record. Besides, the use of local secondary indices brings the limitation on the amount of data associated with any given hash key in the system.  
+It could bring performance issue. The application which frequently updates or inserts records under the same hash key can lead to poor performance.  
+Reference:  
+On the use of AWS DynamoDB, http://codinginthetrenches.com/2014/06/07/on-the-use-of-aws-dynamodb/  
+http://aws.amazon.com/dynamodb/  
 
-AWS Elaticache
-It is a web service that makes it easy to deploy and run Memcached or Redis protocol-compliant server nodes in the cloud. It has benefits as improving the performance of web applications by allowing you to retrieve information from a fast, managed, in-memory caching system. The service simplifies and offloads the management, monitoring and operation of in-memory cache environments. However, using Amazon ElastiCache, users can not only improve load and response times to user actions and queries.
-Reference:
+AWS Elaticache  
+It is a web service that makes it easy to deploy and run Memcached or Redis protocol-compliant server nodes in the cloud. It has benefits as improving the performance of web applications by allowing you to retrieve information from a fast, managed, in-memory caching system. The service simplifies and offloads the management, monitoring and operation of in-memory cache environments. However, using Amazon ElastiCache, users can not only improve load and response times to user actions and queries.  
+Reference:  
 Redis – a popular open-source in-memory key-value store that supports data structures such as sorted sets and lists. 
-http://aws.amazon.com/elasticache/faqs/
+http://aws.amazon.com/elasticache/faqs/  
 
-AWS EMR
-Amazon Elastic MapReduce (Amazon EMR) is a web service that makes it easy to quickly and cost-effectively process vast amounts of data. It uses Hadoop, an open source framework, to distribute user's data and processing across a resizable cluster of Amazon EC2 instances. It can also run other distributed frameworks such as Spark and Presto.
-Reference:
-http://aws.amazon.com/elasticmapreduce/
+AWS EMR  
+Amazon Elastic MapReduce (Amazon EMR) is a web service that makes it easy to quickly and cost-effectively process vast amounts of data. It uses Hadoop, an open source framework, to distribute user's data and processing across a resizable cluster of Amazon EC2 instances. It can also run other distributed frameworks such as Spark and Presto.  
+Reference:    
+http://aws.amazon.com/elasticmapreduce/  
 
-Amazon Kinesis
-It is a fully managed, cloud-based service for real-time processing of large, distributed data streams. With Amazon Kinesis Client Library (KCL), we can build Amazon Kinesis Applications and use streaming data to power real-time dashboards, generate alerts, and implement dynamic pricing and advertising, and more. Kinesis, however, does not support to move data from where they originate (often outside of AWS) into AWS. 
-Reference:
-http://www.quora.com/What-can-you-do-with-Amazon-Kinesis
+Amazon Kinesis  
+It is a fully managed, cloud-based service for real-time processing of large, distributed data streams. With Amazon Kinesis Client Library (KCL), we can build Amazon Kinesis Applications and use streaming data to power real-time dashboards, generate alerts, and implement dynamic pricing and advertising, and more. Kinesis, however, does not support to move data from where they originate (often outside of AWS) into AWS.   
+Reference:  
+http://www.quora.com/What-can-you-do-with-Amazon-Kinesis  
 
-AWS RDS
-Amazon Relational Database Service (Amazon RDS) is a web service that makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database management tasks, freeing you up to focus on your applications and business.
-It has limitations for each AWS account per region, on the number of Amazon RDS resources that can be created. There are also naming constraints in Amazon RDS. Besides， Amazon RDS instances can support files with a maximum size of 2TB due to underlying file system constraints.
-Reference
-http://aws.amazon.com/rds/
-http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
-http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html
+AWS RDS  
+Amazon Relational Database Service (Amazon RDS) is a web service that makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database management tasks, freeing you up to focus on your applications and business.  
+It has limitations for each AWS account per region, on the number of Amazon RDS resources that can be created. There are also naming constraints in Amazon RDS. Besides， Amazon RDS instances can support files with a maximum size of 2TB due to underlying file system constraints.  
+Reference  
+http://aws.amazon.com/rds/   
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html  
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html  
 
-AWS Redshift
-Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service that makes it simple and cost-effective to efficiently analyze all your data using your existing business intelligence tools. It is optimized for datasets ranging from a few hundred gigabytes to a petabyte or more with affordable costs.
-Limitations:
-Amazon Redshift has quotas that limit the number of clusters users can create, the total number of nodes that you can provision, and the number of snapshots that you can create; these quotas are per AWS account per region. In addition to quotas, Amazon Redshift has limits for the number of nodes that user can allocate per cluster, the number of user-defined databases, the number of schemas you can create per database is 256, the number of concurrent user connections that can be made to a cluster, the number of AWS accounts authorized to restore a snapshot, the maximum size of a single row loaded by using the COPY command. 
-Reference:
-http://aws.amazon.com/documentation/redshift/
-http://docs.aws.amazon.com/redshift/latest/mgmt/amazon-redshift-limits.html
+AWS Redshift  
+Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service that makes it simple and cost-effective to efficiently analyze all your data using your existing business intelligence tools. It is optimized for datasets ranging from a few hundred gigabytes to a petabyte or more with affordable costs.  
+Limitations:  
+Amazon Redshift has quotas that limit the number of clusters users can create, the total number of nodes that you can provision, and the number of snapshots that you can create; these quotas are per AWS account per region. In addition to quotas, Amazon Redshift has limits for the number of nodes that user can allocate per cluster, the number of user-defined databases, the number of schemas you can create per database is 256, the number of concurrent user connections that can be made to a cluster, the number of AWS accounts authorized to restore a snapshot, the maximum size of a single row loaded by using the COPY command.   
+Reference:  
+http://aws.amazon.com/documentation/redshift/  
+http://docs.aws.amazon.com/redshift/latest/mgmt/amazon-redshift-limits.html  
 
+AWS SimpleDB  
+Amazon SimpleDB is a highly available and flexible non-relational data store that offloads the work of database administration.   
+It has a 1000 bytes limitation per attribute value, which is not enough in lots of cases. Then, the maximum domain size is 10GB.   
+Reference:  
+http://aws.amazon.com/simpledb/  
+http://stackoverflow.com/questions/648270/whats-the-point-of-using-amazon-simpledb  
 
-AWS SimpleDB
-Amazon SimpleDB is a highly available and flexible non-relational data store that offloads the work of database administration. 
-It has a 1000 bytes limitation per attribute value, which is not enough in lots of cases. Then, the maximum domain size is 10GB. 
-Reference:
-http://aws.amazon.com/simpledb/
-http://stackoverflow.com/questions/648270/whats-the-point-of-using-amazon-simpledb
-
-Azure DocumentDB
+Azure DocumentDB  
 DocumentDB is a NoSQL document database service designed for modern mobile and web applications. DocumentDB delivers consistently fast reads and writes, schema flexibility, and the ability to easily scale a database up and down on demand.
-It has following key benefits: Ad hoc queries with familiar SQL syntax, JavaScript execution within the database, fully managed, elastically scalable throughput and storage.
-Reference:
-http://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/
+It has following key benefits: Ad hoc queries with familiar SQL syntax, JavaScript execution within the database, fully managed, elastically scalable throughput and storage.  
+Reference:  
+http://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/  
 
-Azure search:
-It provides search-as-a-service for web and mobile app development. The benefits as following: reliable performance, easily tune search indices, scalability, sophisticated search functionality, quick get up and running, simple search index management.
-However, Microsoft Azure is not mature in our opinion, good for labs, training. SQL Azure only implements a subset of T-SQL. Its report also costs extra. Also there may be data charges.
-Reference:
-http://azure.microsoft.com/en-us/services/search/
-http://searchsqlserver.techtarget.com/feature/Why-you-should-think-twice-about-Windows-Azure-SQL-Database
+Azure search:  
+It provides search-as-a-service for web and mobile app development. The benefits as following: reliable performance, easily tune search indices, scalability, sophisticated search functionality, quick get up and running, simple search index management.  
+However, Microsoft Azure is not mature in our opinion, good for labs, training. SQL Azure only implements a subset of T-SQL. Its report also costs extra. Also there may be data charges.  
+Reference:  
+http://azure.microsoft.com/en-us/services/search/  
+http://searchsqlserver.techtarget.com/feature/Why-you-should-think-twice-about-Windows-Azure-SQL-Database  
 
-Azure SQL database
-It is a relational database-as-a-service that makes tier-1 capabilities easily accessible. It has following benefits: scalable to thousands of databases, predictable performance you can dial up or down, availability-backed by replicas & uptime SLA, data protection via auditing, restore & geo-replication, programmatic DBA-like functionality for efficient DevOps, self-managed for near-zero maintenance. 
-However, it has limitations regarding security. The Microsoft Azure SQL Database service is only available through TCP port 1433. All communications between Microsoft Azure SQL Database and user's application require encryption (SSL) at all times. Microsoft Azure SQL Database supports only SQL Server Authentication.
-Reference:
-https://msdn.microsoft.com/en-us/library/azure/ff394108.aspx
-http://azure.microsoft.com/en-us/services/sql-database/
+Azure SQL database  
+It is a relational database-as-a-service that makes tier-1 capabilities easily accessible. It has following benefits: scalable to thousands of databases, predictable performance you can dial up or down, availability-backed by replicas & uptime SLA, data protection via auditing, restore & geo-replication, programmatic DBA-like functionality for efficient DevOps, self-managed for near-zero maintenance.   
+However, it has limitations regarding security. The Microsoft Azure SQL Database service is only available through TCP port 1433. All communications between Microsoft Azure SQL Database and user's application require encryption (SSL) at all times. Microsoft Azure SQL Database supports only SQL Server Authentication.  
+Reference:  
+https://msdn.microsoft.com/en-us/library/azure/ff394108.aspx  
+http://azure.microsoft.com/en-us/services/sql-database/  
 
-Berkeley DB
-Oracle Berkeley DB provides the best open source embeddable databases allowing developers the choice of various Object storage for their data model. Its key advantages: eliminating overhead while providing the flexibility to tailor the database to your requirements, lower total cost of ownership with lower implementation and administration costs and lower licensing and hardware costs.
-Disadvantages:
-BDB is not the ideal database management system for applications requiring a variety of different services.
-Reference
-http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
-http://www.databaseskill.com/449542/
+Berkeley DB  
+Oracle Berkeley DB provides the best open source embeddable databases allowing developers the choice of various Object storage for their data model. Its key advantages: eliminating overhead while providing the flexibility to tailor the database to your requirements, lower total cost of ownership with lower implementation and administration costs and lower licensing and hardware costs.  
+Disadvantages:  
+BDB is not the ideal database management system for applications requiring a variety of different services.  
+Reference  
+http://www.oracle.com/us/products/database/berkeley-db/overview/index.html  
+http://www.databaseskill.com/449542/  
 
-BigCache
-BigCache is a very simple cache API providing users with an infinite shared cache backed by Amazon S3.
-Reference
-https://code.google.com/p/bigcache/
+BigCache  
+BigCache is a very simple cache API providing users with an infinite shared cache backed by Amazon S3.  
+Reference  
+https://code.google.com/p/bigcache/  
 
-BitYota
-It provides data warehouse as a service. It is able to load and analyze fast changing data from multiple sources. BitYota has advantages as following: no need for data transformation, get insights in minutes, real-time data feeds for fast analytics.
-Reference
-http://www.bityota.com/product/
+BitYota  
+It provides data warehouse as a service. It is able to load and analyze fast changing data from multiple sources. BitYota has advantages as following: no need for data transformation, get insights in minutes, real-time data feeds for fast analytics.  
+Reference  
+http://www.bityota.com/product/  
 
-Cassandra
-Cassandra is a NoSQL Column family implementation supporting the Big Table data model using the architectural aspects introduced by Amazon Dynamo. Some of the strong points of Cassandra are highly scalable and highly available with no single point of failure. It has very high write throughput, good read throughput and flexible schema.
-Disadvantages:
-It does not support ACID transactions. Cassandra does not support foreign keys, so it is not possible for Cassandra to manage the data consistency on a user's behalf. Cassandra does not support atomic operations. Searching is not built into the core of the Cassandra architecture. Besides, If a node in a Cassandra cluster has failed, the cluster will continue to work if you have replicas.
-Reference
-http://www.ibm.com/developerworks/library/os-apache-cassandra/
+Cassandra  
+Cassandra is a NoSQL Column family implementation supporting the Big Table data model using the architectural aspects introduced by Amazon Dynamo. Some of the strong points of Cassandra are highly scalable and highly available with no single point of failure. It has very high write throughput, good read throughput and flexible schema.  
+Disadvantages:  
+It does not support ACID transactions. Cassandra does not support foreign keys, so it is not possible for Cassandra to manage the data consistency on a user's behalf. Cassandra does not support atomic operations. Searching is not built into the core of the Cassandra architecture. Besides, If a node in a Cassandra cluster has failed, the cluster will continue to work if you have replicas.  
+Reference  
+http://www.ibm.com/developerworks/library/os-apache-cassandra/  
 
-CitusDB:
-CitusDB scales out PostgreSQL through sharding and replication. Its powerful query engine parallelizes SQL queries over very large datasets and enables real-time responses. 
-Reference
-http://www.citusdata.com/
+CitusDB:  
+CitusDB scales out PostgreSQL through sharding and replication. Its powerful query engine parallelizes SQL queries over very large datasets and enables real-time responses.   
+Reference  
+http://www.citusdata.com/  
 
-ClearDB
-ClearDB is a powerful, fault-tolerant database-as-a-service in the cloud for users' MySQL powered applications. It is great for developers and quick and easy to setup. Besides, it is able to minimize database failures.
-Reference
-http://azure.microsoft.com/en-us/marketplace/partners/cleardb-mysql-database/cleardb-mysql-database/
+ClearDB  
+ClearDB is a powerful, fault-tolerant database-as-a-service in the cloud for users' MySQL powered applications. It is great for developers and quick and easy to setup. Besides, it is able to minimize database failures.  
+Reference  
+http://azure.microsoft.com/en-us/marketplace/partners/cleardb-mysql-database/cleardb-mysql-database/  
 
-Cloudant
-It is a distributed database-as-a-service for web & mobile apps. It mostly focuses on building and improving their products, instead of worrying about scaling and managing databases on their own.
-Reference
-http://stackshare.io/stackups/cloudant-vs-amazon-simpledb-vs-amazon-dynamodb
+Cloudant  
+It is a distributed database-as-a-service for web & mobile apps. It mostly focuses on building and improving their products, instead of worrying about scaling and managing databases on their own.  
+Reference  
+http://stackshare.io/stackups/cloudant-vs-amazon-simpledb-vs-amazon-dynamodb  
 
-Cloudera
-Cloudera Inc. is a software company that provides Apache Hadoop-based software, support and services, and training to business customers. Hadoop is designed to make storing and processing large amounts of data affordable.
-Apache Hadoop has weakness as follows:
-Hadoop is not optimised for ease for use. Installing and integrating with existing databases might prove to be difficult, especially since there is no software support provided. In addition, it is not easy for administration. Because Hadoop requires knowledge of MapReduce, while most data practitioners use SQL. Also Hadoop lacks the level of security functionality needed for safe enterprise deployment, especially if it concerns sensitive data. 
-Reference
-http://dataconomy.com/hadoop-open-source-software-pros-cons/
+Cloudera  
+Cloudera Inc. is a software company that provides Apache Hadoop-based software, support and services, and training to business customers. Hadoop is designed to make storing and processing large amounts of data affordable.  
+Apache Hadoop has weakness as follows:  
+Hadoop is not optimised for ease for use. Installing and integrating with existing databases might prove to be difficult, especially since there is no software support provided. In addition, it is not easy for administration. Because Hadoop requires knowledge of MapReduce, while most data practitioners use SQL. Also Hadoop lacks the level of security functionality needed for safe enterprise deployment, especially if it concerns sensitive data.   
+Reference  
+http://dataconomy.com/hadoop-open-source-software-pros-cons/   
 
-CloudTran
-CloudTran enables developers to quickly and easily use an IMDG architecture for more than just caching and reading data. Our product provides scalable, ACID-property transactions across data grid nodes as well as transactional persistence to back-end databases and replicated data centers. CloudTran is quick to install and even quicker to use. 
-Reference
-http://www.cloudtran.com/productOverview.php
+CloudTran  
+CloudTran enables developers to quickly and easily use an IMDG architecture for more than just caching and reading data. Our product provides scalable, ACID-property transactions across data grid nodes as well as transactional persistence to back-end databases and replicated data centers. CloudTran is quick to install and even quicker to use.   
+Reference  
+http://www.cloudtran.com/productOverview.php  
 
-Clutrix
-Clustrix’s performance grows almost linearly. It shows great scalability, out-of-the-box fault-tolerance, automatically distributing data and increasing the data/memory ratio. So it is great for workloads with high concurrency. However, the performance is not as good under a workload with a small number of threads.
-Reference
-http://blog.altoros.com/newsql-featured-benchmarks-of-voltdb-nuodb-xeround-tokudb-clustrix-and-memsql.html
+Clutrix  
+Clustrix’s performance grows almost linearly. It shows great scalability, out-of-the-box fault-tolerance, automatically distributing data and increasing the data/memory ratio. So it is great for workloads with high concurrency. However, the performance is not as good under a workload with a small number of threads.  
+Reference  
+http://blog.altoros.com/newsql-featured-benchmarks-of-voltdb-nuodb-xeround-tokudb-clustrix-and-memsql.html  
 
-CockroachDB
-It is a scalable, transactional, geo-replicated data store. CockroachDB aims to address the current lack of an open source, scalable, geo-replicated, ACID compliant database.
-Reference
-http://test1.infoq.com:8080/news/2014/08/CockroachDB
+CockroachDB  
+It is a scalable, transactional, geo-replicated data store. CockroachDB aims to address the current lack of an open source, scalable, geo-replicated, ACID compliant database.  
+Reference  
+http://test1.infoq.com:8080/news/2014/08/CockroachDB  
 
-CodeFuture
-Allowing an agile approach to Big Data processing, CodeFutures is transforming static database repositories into a flexible data infrastructure.
-CodeFutures Corporation provides database performance tools that reduce the time and effort required to develop database applications and dramatically increase deployed database scalability and performance. It has products: AgilData, MapDB, dbShards etc.
-Reference
-http://codefutures.com/about/
+CodeFuture  
+Allowing an agile approach to Big Data processing, CodeFutures is transforming static database repositories into a flexible data infrastructure.  
+CodeFutures Corporation provides database performance tools that reduce the time and effort required to develop database applications and dramatically increase deployed database scalability and performance. It has products: AgilData, MapDB, dbShards etc.  
+Reference  
+http://codefutures.com/about/  
 
-Continuent
-Continuent is a leading provider of database clustering and replication, enabling enterprises to run business-critical applications on cost-effective open source software. 
-Continuent Tungsten provides enterprise-class high availability, globally redundant data distribution and real-time heterogeneous data integration in cloud and on-premises environments.
-It has benefits like zero-downtime, automatic failover, multi-master, disaster recovery, oracle replication, load balancing, improved performance and supports of mySQL, MariaDB and Percona Sever.
-Reference
-http://www.continuent.com/solutions
+Continuent  
+Continuent is a leading provider of database clustering and replication, enabling enterprises to run business-critical applications on cost-effective open source software.   
+Continuent Tungsten provides enterprise-class high availability, globally redundant data distribution and real-time heterogeneous data integration in cloud and on-premises environments.  
+It has benefits like zero-downtime, automatic failover, multi-master, disaster recovery, oracle replication, load balancing, improved performance and supports of mySQL, MariaDB and Percona Sever.  
+Reference  
+http://www.continuent.com/solutions  
 
-CortexDB
-CortexDB is a NoSQL data base technology providing an unlimited platform for individual enterprise web applications at the price of standard software. CortexDB is a schema less
-data base with dynamic re-organization during continuous operations. It has benefits such as: flexibility to change the database schema, rapid and agile application development across innovative data services without programming, simple modeling of complex structures.
-Reference
-http://www.odbms.org/2014/04/cortexdb/
+CortexDB  
+CortexDB is a NoSQL data base technology providing an unlimited platform for individual enterprise web applications at the price of standard software. CortexDB is a schema less  
+data base with dynamic re-organization during continuous operations. It has benefits such as: flexibility to change the database schema, rapid and agile application development across innovative data services without programming, simple modeling of complex structures.  
+Reference  
+http://www.odbms.org/2014/04/cortexdb/  
 
-Couchbase
-Couchbase Server is a high-performance NoSQL distributed database with a flexible data model. It scales on commodity hardware to support large data sets with a high number of concurrent reads and writes while maintaining low latency and strong consistency. It supports enterprise web, mobile, and IoT applications. It has benefits like elastic scalability, consistent High Performance, availability, flexible, Global Deployment, enterprise-grade administration, real-time big data, developer-focused, data mobility and general purpose.
-Reference
-http://www.couchbase.com/nosql-databases/couchbase-server
+Couchbase  
+Couchbase Server is a high-performance NoSQL distributed database with a flexible data model. It scales on commodity hardware to support large data sets with a high number of concurrent reads and writes while maintaining low latency and strong consistency. It supports enterprise web, mobile, and IoT applications. It has benefits like elastic scalability, consistent High Performance, availability, flexible, Global Deployment, enterprise-grade administration, real-time big data, developer-focused, data mobility and general purpose.  
+Reference  
+http://www.couchbase.com/nosql-databases/couchbase-server  
 
-CouchDB
-Apache CouchDB? is a database that uses JSON for documents, JavaScript for MapReduce indexes, and regular HTTP for its API. CouchDB is a database that completely embraces the web. CouchDB comes with some benefits, such as on-the-fly document transformation and real-time change notifications, an easy to use web administration console, high availability and partition tolerant, but is also consistent. 
-It is best used for accumulating, occasionally changing data, on which pre-defined queries are to be run. Places where versioning is important.
-Reference
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
-http://couchdb.apache.org/
+CouchDB  
+Apache CouchDB? is a database that uses JSON for documents, JavaScript for MapReduce indexes, and regular HTTP for its API. CouchDB is a database that completely embraces the web. CouchDB comes with some benefits, such as on-the-fly document transformation and real-time change notifications, an easy to use web administration console, high availability and partition tolerant, but is also consistent.   
+It is best used for accumulating, occasionally changing data, on which pre-defined queries are to be run. Places where versioning is important.  
+Reference  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
+http://couchdb.apache.org/  
 
-databricks/ spark
-It provides a single platform for big data processing. Databricks is powered by the 100% open source Apache Spark. Apache Spark is a powerful open source processing engine for Hadoop data built around speed, ease of use, and sophisticated analytics. Spark lets you explore your data in SQL, Python, Java, or Scala, and integrates machine learning, graph computation, streaming analytics, and interactive queries. 
-Reference
-https://databricks.com/product
-https://databricks.com/spark
+databricks/ spark  
+It provides a single platform for big data processing. Databricks is powered by the 100% open source Apache Spark. Apache Spark is a powerful open source processing engine for Hadoop data built around speed, ease of use, and sophisticated analytics. Spark lets you explore your data in SQL, Python, Java, or Scala, and integrates machine learning, graph computation, streaming analytics, and interactive queries.   
+Reference  
+https://databricks.com/product   
+https://databricks.com/spark  
 
-Datastax
-Datastax delivers Apache CassandraTM as part of a database platform purpose built for IOT, Web and Mobile Apps.
-Reference
-http://www.datastax.com/relational-database-to-nosql
+Datastax  
+Datastax delivers Apache CassandraTM as part of a database platform purpose built for IOT, Web and Mobile Apps.  
+Reference  
+http://www.datastax.com/relational-database-to-nosql  
 
-DataTorrent
-It provides enterprise-class real-Time stream computation platform for Big Data. DataTorrent supports today’s most demanding, mission-critical, big-data streaming applications. It enables you to quickly develop applications that ingest massive amounts of data from various sources in real-time, and perform highly scalable computations in real-time.
-Reference
-https://www.datatorrent.com/product/
+DataTorrent  
+It provides enterprise-class real-Time stream computation platform for Big Data. DataTorrent supports today’s most demanding, mission-critical, big-data streaming applications. It enables you to quickly develop applications that ingest massive amounts of data from various sources in real-time, and perform highly scalable computations in real-time.  
+Reference  
+https://www.datatorrent.com/product/  
 
-Datomic
-A Datomic database stores a collection of facts. The facts in a database are immutable; once stored, they do not change. However, old facts can be superseded by new facts over time. The state of the database is a value defined by the set of facts in effect at a given moment in time.
-Reference
-http://docs.datomic.com/architecture.html
+Datomic  
+A Datomic database stores a collection of facts. The facts in a database are immutable; once stored, they do not change. However, old facts can be superseded by new facts over time. The state of the database is a value defined by the set of facts in effect at a given moment in time.  
+Reference  
+http://docs.datomic.com/architecture.html  
 
-DeepDB
-It has very high performance with extremely low latency transactions. It maximized disk throughput and accelerated analytics. Besides it minimized storage footprint. DeepDB realizes extremely fast, concurrent data loading and supports continuous backup with snapshots.
-Reference
-http://deep.is/deepdb-for-mysql/key-features/
+DeepDB  
+It has very high performance with extremely low latency transactions. It maximized disk throughput and accelerated analytics. Besides it minimized storage footprint. DeepDB realizes extremely fast, concurrent data loading and supports continuous backup with snapshots.  
+Reference  
+http://deep.is/deepdb-for-mysql/key-features/  
 
-EnterpriseDB 
-It is the world's leading provider of enterprise-class products and services based on PostgreSQL, the world's most advanced open source database.
-Reference
-http://www.enterprisedb.com/products-services-training/products-overview
+EnterpriseDB   
+It is the world's leading provider of enterprise-class products and services based on PostgreSQL, the world's most advanced open source database.  
+Reference  
+http://www.enterprisedb.com/products-services-training/products-overview  
 
-Ehcache
-Ehcache is an open source, standards-based cache for boosting performance, offloading your database, and simplifying scalability. It's the most widely-used Java-based cache because it's robust, proven, and full-featured. Ehcache scales from in-process, with one or more nodes, all the way to mixed in-process/out-of-process configurations with terabyte-sized caches.
-Reference
-http://ehcache.org/
+Ehcache  
+Ehcache is an open source, standards-based cache for boosting performance, offloading your database, and simplifying scalability. It's the most widely-used Java-based cache because it's robust, proven, and full-featured. Ehcache scales from in-process, with one or more nodes, all the way to mixed in-process/out-of-process configurations with terabyte-sized caches.  
+Reference  
+http://ehcache.org/  
 
-ElasticSearch
-It stores JSON documents and enables very versatile and sophisticated querying, scriptable. It also supports geo distance sorting and fuzzy searches, asynchronous replication and atomic, scripted updates. It can maintain automatic "stats groups". It is best used: When you have objects with (flexible) fields, and you need "advanced search" functionality.
-Reference
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+ElasticSearch  
+It stores JSON documents and enables very versatile and sophisticated querying, scriptable. It also supports geo distance sorting and fuzzy searches, asynchronous replication and atomic, scripted updates. It can maintain automatic "stats groups". It is best used: When you have objects with (flexible) fields, and you need "advanced search" functionality.  
+Reference  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-Exasol:
+Exasol:  
 Due to intelligent algorithms, EXASolution gets even faster with its usage as conventional DBMS do. At the same time, the amount of administrative work will be strongly reduced, because the on-going tuning is performed by EXASolution itself.
-It operates on in-memory data in compressed formats. Besides, exasol write data to what amounts to the in-memory part of their basic data structures; the data then gets persisted to disk. However, exasol is totally optimized for the assumption that queries will be run against data that had already been previously loaded into RAM.
-References:
-https://www.exasol.com/portal/display/SOL/Database+Administration
+It operates on in-memory data in compressed formats. Besides, exasol write data to what amounts to the in-memory part of their basic data structures; the data then gets persisted to disk. However, exasol is totally optimized for the assumption that queries will be run against data that had already been previously loaded into RAM.  
+References:  
+https://www.exasol.com/portal/display/SOL/Database+Administration  
 
-FairCom:
-It provides high performance SQL AND ISAM database engine which is the foundation for thousands of vertical market, embedded, and corporate applications worldwide. Its products including c-treeRTG, c-treeACE, c-treeAMS.
-References:
-http://www.faircom.com/ace/products_t.php
+FairCom:  
+It provides high performance SQL AND ISAM database engine which is the foundation for thousands of vertical market, embedded, and corporate applications worldwide. Its products including c-treeRTG, c-treeACE, c-treeAMS.  
+References:  
+http://www.faircom.com/ace/products_t.php  
 
-FatDB:
+FatDB:  
 It realize tight integration with SQL Server, scale out quickly, development in half the time. It has benefits like consistency, high Availability, partition tolerance, persistence. It is best for rapid application deployment.
-However, it only support platforms linux and windows. And it can only be applied to win8 and windows server 2008 operating systems. It cannot be operated on Mobile OS.
-References:
-http://nosql.findthebest-sw.com/compare/2-23/Cassandra-vs-FatDB
+However, it only support platforms linux and windows. And it can only be applied to win8 and windows server 2008 operating systems. It cannot be operated on Mobile OS.  
+References:  
+http://nosql.findthebest-sw.com/compare/2-23/Cassandra-vs-FatDB  
 
-FathomDB
-FathomDB makes working with databases easy. It provides relational database-as-a-service, launching MySQL as-a-service on Amazon and Rackspace clouds. It was the first standalone XaaS product for a standard server, a model which has since become ubiquitous. 
-FathomDB tackles many of the same technical challenges around running, scaling, and monitoring a realtime database server in the cloud.
-References:
-http://www.reddit.com/r/Meteor/comments/2ilfkz/meteor_acquires_fathomdb/
-http://www.fathomdb.com/
+FathomDB  
+FathomDB makes working with databases easy. It provides relational database-as-a-service, launching MySQL as-a-service on Amazon and Rackspace clouds. It was the first standalone XaaS product for a standard server, a model which has since become ubiquitous.   
+FathomDB tackles many of the same technical challenges around running, scaling, and monitoring a realtime database server in the cloud.  
+References:  
+http://www.reddit.com/r/Meteor/comments/2ilfkz/meteor_acquires_fathomdb/  
+http://www.fathomdb.com/  
 
-Feedzai
-Feedzai, a data science company, offers software that uses big data analysis and machine-based learning to prevent fraud in commerce. Feedzai’s fraud prevention technology fuses big data and machine learning with human intelligence to predict and detect fraud within payment transactions globally. 
-References:
-https://www.crunchbase.com/organization/feedzai
+Feedzai  
+Feedzai, a data science company, offers software that uses big data analysis and machine-based learning to prevent fraud in commerce. Feedzai’s fraud prevention technology fuses big data and machine learning with human intelligence to predict and detect fraud within payment transactions globally.   
+References:  
+https://www.crunchbase.com/organization/feedzai  
 
-Firebird
-Firebird is a relational database offering many ANSI SQL standard features that runs on Linux, Windows, and a variety of Unix platforms. 
-Strengths:
-Firebird offers excellent concurrency, high performance, and powerful language support for stored procedures and triggers. Firebird has simpler Windows support, and far less maintenance requirements.
-Reference:
-http://www.firebirdsql.org/en/about-firebird/
+Firebird  
+Firebird is a relational database offering many ANSI SQL standard features that runs on Linux, Windows, and a variety of Unix platforms.   
+Strengths:  
+Firebird offers excellent concurrency, high performance, and powerful language support for stored procedures and triggers. Firebird has simpler Windows support, and far less maintenance requirements.  
+Reference:  
+http://www.firebirdsql.org/en/about-firebird/  
 
-FlockDB
-FlockDB is a database that stores graph data, but it isn’t a database optimized for graph-traversal operations. Instead, it’s optimized for very large adjacency lists, fast reads and writes, and page-able set arithmetic queries.
-References:
-https://blog.twitter.com/2010/introducing-flockdb
+FlockDB  
+FlockDB is a database that stores graph data, but it isn’t a database optimized for graph-traversal operations. Instead, it’s optimized for very large adjacency lists, fast reads and writes, and page-able set arithmetic queries.  
+References:  
+https://blog.twitter.com/2010/introducing-flockdb  
 
-FoundationDB
-FoundationDB has built a database engine based on the concept of a key-value store, which is a database that is designed to use the data itself as its own index. The key value store supports sharing, hierarchical storage, multi-map storage and quite a number of advanced database concepts. FoundationDB has developed a way to make sure that transactions made using its key value store are ACID compliant. Since these transactions are operating in a distributed environment, they are also very fast.
-Weaknesses:
+FoundationDB  
+FoundationDB has built a database engine based on the concept of a key-value store, which is a database that is designed to use the data itself as its own index. The key value store supports sharing, hierarchical storage, multi-map storage and quite a number of advanced database concepts. FoundationDB has developed a way to make sure that transactions made using its key value store are ACID compliant. Since these transactions are operating in a distributed environment, they are also very fast.  
+Weaknesses:  
 Applications using FoundationDB should plan to work around these limitations. 
 The current version of FoundationDB does not support transactions running for over five seconds. 
 Transaction size cannot exceed 10 MB of total written keys and values.
 There are limitations with key and value sizes. Errors will be raised by the client if these limits are exceeded.
 FoundationDB is not a good choice on rotational HDDs when using the ssd engine. 
-Key selectors with large offsets are slow.
-References:
-http://www.zdnet.com/article/foundationdb-a-new-take-on-an-established-data-structure/
-https://foundationdb.com/key-value-store/documentation/beta1/known-limitations.html
+Key selectors with large offsets are slow.  
+References:  
+http://www.zdnet.com/article/foundationdb-a-new-take-on-an-established-data-structure/  
+https://foundationdb.com/key-value-store/documentation/beta1/known-limitations.html  
 
-Galera:
-MariaDB Galera Cluster is a synchronous multi-master cluster for MariaDB. It is available on Linux only, and only supports the XtraDB/InnoDB storage engines.
-Benefits:
-No slave lag, no lost transactions, both read and write scalability, smaller client and latencies.
-Limitations:
-Galera replication originally only worked with InnoDB storage engine.
-DELETE operation is unsupported on tables without primary key. 
-Unsupported queries.
-Query log cannot be directed to table. 
-Maximum allowed transaction size is defined by wsrep_max_ws_rows and wsrep_max_ws_size. Anything bigger (e.g. huge LOAD DATA) will be rejected.
-Due to cluster level optimistic concurrency control, transaction issuing COMMIT may still be aborted at that stage. There can be two transactions writing to same rows and committing in separate cluster nodes, and only one of them can successfully commit. The failing one will be aborted. For cluster level aborts, MySQL/galera cluster gives back deadlock error.
-XA transactions can not be supported due to possible rollback on commit.
-References:
-http://support.severalnines.com/entries/21692388-Limitations-in-Galera-Cluster-for-MySQL
-https://mariadb.com/kb/en/mariadb/what-is-mariadb-galera-cluster/
+Galera:  
+MariaDB Galera Cluster is a synchronous multi-master cluster for MariaDB. It is available on Linux only, and only supports the XtraDB/InnoDB storage engines.  
+Benefits:  
+No slave lag, no lost transactions, both read and write scalability, smaller client and latencies.  
+Limitations:  
+Galera replication originally only worked with InnoDB storage engine.  
+DELETE operation is unsupported on tables without primary key.   
+Unsupported queries.  
+Query log cannot be directed to table.   
+Maximum allowed transaction size is defined by wsrep_max_ws_rows and wsrep_max_ws_size. Anything bigger (e.g. huge LOAD DATA) will be rejected.  
+Due to cluster level optimistic concurrency control, transaction issuing COMMIT may still be aborted at that stage. There can be two transactions writing to same rows and committing in separate cluster nodes, and only one of them can successfully commit. The failing one will be aborted. For cluster level aborts, MySQL/galera cluster gives back deadlock error.  
+XA transactions can not be supported due to possible rollback on commit.  
+References:  
+http://support.severalnines.com/entries/21692388-Limitations-in-Galera-Cluster-for-MySQL  
+https://mariadb.com/kb/en/mariadb/what-is-mariadb-galera-cluster/  
 
 GenieDB:
 GenieDB provides cloud MySQL Database-as-a-Service (DBaaS) to help easy deployment MySQL database quickly, securely, and at a low cost, so you can instantly get your web applications running on the cloud. GenieDB’s DBaaS uses multi-master replication and multi-regional distribution on multiple cloud infrastructures (Amazon AWS, HP Cloud, Rackspace Cloud, and Google Cloud) to help reduce latency, eliminate downtime, and easily scale your database.
@@ -1426,45 +1424,45 @@ http://forum.wakanda.org/showthread.php?384-Wakanda-server-v.s.-NodeJS-server-st
 http://wakandadb.org/
 Wakanda white paper, ftp://ftp.wakanda.org/WhitePapers/WhitePaper-IDC-Wakanda.pdf
 
-WebScaleSQL
-It is a collaboration among engineers from several companies that face the same challenges in deploying MySQL at scale, and seek greater performance from a database technology tailored for their needs.
-Features:
-It is an automated framework that will, for each proposed change, run and publish the results of MySQL's built-in test system.
-A full new suite of stress tests and a prototype automated performance testing system.
-Several changes to improve the performance of WebScaleSQL, including buffer pool flushing improvements, optimizations to certain types of queries, support for NUMA interleave policy, and more.
-New features that make operating WebScaleSQL at true web scale easier, such as super_read_only, and the ability to specify sub-second client timeouts.
-Limitations:
-WebScaleSQL.org said its features improve MySQL scalability while also making it easier to operate at high scale, but that alone won't dent demand for NoSQL databases. Given the companies using WebScaleSQL, there's no doubt that it can scale, but it does so on single, high-powered servers. Though the product is easier to manage at scale than standard MySQL, all these vendors agree on the point that lack of commercial support options will be a deal breaker for most enterprises.
-WebScaleSQL is currently only compatible with GNU/Linux x86_64 platforms and no binaries are produced.
-https://blog.mariadb.org/mariadb-and-webscalesql/
-http://www.informationweek.com/big-data/software-platforms/big-data-vendors-webscalesql-is-no-threat/d/d-id/1141600
-http://webscalesql.org/faq.html
+WebScaleSQL  
+It is a collaboration among engineers from several companies that face the same challenges in deploying MySQL at scale, and seek greater performance from a database technology tailored for their needs.  
+Features:  
+It is an automated framework that will, for each proposed change, run and publish the results of MySQL's built-in test system.  
+A full new suite of stress tests and a prototype automated performance testing system.  
+Several changes to improve the performance of WebScaleSQL, including buffer pool flushing improvements, optimizations to certain types of queries, support for NUMA interleave policy, and more.  
+New features that make operating WebScaleSQL at true web scale easier, such as super_read_only, and the ability to specify sub-second client timeouts.  
+Limitations:  
+WebScaleSQL.org said its features improve MySQL scalability while also making it easier to operate at high scale, but that alone won't dent demand for NoSQL databases. Given the companies using WebScaleSQL, there's no doubt that it can scale, but it does so on single, high-powered servers. Though the product is easier to manage at scale than standard MySQL, all these vendors agree on the point that lack of commercial support options will be a deal breaker for most enterprises.  
+WebScaleSQL is currently only compatible with GNU/Linux x86_64 platforms and no binaries are produced.  
+https://blog.mariadb.org/mariadb-and-webscalesql/  
+http://www.informationweek.com/big-data/software-platforms/big-data-vendors-webscalesql-is-no-threat/d/d-id/1141600  
+http://webscalesql.org/faq.html  
 
-Xplenty 
-It is a big data cloud platform enabling the transformation of structured and semi-structured data into business insights. 
-Benefits:
-Xplenty's user-friendly platform is an easy-to-use cloud service that takes the complexity out of Hadoop, so you can quickly transform your structured and semi-structured data into business insights. Xplenty features a set of tools that any data professional can use without special training. It is a complete, cost-effective solution for putting your data into play, from deployment, through import, processing, analysis and monitoring. 
-References:
-https://www.crunchbase.com/organization/xplenty
+Xplenty   
+It is a big data cloud platform enabling the transformation of structured and semi-structured data into business insights.   
+Benefits:  
+Xplenty's user-friendly platform is an easy-to-use cloud service that takes the complexity out of Hadoop, so you can quickly transform your structured and semi-structured data into business insights. Xplenty features a set of tools that any data professional can use without special training. It is a complete, cost-effective solution for putting your data into play, from deployment, through import, processing, analysis and monitoring.   
+References:  
+https://www.crunchbase.com/organization/xplenty   
 
-YarcData
-YarcData delivers business-focused real-time graph analytics for enterprises to gain business insight by discovering unknown relationships in Big Data. 
-It provides supercomputing, storage and analytics products are designed to help costomers to tackle the most challenging problems in science, engineering and business.
-Reference:
-http://www.cray.com/products/analytics/##
-https://www.linkedin.com/company/yarcdata
+YarcData  
+YarcData delivers business-focused real-time graph analytics for enterprises to gain business insight by discovering unknown relationships in Big Data.   
+It provides supercomputing, storage and analytics products are designed to help costomers to tackle the most challenging problems in science, engineering and business.  
+Reference:  
+http://www.cray.com/products/analytics/##  
+https://www.linkedin.com/company/yarcdata  
+  
+Zettaset   
+It is an enterprise software company offering Orchestrator, an enterprise-ready Hadoop cluster management solution for big data.   
+Orchestrator significantly improves Hadoop cluster security, availability and performance, and is designed to manage any Apache-based distribution. Unlike other Big Data approaches which are complex and require significant time and resources to implement, Orchestrator is easy to deploy, enabling faster time to value by eliminating unnecessary dependencies on professional services.   
+Reference:  
+https://www.crunchbase.com/organization/goto-metrics  
 
-Zettaset 
-It is an enterprise software company offering Orchestrator, an enterprise-ready Hadoop cluster management solution for big data. 
-Orchestrator significantly improves Hadoop cluster security, availability and performance, and is designed to manage any Apache-based distribution. Unlike other Big Data approaches which are complex and require significant time and resources to implement, Orchestrator is easy to deploy, enabling faster time to value by eliminating unnecessary dependencies on professional services. 
-Reference:
-https://www.crunchbase.com/organization/goto-metrics
-
-Zimory Scale
-Zimory provides carrier-grade cloud infrastructure management software for service providers, enterprises and cloud brokers. 
-It has features as following:
-It is an open solutiob for all clouds without vendor-lock-in.
-It is also complicate for developers to get start. A complete solution for easy to obtain Cloud Services.
-It has flexibility scalability. ZIMORY ECO provides greater freedom allowing users take action as needed.
-Reference:
-http://www.zimory.com/en/technology-and-services/zimory-eco/cloud-orchestration.html
+Zimory Scale  
+Zimory provides carrier-grade cloud infrastructure management software for service providers, enterprises and cloud brokers.   
+It has features as following:  
+It is an open solutiob for all clouds without vendor-lock-in.  
+It is also complicate for developers to get start. A complete solution for easy to obtain Cloud Services.  
+It has flexibility scalability. ZIMORY ECO provides greater freedom allowing users take action as needed.  
+Reference:  
+http://www.zimory.com/en/technology-and-services/zimory-eco/cloud-orchestration.html  
