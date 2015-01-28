@@ -424,310 +424,309 @@ References:
 http://support.severalnines.com/entries/21692388-Limitations-in-Galera-Cluster-for-MySQL  
 https://mariadb.com/kb/en/mariadb/what-is-mariadb-galera-cluster/  
 
-GenieDB:
-GenieDB provides cloud MySQL Database-as-a-Service (DBaaS) to help easy deployment MySQL database quickly, securely, and at a low cost, so you can instantly get your web applications running on the cloud. GenieDB’s DBaaS uses multi-master replication and multi-regional distribution on multiple cloud infrastructures (Amazon AWS, HP Cloud, Rackspace Cloud, and Google Cloud) to help reduce latency, eliminate downtime, and easily scale your database.
-References:
-https://www.crunchbase.com/organization/geniedb
+GenieDB:  
+GenieDB provides cloud MySQL Database-as-a-Service (DBaaS) to help easy deployment MySQL database quickly, securely, and at a low cost, so you can instantly get your web applications running on the cloud. GenieDB’s DBaaS uses multi-master replication and multi-regional distribution on multiple cloud infrastructures (Amazon AWS, HP Cloud, Rackspace Cloud, and Google Cloud) to help reduce latency, eliminate downtime, and easily scale your database.  
+References:  
+https://www.crunchbase.com/organization/geniedb  
 
-GigaSpaces XAP
-XAP is an in-memory computing software platform that processes data & apps in real time.
-It is an extreme Data Management using in-memory data grid caching. 
-It has features as following:
-In-memory, partitioned data for scalable & ultra-fast data access.
-Ensures immediate consistency, fully supports transactions, rich query semantics & data indexing.
-Supports various complex data models (strongly typed, document-based, relational).
-References:
-http://www.gigaspaces.com/xap-real-time-transaction-processing/overview
+GigaSpaces XAP  
+XAP is an in-memory computing software platform that processes data & apps in real time.  
+It is an extreme Data Management using in-memory data grid caching.   
+It has features as following:  
+In-memory, partitioned data for scalable & ultra-fast data access.  
+Ensures immediate consistency, fully supports transactions, rich query semantics & data indexing.  
+Supports various complex data models (strongly typed, document-based, relational).  
+References:  
+http://www.gigaspaces.com/xap-real-time-transaction-processing/overview  
 
-Giraph:
-Apache Giraph is an iterative graph processing framework, built on top of Apache Hadoop. 
-The benefits:
-Apache Giraph aims to eliminate this unnecessary overhead by providing a MapReduce compatible solution that is optimized for graph processing applications. Giraph allows the user to write applications that are oriented toward the vertex, with processing performed in memory to eliminate unnecessary job launch and disk interactions. Its Bulk Synchronous Parallel (BSP) based programming model replaces the chain of MapReduce jobs with a single mapper-only job that executes a set of computation actions called “supersteps.”
-Limitation:
-For fault-tolerance, Giraph uses periodic checkpoints; to coordinate superstep execution,it uses ZooKeeper. Giraph is executed in-memory, which can speedup job execution, but, for large amounts of messages or big datasets, can also lead to crashes due to lack of memory.
-References:
-Yong Guo, Marcin Biczak, Ana Lucia Varbanescu, Alexandru Iosup, Claudio Martella and Theodore L. Willke. How Well do Graph-Processing Platforms Perform? An Empirical Performance Evaluation and Analysis.
-http://giraph.apache.org/intro.html
+Giraph:  
+Apache Giraph is an iterative graph processing framework, built on top of Apache Hadoop.   
+The benefits:  
+Apache Giraph aims to eliminate this unnecessary overhead by providing a MapReduce compatible solution that is optimized for graph processing applications. Giraph allows the user to write applications that are oriented toward the vertex, with processing performed in memory to eliminate unnecessary job launch and disk interactions. Its Bulk Synchronous Parallel (BSP) based programming model replaces the chain of MapReduce jobs with a single mapper-only job that executes a set of computation actions called “supersteps.”  
+Limitation:  
+For fault-tolerance, Giraph uses periodic checkpoints; to coordinate superstep execution,it uses ZooKeeper. Giraph is executed in-memory, which can speedup job execution, but, for large amounts of messages or big datasets, can also lead to crashes due to lack of memory.  
+References:  
+Yong Guo, Marcin Biczak, Ana Lucia Varbanescu, Alexandru Iosup, Claudio Martella and Theodore L. Willke. How Well do Graph-Processing Platforms Perform? An Empirical Performance Evaluation and Analysis.  
+http://giraph.apache.org/intro.html  
 
-GridGain:
-The GridGain In-Memory Data Fabric is a proven software solution, which delivers unprecedented speed and unlimited scale. It enables high-performance transactions, real-time streaming and fast analytics in a single, comprehensive data access and processing layer. The In-Memory Data Fabric is designed to easily power both existing and new applications in a distributed, massively parallel architecture on affordable, industry-standard hardware.
-The advantage of a tree index is that it maintains entries in a sorted order, which is invaluable for many kinds of tasks, where event ordering makes sense. The drawback is that the index entry values should be comparable to each other, and you'll are likely to need to implement a custom comparator for values in place of a default one.
-References:
-http://www.gridgain.com/products/in-memory-data-fabric/features/
+GridGain:  
+The GridGain In-Memory Data Fabric is a proven software solution, which delivers unprecedented speed and unlimited scale. It enables high-performance transactions, real-time streaming and fast analytics in a single, comprehensive data access and processing layer. The In-Memory Data Fabric is designed to easily power both existing and new applications in a distributed, massively parallel architecture on affordable, industry-standard hardware.  
+The advantage of a tree index is that it maintains entries in a sorted order, which is invaluable for many kinds of tasks, where event ordering makes sense. The drawback is that the index entry values should be comparable to each other, and you'll are likely to need to implement a custom comparator for values in place of a default one.  
+References:  
+http://www.gridgain.com/products/in-memory-data-fabric/features/  
 
-GrapheneDB
-GrapheneDB is a cloud hosting platform for the Neo4j graph database.
-It create databases instantly and scale easily as your application grows. Our database plans are available on Amazon AWS and Heroku. It extend Neo4j by enabling preconfigured community plugins and extensions like Spatial. Code and roll your own for extra performance and flexibility. It supports Neo4j API.
-Reference:
-http://docs.graphenedb.com/
+GrapheneDB  
+GrapheneDB is a cloud hosting platform for the Neo4j graph database.  
+It create databases instantly and scale easily as your application grows. Our database plans are available on Amazon AWS and Heroku. It extend Neo4j by enabling preconfigured community plugins and extensions like Spatial. Code and roll your own for extra performance and flexibility. It supports Neo4j API.  
+Reference:  
+http://docs.graphenedb.com/  
 
-Guavus:
-Guavus is a big data analytics company developing apps that allow companies to embed data driven-decisions into agile businesses processes. 
-The company's Big Data analytics solutions use a highly scalable distributed approach to collect mine and fuse multiple disparate data sources to produce actionable, data and contextually aware insights.
-References:
-https://www.crunchbase.com/organization/guavus
-http://www.guavus.com/products/
+Guavus:  
+Guavus is a big data analytics company developing apps that allow companies to embed data driven-decisions into agile businesses processes.   
+The company's Big Data analytics solutions use a highly scalable distributed approach to collect mine and fuse multiple disparate data sources to produce actionable, data and contextually aware insights.  
+References:  
+https://www.crunchbase.com/organization/guavus  
+http://www.guavus.com/products/  
 
-Google BigQuery
-Querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. Google BigQuery enables super-fast, SQL-like queries against append-only tables, using the processing power of Google's infrastructure to solves this problem. 
-Limitation:
-BigQuery limits the maximum rate of incoming requests and enforces appropriate quotas on a per-project basis. Specific policies vary depending on resource availability, user profile, service usage history, and other factors, and are subject to change without notice.
-Additionally BigQuery has limits on the maximum number of columns per table.
-Data format limits: Depending on which format you use to load your data, additional limits may apply.
-Reference:
-https://cloud.google.com/bigquery/what-is-bigquery
-https://cloud.google.com/bigquery/loading-data-into-bigquery#limits
+Google BigQuery  
+Querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. Google BigQuery enables super-fast, SQL-like queries against append-only tables, using the processing power of Google's infrastructure to solves this problem.   
+Limitation:  
+BigQuery limits the maximum rate of incoming requests and enforces appropriate quotas on a per-project basis. Specific policies vary depending on resource availability, user profile, service usage history, and other factors, and are subject to change without notice.  
+Additionally BigQuery has limits on the maximum number of columns per table.  
+Data format limits: Depending on which format you use to load your data, additional limits may apply.  
+Reference:  
+https://cloud.google.com/bigquery/what-is-bigquery  
+https://cloud.google.com/bigquery/loading-data-into-bigquery#limits  
 
-Google App Engine Datastore
-App Engine Datastore is a schemaless NoSQL datastore providing robust, scalable storage for your web application, with the following features: no planned downtime, atomic transactions, high availability of reads and writes, strong consistency for reads and ancestor queries and eventual consistency for all other queries.
-Weaknesses:
-Developers have read-only access to the file system on App Engine.
-App Engine can only execute code called from an HTTP request.
-Users may upload arbitrary Python modules, but only if they are pure-Python.
-Java applications may only use a subset (The JRE Class White List) of the classes from the JRE standard edition.
-Java applications cannot create new threads.
-Reference:
-http://stackoverflow.com/questions/1306279/pros-cons-of-google-app-engine
-https://cloud.google.com/appengine/docs/python/datastore/
+Google App Engine Datastore  
+App Engine Datastore is a schemaless NoSQL datastore providing robust, scalable storage for your web application, with the following features: no planned downtime, atomic transactions, high availability of reads and writes, strong consistency for reads and ancestor queries and eventual consistency for all other queries.  
+Weaknesses:  
+Developers have read-only access to the file system on App Engine.  
+App Engine can only execute code called from an HTTP request.  
+Users may upload arbitrary Python modules, but only if they are pure-Python.  
+Java applications may only use a subset (The JRE Class White List) of the classes from the JRE standard edition.  
+Java applications cannot create new threads.  
+Reference:  
+http://stackoverflow.com/questions/1306279/pros-cons-of-google-app-engine  
+https://cloud.google.com/appengine/docs/python/datastore/  
 
-Google Cloud Datastore
-It uses a managed, NoSQL, schemaless database for storing non-relational data. Cloud Datastore automatically scales as you need it and supports transactions as well as robust, SQL-like queries.
-It has features as following: Schemaless access, with SQL-like querying. Cloud Datastore is fully managed. Autoscale with users. Cloud Datastore provides ACID transactions using optimistic concurrency control. Built-in redundancy. Local development tools. It enables us to access data from anywhere.
-Reference:
-https://cloud.google.com/datastore/
+Google Cloud Datastore  
+It uses a managed, NoSQL, schemaless database for storing non-relational data. Cloud Datastore automatically scales as you need it and supports transactions as well as robust, SQL-like queries.  
+It has features as following: Schemaless access, with SQL-like querying. Cloud Datastore is fully managed. Autoscale with users. Cloud Datastore provides ACID transactions using optimistic concurrency control. Built-in redundancy. Local development tools. It enables us to access data from anywhere.  
+Reference:  
+https://cloud.google.com/datastore/  
 
-Google Compute Engine
-It runs large-scale workloads on virtual machines hosted on Google's infrastructure. Choose a VM that fits your needs and gain the performance of Google’s worldwide fiber network.
-It has key features as following: high-performance virtual machines, global powered by Google’s global network, global load balancing, fast and easy provisioning, compliance and security.
-Reference:
-https://cloud.google.com/compute/
+Google Compute Engine  
+It runs large-scale workloads on virtual machines hosted on Google's infrastructure. Choose a VM that fits your needs and gain the performance of Google’s worldwide fiber network.  
+It has key features as following: high-performance virtual machines, global powered by Google’s global network, global load balancing, fast and easy provisioning, compliance and security.  
+Reference:  
+https://cloud.google.com/compute/  
 
-Google Cloud SQL
-Store and manage data using a fully-managed, relational MySQL database. Google handles replication, patch management and database management to ensure availability and performance. MySQL databases deployed in the cloud without a fuss. Google Cloud Platform provides you with powerful databases that run fast, don’t run out of space and give your application the redundant, reliable storage it needs.
-Reference:
-https://cloud.google.com/sql/
+Google Cloud SQL  
+Store and manage data using a fully-managed, relational MySQL database. Google handles replication, patch management and database management to ensure availability and performance. MySQL databases deployed in the cloud without a fuss. Google Cloud Platform provides you with powerful databases that run fast, don’t run out of space and give your application the redundant, reliable storage it needs.  
+Reference:   
+https://cloud.google.com/sql/  
 
-Hadapt
-Hadapt is a cloud-optimized system offering an analytical platform for performing complex analytics on structured and unstructured data. 
-Hadapt features include:
-All-in-one system for structured, semi-structured, and unstructured data.
-Fully integrated platform that eliminates data silos prevalent in "Hadoop connector" based architectures.
-Dramatic reduction of ETL workloads and complexities.
-Schemaless SQL over non-relational data stores.
-The ability to store and analyze JSON, XML, text, and other unstructured data in the same tables as existing structured data.
-Identify and present dynamically changing attributes within data.
-Adaptive query execution automatically load-balances queries well suited for cloud and virtualized environments.
-BI tool integration with Hadapt’s universal SQL support.
-Reference:
-http://hadapt.com/assets/ESG-Lab-Review-Hadapt-full.pdf
-https://www.crunchbase.com/organization/hadapt
+Hadapt  
+Hadapt is a cloud-optimized system offering an analytical platform for performing complex analytics on structured and unstructured data.   
+Hadapt features include:  
+All-in-one system for structured, semi-structured, and unstructured data.  
+Fully integrated platform that eliminates data silos prevalent in "Hadoop connector" based architectures.  
+Dramatic reduction of ETL workloads and complexities.  
+Schemaless SQL over non-relational data stores.  
+The ability to store and analyze JSON, XML, text, and other unstructured data in the same tables as existing structured data.  
+Identify and present dynamically changing attributes within data.  
+Adaptive query execution automatically load-balances queries well suited for cloud and virtualized environments.  
+BI tool integration with Hadapt’s universal SQL support.  
+Reference:  
+http://hadapt.com/assets/ESG-Lab-Review-Hadapt-full.pdf  
+https://www.crunchbase.com/organization/hadapt  
+  
+Hortonworks Data Platform  
+It is a completely open source Apache Hadoop data platform, architected for the enterprise.  
+Its features include: completely open, fundamentally versatile and wholly integrated.  
+Limitations:  
+There are some known issues such as HDP 2.1.1 does not support the use of Oracle DB as a metastore.   
+References:  
+http://hortonworks.com/hdp/  
+http://docs.hortonworks.com/HDPDocuments/HDP2/HDP2.1.7/bk_releasenotes_hdp_2.1/content/ch_relnotes-hdp-2.1.1-knownissues.html  
 
-Hortonworks Data Platform
-It is a completely open source Apache Hadoop data platform, architected for the enterprise.
-Its features include: completely open, fundamentally versatile and wholly integrated.
-Limitations:
-There are some known issues such as HDP 2.1.1 does not support the use of Oracle DB as a metastore. 
-References:
-http://hortonworks.com/hdp/
-http://docs.hortonworks.com/HDPDocuments/HDP2/HDP2.1.7/bk_releasenotes_hdp_2.1/content/ch_relnotes-hdp-2.1.1-knownissues.html
+HP Vertica:  
+HP Vertica provides fast, interactive SQL and advanced analytics for finding business value from your ever-expanding volume and variety of data.  
+HP Vertica and MapR deliver a comprehensive, scalable, open standards-based solution for big data deployments. Running the HP Vertica Analytics Platform directly on the MapR Big Data Platform provides an optimized, best-of-breed solution for SQL-on-Hadoop to unlock insights from all your data, with a smaller data center footprint than other RDBMS and Hadoop hybrid architectures.  
+Benefits:  
+Quickly and cost-effectively ingest, store, and process large volumes of different types, sources, and formats of critical data.  
+Perform deeper, more advanced analytics directly in Hadoop.  
+Leverage existing SQL skills, BI tools, and programming expertise.  
+Implement end-to-end data management and security.  
+Weakness:  
+HP Vertica was built for virtualization. Virtualization’s weaknesses are augmented by Vertica’s strengths.   
+Reference:  
+https://www.mapr.com/partners/partner/hp-vertica-delivers-powerful-ansi-sql-analytics-hadoop  
+http://www.vertica.com/2013/09/25/vertica-in-private-cloud-deployments/  
 
-HP Vertica:
-HP Vertica provides fast, interactive SQL and advanced analytics for finding business value from your ever-expanding volume and variety of data.
-HP Vertica and MapR deliver a comprehensive, scalable, open standards-based solution for big data deployments. Running the HP Vertica Analytics Platform directly on the MapR Big Data Platform provides an optimized, best-of-breed solution for SQL-on-Hadoop to unlock insights from all your data, with a smaller data center footprint than other RDBMS and Hadoop hybrid architectures.
-Benefits:
-Quickly and cost-effectively ingest, store, and process large volumes of different types, sources, and formats of critical data.
-Perform deeper, more advanced analytics directly in Hadoop.
-Leverage existing SQL skills, BI tools, and programming expertise.
-Implement end-to-end data management and security.
-Weakness:
-HP Vertica was built for virtualization. Virtualization’s weaknesses are augmented by Vertica’s strengths. 
-Reference:
-https://www.mapr.com/partners/partner/hp-vertica-delivers-powerful-ansi-sql-analytics-hadoop
-http://www.vertica.com/2013/09/25/vertica-in-private-cloud-deployments/
+HBase  
+It has billions of rows X millions of columns and was modeled after Google's BigTable. It uses Hadoop's HDFS as storage. Query predicate push down via server side scan and get filters.  
+It has optimizations for real time queries and a high performance Thrift gateway. We can random access performance is like MySQL. A cluster consists of several different types of nodes.  
+It is best used when Hadoop is probably still the best way to run Map/Reduce jobs on huge datasets. Best if you use the Hadoop/HDFS stack already.  
+Reference:  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-HBase
-It has billions of rows X millions of columns and was modeled after Google's BigTable. It uses Hadoop's HDFS as storage. Query predicate push down via server side scan and get filters.
-It has optimizations for real time queries and a high performance Thrift gateway. We can random access performance is like MySQL. A cluster consists of several different types of nodes.
-It is best used when Hadoop is probably still the best way to run Map/Reduce jobs on huge datasets. Best if you use the Hadoop/HDFS stack already.
-Reference:
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+Hypertable   
+It is a faster, smaller HBase and implements Google's BigTable design. It runs on Hadoop's HDFS and uses its own, "SQL-like" language, HQL. We can search by key, by cell, or for values in column families. Search can be limited to key/column ranges. Tables are in namespaces. It is best used if you need a better HBase.  
+Reference:  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-Hypertable 
-It is a faster, smaller HBase and implements Google's BigTable design. It runs on Hadoop's HDFS and uses its own, "SQL-like" language, HQL. We can search by key, by cell, or for values in column families. Search can be limited to key/column ranges. Tables are in namespaces. It is best used if you need a better HBase.
-Reference:
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
-
-HPCC
-HPCC (High Performance Computing Cluster) is a massive parallel-processing computing platform that solves Big Data problems. 
-It is open data model. Unlike Hadoop, the data model is defined by the user, and it’s not constrained by the limitations of a strict key-value paradigm.
+HPCC  
+HPCC (High Performance Computing Cluster) is a massive parallel-processing computing platform that solves Big Data problems.   
+It is open data model. Unlike Hadoop, the data model is defined by the user, and it’s not constrained by the limitations of a strict key-value paradigm.  
 The solutions to complex data problems can be expressed easily and directly in terms of high level ECL primitives. 
-It realize truly parallelism. Nodes of a datagraph can be processed in parallel as data seamlessly flows through them. HPCC effectively results in higher and predictable performance.
+It realize truly parallelism. Nodes of a datagraph can be processed in parallel as data seamlessly flows through them. HPCC effectively results in higher and predictable performance.  
 The HPCC optimizer ensures that submitted ECL code is executed at the maximum possible speed for the underlying hardware. 
-Reference:
-http://hpccsystems.com/Why-HPCC/HPCC-vs-Hadoop
-http://hpccsystems.com/
+Reference:  
+http://hpccsystems.com/Why-HPCC/HPCC-vs-Hadoop  
+http://hpccsystems.com/  
 
-HyperGraphDB
-HyperGraphDB is a storage framework based on generalized hypergraphs as its underlying data model. It is general purpose, extensible, portable, distributed, embeddable, open-source data storage mechanism. It is a graph database designed specifically for artificial intelligence and semantic web projects, it can also be used as an embedded object-oriented database for projects of all sizes.
-Weakness:
-It is hard not to understand a typical graph. Also here, HypergraphDB doesn't stick to the general rule. So with graphs this is tricky to model, you would basically need to encode that into probably several dozens if not hundreds of nodes and vertices.
-References:
-http://highscalability.com/blog/2010/1/26/product-hypergraphdb-a-graph-database.html
-http://scalahypergraph.blogspot.com/2012/10/why-hypergraphdb-rocks-and-why-users.html
+HyperGraphDB  
+HyperGraphDB is a storage framework based on generalized hypergraphs as its underlying data model. It is general purpose, extensible, portable, distributed, embeddable, open-source data storage mechanism. It is a graph database designed specifically for artificial intelligence and semantic web projects, it can also be used as an embedded object-oriented database for projects of all sizes.  
+Weakness:  
+It is hard not to understand a typical graph. Also here, HypergraphDB doesn't stick to the general rule. So with graphs this is tricky to model, you would basically need to encode that into probably several dozens if not hundreds of nodes and vertices.  
+References:  
+http://highscalability.com/blog/2010/1/26/product-hypergraphdb-a-graph-database.html  
+http://scalahypergraph.blogspot.com/2012/10/why-hypergraphdb-rocks-and-why-users.html  
 
-IMPALA 
-Strength:
-Scales linearly and vertically, giving you the ability to scale a cluster based on needs.
-Impala does not require its own storage engine; it relies on HDFS.
+IMPALA   
+Strength:  
+Scales linearly and vertically, giving you the ability to scale a cluster based on needs.  
+Impala does not require its own storage engine; it relies on HDFS.  
 Lives within Hadoop, allowing other computation engines without moving data (i.e. machine learning, batched analysis).
-Open source; run it for free.
-Limitations:
+Open source; run it for free.  
+Limitations:  
 There are several things that Impala cannot do, which are very important to traditional EDW (Enterprise Data Warehouse). 
-Data is immutable, no updating. 
-Inserts cannot be done on a single row.
-No complex types (maps, arrays, structs) are supported.
-The SQL compatibility (the supported SQL statements) is still limited, though new features are being introduced in each new version.
-Reference:
+Data is immutable, no updating.   
+Inserts cannot be done on a single row.  
+No complex types (maps, arrays, structs) are supported.  
+The SQL compatibility (the supported SQL statements) is still limited, though new features are being introduced in each new version.   
+Reference:  
 Richard L.Saltzer,Istvan Szegedi, Paul De Schacht, Impala in action.  http://www.manning.com/saltzer/ImpalainActionCH01.pdf
+  
+IBM Big SQL  
+Big SQL is designed to provide SQL developers with an easy on-ramp for querying data managed by Hadoop. It enables data administrators to create new tables for data stored in Hive, HBase, or their BigInsights distributed file system. Yet Big SQL doesn't turn Hadoop into one big distributed relational database.   
+Big SQL divides execution of a query into parts. Depending on the query, the amount of data, configuration settings, and other factors, Big SQL can execute these parts serially or in parallel. Parallelism is achieved by leveraging Hadoop's MapReduce framework. This can be quite beneficial for complex queries over large data sets.  
+Limitation:  
+However, launching a MapReduce job involves a certain amount of processing overhead. This overhead can outweigh the benefits of parallel processing for certain types of queries, such as those that operate over small data sets or retrieve data associated with a specific HBase row key.   
+Reference:  
+http://www.ibm.com/developerworks/library/bd-bigsql/  
 
-IBM Big SQL
-Big SQL is designed to provide SQL developers with an easy on-ramp for querying data managed by Hadoop. It enables data administrators to create new tables for data stored in Hive, HBase, or their BigInsights distributed file system. Yet Big SQL doesn't turn Hadoop into one big distributed relational database. 
-Big SQL divides execution of a query into parts. Depending on the query, the amount of data, configuration settings, and other factors, Big SQL can execute these parts serially or in parallel. Parallelism is achieved by leveraging Hadoop's MapReduce framework. This can be quite beneficial for complex queries over large data sets.
-Limitation:
-However, launching a MapReduce job involves a certain amount of processing overhead. This overhead can outweigh the benefits of parallel processing for certain types of queries, such as those that operate over small data sets or retrieve data associated with a specific HBase row key. 
-Reference:
-http://www.ibm.com/developerworks/library/bd-bigsql/
+IBM BigInsights   
+IBM InfoSphere BigInsights brings the power of Hadoop to the enterprise, accelerating time to value from big data while facilitating rapid big data application development. It enhances Hadoop by adding administrative, discovery, development, provisioning, security, and support, along with best-in-class analytical capabilities. The result is a solution for complex, large scale projects.  
+Reference:  
+http://www-01.ibm.com/software/data/infosphere/hadoop/enterprise.html  
 
-IBM BigInsights
-IBM InfoSphere BigInsights brings the power of Hadoop to the enterprise, accelerating time to value from big data while facilitating rapid big data application development. It enhances Hadoop by adding administrative, discovery, development, provisioning, security, and support, along with best-in-class analytical capabilities. The result is a solution for complex, large scale projects.
-Reference:
-http://www-01.ibm.com/software/data/infosphere/hadoop/enterprise.html
+IBM DB2  
+DB2 is a family of relational database management system (RDBMS) products from IBM that serve a number of different operating system platforms. According to IBM, DB2 leads in terms of database market share and performance. Although DB2 products are offered for UNIX-based systems and personal computer operating systems, DB2 trails Oracle's database products in UNIX-based systems and Microsoft's Access in Windows systems.  
+It is good and scalable on Z/OS with parallel sysplex, but expensive. Average database in general, strong support, lower cost than Oracle on LUW, less bugs, great optimizer, bad DR, bad HA, and so-so replication, weak SQL-PL stored procedure language, amazing utilities and tracing .  
+References:  
+http://www.quora.com/What-are-the-relative-strengths-weaknesses-between-Oracle-database-IBM-DB2-and-Microsoft-SQL  
+http://searchdatacenter.techtarget.com/definition/DB2  
 
-IBM DB2
-DB2 is a family of relational database management system (RDBMS) products from IBM that serve a number of different operating system platforms. According to IBM, DB2 leads in terms of database market share and performance. Although DB2 products are offered for UNIX-based systems and personal computer operating systems, DB2 trails Oracle's database products in UNIX-based systems and  
-Microsoft's Access in Windows systems.
-It is good and scalable on Z/OS with parallel sysplex, but expensive. Average database in general, strong support, lower cost than Oracle on LUW, less bugs, great optimizer, bad DR, bad HA, and so-so replication, weak SQL-PL stored procedure language, amazing utilities and tracing .
-References:
-http://www.quora.com/What-are-the-relative-strengths-weaknesses-between-Oracle-database-IBM-DB2-and-Microsoft-SQL
-http://searchdatacenter.techtarget.com/definition/DB2
+IBM IMS  
+IBM Information Management System (IMS), built on IBM System z, is the lowest cost transaction and hierarchical database management system for mission critical OLTP. It delivers the highest levels of availability, performance, security, and scalability in the industry. Expansive integration capabilities enable mobile and cloud applications based on IMS assets, enhanced analytics, new application development, SOA exploitation, and more.  
+IBM IMS Enterprise Suite SOAP Gateway is prone to a security weakness.   
+Reference:  
+http://www-01.ibm.com/software/data/ims/  
 
-IBM IMS
-IBM Information Management System (IMS), built on IBM System z, is the lowest cost transaction and hierarchical database management system for mission critical OLTP. It delivers the highest levels of availability, performance, security, and scalability in the industry. Expansive integration capabilities enable mobile and cloud applications based on IMS assets, enhanced analytics, new application development, SOA exploitation, and more.
-IBM IMS Enterprise Suite SOAP Gateway is prone to a security weakness. 
-Reference:
-http://www-01.ibm.com/software/data/ims/
+IBM InfoSphere  
+The InfoSphere Platform provides all the foundational building blocks of trusted information, including data integration, data warehousing, master data management, big data and information governance.  
+The platform provides an enterprise-class foundation for information-intensive projects, providing the performance, scalability, reliability and acceleration needed to simplify difficult challenges and deliver trusted information to your business faster.  
+Limitations:  
+There are inconsistent experiences with IBM's technical support reported by customers. In addition, uptake of IBM's data federation capabilities beyond DB2-centric environments remains limited. With the growing interest in data federation capabilities for heterogeneous environments, IBM may be at a disadvantage relative to many key competitors (Informatica, Oracle, SAP, SAS, and others) when these capabilities for non-DB2 environments are critical for customers.  
+Reference:  
+http://www-01.ibm.com/software/data/infosphere/  
+http://www.bi-lab.com.ar/ibm-infosphere-datastage-8-1/ibm-infosphere-datastage-8-1/ibm-infosphere-datastage-8-1-gartner  
 
-IBM InfoSphere
-The InfoSphere Platform provides all the foundational building blocks of trusted information, including data integration, data warehousing, master data management, big data and information governance.
-The platform provides an enterprise-class foundation for information-intensive projects, providing the performance, scalability, reliability and acceleration needed to simplify difficult challenges and deliver trusted information to your business faster.
-Limitations:
-There are inconsistent experiences with IBM's technical support reported by customers. In addition, uptake of IBM's data federation capabilities beyond DB2-centric environments remains limited. With the growing interest in data federation capabilities for heterogeneous environments, IBM may be at a disadvantage relative to many key competitors (Informatica, Oracle, SAP, SAS, and others) when these capabilities for non-DB2 environments are critical for customers.
-Reference:
-http://www-01.ibm.com/software/data/infosphere/
-http://www.bi-lab.com.ar/ibm-infosphere-datastage-8-1/ibm-infosphere-datastage-8-1/ibm-infosphere-datastage-8-1-gartner
+IBM PureData:  
+The PureData System is optimized exclusively for delivering data services to today's demanding analytic applications. Each of the IBM PureSystems, it offers built-in expertise, integration by design, and a simplified experience throughout its life cycle. It has features as built-in expertise, integration by design and simplified experience.  
+Reference:  
+http://www-01.ibm.com/software/data/puredata/  
 
-IBM PureData:
-The PureData System is optimized exclusively for delivering data services to today's demanding analytic applications. Each of the IBM PureSystems, it offers built-in expertise, integration by design, and a simplified experience throughout its life cycle. It has features as built-in expertise, integration by design and simplified experience.
-Reference:
-http://www-01.ibm.com/software/data/puredata/
+IBM PureData System for Analytics  
+It is powered by Netezza technology optimizing performance of complex analytics and enables algorithms to run in minutes.  
+Reference:  
+http://www.ibm.com/ibm/puresystems/us/en/pf_puredata.html  
 
-IBM PureData System for Analytics
-It is powered by Netezza technology optimizing performance of complex analytics and enables algorithms to run in minutes.
-Reference:
-http://www.ibm.com/ibm/puresystems/us/en/pf_puredata.html
+JethroData   
+It is an analytics database combining the scalability of Hadoop HDFS with a fully indexed columnar database. JethroData is an index-based SQL engine for Hadoop. It lets you run 1000 X faster interactive ad-hoc queries, live dashboards and reports. It shares the benefit scalability of Hadoop with the performance of an analytical database, in one system. Queries use indexes to access only the data they need instead of performing a full-scan of the entire dataset, leading to an increase in speed and a dramatic reduction in use of computing resources.  
+Reference:  
+https://www.crunchbase.com/organization/jethrodata  
 
-JethroData 
-It is an analytics database combining the scalability of Hadoop HDFS with a fully indexed columnar database. JethroData is an index-based SQL engine for Hadoop. It lets you run 1000 X faster interactive ad-hoc queries, live dashboards and reports. It shares the benefit scalability of Hadoop with the performance of an analytical database, in one system. Queries use indexes to access only the data they need instead of performing a full-scan of the entire dataset, leading to an increase in speed and a dramatic reduction in use of computing resources.
-Reference:
-https://www.crunchbase.com/organization/jethrodata
+jumboDB  
+It balances performance and cost efficiency. It has benefits as following:  
+Affordable Big Data with low IO requirements, efficient usage of disk space, low memory footprint.  
+Fast disk access through compression  
+Batch processing - delivery driven approach  
+Supports JSON documents  
+Power and scalability of Apache Hadoop  
+Low read latency for end-user apps  
+Hadoop Connector and Java Driver available  
+Reference:  
+http://comsysto.github.io/jumbodb/  
 
-jumboDB
-It balances performance and cost efficiency. It has benefits as following:
-Affordable Big Data with low IO requirements, efficient usage of disk space, low memory footprint.
-Fast disk access through compression
-Batch processing - delivery driven approach
-Supports JSON documents
-Power and scalability of Apache Hadoop
-Low read latency for end-user apps
-Hadoop Connector and Java Driver available
-Reference:
-http://comsysto.github.io/jumbodb/
+JustOneDB:  
+JustOneDB is a full-featured relational database management system (RDBMS) built on PostgreSQL, but offering unprecedented performance, scalability and agility without the complexity of other Big Data solutions.  
+JustOneDB delivers a new RDBMS that is completely standards-compliant and ideally suited to the demands of Big Data analytics. JustOneDB possesses all of the advantages of a relational database, and looks exactly like PostgreSQL to applications and business intelligence tools, but with a totally different performance profile.  
+Limitations and features not currently support:  
+Analytical queries currently use conventional join strategies and row aggregation and perform similarly to a fully indexed row store.  
+Not support features: Triggers; Save-points; Unique and key constraints; Text search; Spatial search; Object extensions.  
+Reference:  
+https://vardars.wordpress.com/2012/09/03/justonedb/  
+http://www.justonedb.com/products/justonedb/  
 
-JustOneDB:
-JustOneDB is a full-featured relational database management system (RDBMS) built on PostgreSQL, but offering unprecedented performance, scalability and agility without the complexity of other Big Data solutions.
-JustOneDB delivers a new RDBMS that is completely standards-compliant and ideally suited to the demands of Big Data analytics. JustOneDB possesses all of the advantages of a relational database, and looks exactly like PostgreSQL to applications and business intelligence tools, but with a totally different performance profile.
-Limitations and features not currently support:
-Analytical queries currently use conventional join strategies and row aggregation and perform similarly to a fully indexed row store.
-Not support features: Triggers; Save-points; Unique and key constraints; Text search; Spatial search; Object extensions.
-Reference:
-https://vardars.wordpress.com/2012/09/03/justonedb/
-http://www.justonedb.com/products/justonedb/
+InfiniSpan  
+Infinispan is an open source data grid platform. It is a distributed, in-memory key-value NoSQL store. Infinispan is an extremely scalable, highly available key/value data store and data grid platform. It is 100% open source, and written in Java. The purpose of Infinispan is to expose a data structure that is distributed, highly concurrent and designed ground-up to make the most of modern multi-processor and multi-core architectures. It is often used as a distributed cache, but also as a NoSQL key/value store or object database. Most people use Infinispan for one of two reasons. Firstly, as a distributed cache. Putting Infinispan in front of your database, disk-based NoSQL store or any part of your system that is a bottleneck can greatly help improve performance. Often, a simple cache isn't enough - for example if your application is clustered and cache coherency is important to data consistency. A distributed cache can greatly help here. Infinispan has been used in several industries, ranging from telecoms to financial services, high-end e-commerce to manufacturing systems, gaming and mobile platforms.  
+References:  
+http://infinispan.org/about/  
+http://www.aosabook.org/en/posa/infinispan.html  
 
-InfiniSpan
-Infinispan is an open source data grid platform. It is a distributed, in-memory key-value NoSQL store. Infinispan is an extremely scalable, highly available key/value data store and data grid platform. It is 100% open source, and written in Java. The purpose of Infinispan is to expose a data structure that is distributed, highly concurrent and designed ground-up to make the most of modern multi-processor and multi-core architectures. It is often used as a distributed cache, but also as a NoSQL key/value store or object database. Most people use Infinispan for one of two reasons. Firstly, as a distributed cache. Putting Infinispan in front of your database, disk-based NoSQL store or any part of your system that is a bottleneck can greatly help improve performance. Often, a simple cache isn't enough - for example if your application is clustered and cache coherency is important to data consistency. A distributed cache can greatly help here. Infinispan has been used in several industries, ranging from telecoms to financial services, high-end e-commerce to manufacturing systems, gaming and mobile platforms.
-References:
-http://infinispan.org/about/
-http://www.aosabook.org/en/posa/infinispan.html
+InfiniSQL:  
+InfiniSQL is the database for always on, rapid growth applications that need to collect and analyze in real time--even for complex transactions. It has benefits as following:  
+Reproducible Benchmark.   
+Open Source.   
+Simplify: Reduce workarounds and point solutions. Standardize on InfiniSQL: no need for sharding, and scales like NoSQL.  
+Reference:  
+http://www.infinisql.org/  
 
-InfiniSQL:
-InfiniSQL is the database for always on, rapid growth applications that need to collect and analyze in real time--even for complex transactions. It has benefits as following:
-Reproducible Benchmark. 
-Open Source. 
-Simplify: Reduce workarounds and point solutions. Standardize on InfiniSQL: no need for sharding, and scales like NoSQL.
-Reference:
-http://www.infinisql.org/
+InfiniteGraph  
+InfiniteGraph enables organizations to achieve greater return on their data related investment by helping them “connect the dots” on a global scale, ask deeper and more complex questions, across new or existing data stores.  
+Its key Features include:  
+Distributed Graph Database; Intuitive, graph-focused Java API optimized for data relationships; Accelerated ingest; Managed placement; Powerful navigation queries; Powerful filtering; Policy-driven consistency models; Indexing and query; Plugin framework; Data Visualization.  
+Weakness:  
+It is fine to install as a service, but should make the configuration simple.  
+Since nodes and edges can be user-customized objects, I suspect the performance will be harmed for huge graphs when we enjoy the flexibility. Remember NoSQL databases should always keep high performance to make themselves compelling.   
+Reference:  
+http://www.objectivity.com/infinitegraph#.VMVcUf7aFIE  
+http://java.dzone.com/articles/survey-graph-databases-java  
 
-InfiniteGraph
-InfiniteGraph enables organizations to achieve greater return on their data related investment by helping them “connect the dots” on a global scale, ask deeper and more complex questions, across new or existing data stores.
-Its key Features include:
-Distributed Graph Database; Intuitive, graph-focused Java API optimized for data relationships; Accelerated ingest; Managed placement; Powerful navigation queries; Powerful filtering; Policy-driven consistency models; Indexing and query; Plugin framework; Data Visualization.
-Weakness:
-It is fine to install as a service, but should make the configuration simple.
-Since nodes and edges can be user-customized objects, I suspect the performance will be harmed for huge graphs when we enjoy the flexibility. Remember NoSQL databases should always keep high performance to make themselves compelling. 
-Reference:
-http://www.objectivity.com/infinitegraph#.VMVcUf7aFIE
-http://java.dzone.com/articles/survey-graph-databases-java
+InfluxDB  
+An open-source, distributed, time series database with no external dependencies. InfluxDB is targeted at use cases for DevOps, metrics, sensor data, and real-time analytics. It arose from our need for a database like this on more than a few previous products we’ve built.  
+Here are some of the features that InfluxDB currently supports:  
+SQL like query language; HTTP(S) API; Store billions of data points; Database managed retention policies for data; Built in management interface; Pre-aggregate in the database; Store hundreds of thousands of series; Merge multiple series together.  
+Reference:  
+http://influxdb.com/docs/v0.8/introduction/overview.html  
 
-InfluxDB
-An open-source, distributed, time series database with no external dependencies. InfluxDB is targeted at use cases for DevOps, metrics, sensor data, and real-time analytics. It arose from our need for a database like this on more than a few previous products we’ve built.
-Here are some of the features that InfluxDB currently supports:
-SQL like query language; HTTP(S) API; Store billions of data points; Database managed retention policies for data; Built in management interface; Pre-aggregate in the database; Store hundreds of thousands of series; Merge multiple series together.
-Reference:
-http://influxdb.com/docs/v0.8/introduction/overview.html
+Informix:  
+IBM Informix is forging new frontiers with its embeddability and unique ability to seamlessly integrate SQL, NoSQL/JSON, timeseries and spatial data, with a rich set of APIs, including REST, that enhance development simplicity, flexibility and time to market.  
+Benefits:  
+Bring NoSQL to SQL database; Options, not hassles, for achieving continuous availability; Increase developer productivity and options; Meet the Big Data challenges of sensor data; Easy administration lets you maximize DBA resources; Speed and efficiency let you do more and spend less; On-the-go connectivity.   
+Weakness:  
+Informix restricts users from creating an additional unique index on a column that has already been indexed "behind the scenes" for a unique constraint.   Informix belongs to script-based class, in which user can include SQL operations or Perl scripts in your HTML Web pages or CGI scripts in order to access a specified database when the Web page is activated. The scripts must ensure that the data is returned i n an HTML-readable form.  
+Reference:  
+"An Analysis Of The Strengths And Weaknesses Of The Big Six Database Servers."  123HelpMe.com. 25 Jan 2015   
+http://www-01.ibm.com/software/data/informix/  
 
-Informix:
-IBM Informix is forging new frontiers with its embeddability and unique ability to seamlessly integrate SQL, NoSQL/JSON, timeseries and spatial data, with a rich set of APIs, including REST, that enhance development simplicity, flexibility and time to market.
-Benefits:
-Bring NoSQL to SQL database; Options, not hassles, for achieving continuous availability; Increase developer productivity and options; Meet the Big Data challenges of sensor data; Easy administration lets you maximize DBA resources; Speed and efficiency let you do more and spend less; On-the-go connectivity. 
-Weakness:
-Informix restricts users from creating an additional unique index on a column that has already been indexed "behind the scenes" for a unique constraint.   Informix belongs to script-based class, in which user can include SQL operations or Perl scripts in your HTML Web pages or CGI scripts in order to access a specified database when the Web page is activated. The scripts must ensure that the data is returned i n an HTML-readable form.
-Reference:
-"An Analysis Of The Strengths And Weaknesses Of The Big Six Database Servers."  123HelpMe.com. 25 Jan 2015 
-http://www-01.ibm.com/software/data/informix/
+InterSystems Caché  
+InterSystems Caché is an advanced database management system and rapid application development environment. Caché makes breakthroughs in processing and analyzing complex Big Data, and developing Web and mobile applications. Caché uniquely offers lightning-fast performance, massive scalability, and robust reliability – with minimal maintenance and hardware requirements.  
+This is a new generation of database technology that provides multiple modes of data access. Data is only described once in a single integrated data dictionary and is instantly available using object access, high-performance SQL, and powerful multidimensional access – all of which can simultaneously access the same data. Caché comes with several built-in scripting languages, and is compatible with the most popular development tools.  
+Reference:  
+http://www.intersystems.com/our-products/cache/cache-overview/  
 
-InterSystems Caché
-InterSystems Caché is an advanced database management system and rapid application development environment. Caché makes breakthroughs in processing and analyzing complex Big Data, and developing Web and mobile applications. Caché uniquely offers lightning-fast performance, massive scalability, and robust reliability – with minimal maintenance and hardware requirements.
-This is a new generation of database technology that provides multiple modes of data access. Data is only described once in a single integrated data dictionary and is instantly available using object access, high-performance SQL, and powerful multidimensional access – all of which can simultaneously access the same data. Caché comes with several built-in scripting languages, and is compatible with the most popular development tools.
-Reference:
-http://www.intersystems.com/our-products/cache/cache-overview/
+Ipedo XML Database  
+Designed to speed data delivery and transformation in Web and wireless applications, the Ipedo XML Database combines advanced XML query processing with a high-speed native XML database engine. The all-Java server includes advanced XSLT and XPath processing features.  
+Reference:  
+http://xml.coverpages.org/ipedoXMLDatabase.html  
 
-Ipedo XML Database
-Designed to speed data delivery and transformation in Web and wireless applications, the Ipedo XML Database combines advanced XML query processing with a high-speed native XML database engine. The all-Java server includes advanced XSLT and XPath processing features.
-Reference:
-http://xml.coverpages.org/ipedoXMLDatabase.html
-
-Iris couch
-Iris Couch provides easy hosted CouchDB. Iris Couch is free, cloud CouchDB hosting.
-CouchDB can do queries-by-ID without any map-reduce functions, but as soon as you want more complex queries, you need to write a map (and optionally a reduce) function in JavaScript that is stored in the CouchDB server. 
-Couch uses an HTTP REST-based interface. Very intuitive, very well designed. 
-CouchDB does not store its data as JSON; it stores it as Erlang terms. It actually serializes and deserializes the JSON every time you R/W with the database. CouchDB is safer out of the box.
-CouchDB employs a Copy-on-Write/Append-only design almost to a fault.
-CouchDB is a distributed multi-master data store.
-Large CouchDB deployments pretty much end up using BigCouch. You could also create a fully connected graph of replication rules, depending on problem specifics.
-It is best used when you need master-master or you need ultimate single-server durability because you are only going to have a single DB server.
-Reference:
-http://www.quora.com/How-does-MongoDB-compare-to-CouchDB-What-are-the-advantages-and-disadvantages-of-each
-https://www.iriscouch.com/
+Iris couch  
+Iris Couch provides easy hosted CouchDB. Iris Couch is free, cloud CouchDB hosting.  
+CouchDB can do queries-by-ID without any map-reduce functions, but as soon as you want more complex queries, you need to write a map (and optionally a reduce) function in JavaScript that is stored in the CouchDB server.   
+Couch uses an HTTP REST-based interface. Very intuitive, very well designed.   
+CouchDB does not store its data as JSON; it stores it as Erlang terms. It actually serializes and deserializes the JSON every time you R/W with the database. CouchDB is safer out of the box.  
+CouchDB employs a Copy-on-Write/Append-only design almost to a fault.  
+CouchDB is a distributed multi-master data store.  
+Large CouchDB deployments pretty much end up using BigCouch. You could also create a fully connected graph of replication rules, depending on problem specifics.  
+It is best used when you need master-master or you need ultimate single-server durability because you are only going to have a single DB server.  
+Reference:  
+http://www.quora.com/How-does-MongoDB-compare-to-CouchDB-What-are-the-advantages-and-disadvantages-of-each  
+https://www.iriscouch.com/  
 
 Kognitio
 Kognitio is an in-memory analytical software platform that supports BI, OLAP and analytical applications on large and complex data.
