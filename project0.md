@@ -728,702 +728,699 @@ Reference:
 http://www.quora.com/How-does-MongoDB-compare-to-CouchDB-What-are-the-advantages-and-disadvantages-of-each  
 https://www.iriscouch.com/  
 
-Kognitio
-Kognitio is an in-memory analytical software platform that supports BI, OLAP and analytical applications on large and complex data.
-The Kognitio Analytical Platform can be used as a data science lab or to power comprehensive digital marketing analytics; it runs on industry-standard servers, as an appliance, or in Kognitio Cloud, a ready-to-use analytical Platform-as-a-Service (PaaS) in a public or private cloud environment.
-Reference:
-https://www.crunchbase.com/organization/kognitio
+Kognitio  
+Kognitio is an in-memory analytical software platform that supports BI, OLAP and analytical applications on large and complex data.  
+The Kognitio Analytical Platform can be used as a data science lab or to power comprehensive digital marketing analytics; it runs on industry-standard servers, as an appliance, or in Kognitio Cloud, a ready-to-use analytical Platform-as-a-Service (PaaS) in a public or private cloud environment.  
+Reference:  
+https://www.crunchbase.com/organization/kognitio  
 
-Kx Systems:
-Kx offers kdb+, a high-performance column-store database with a built-in expressive query and programming language, q. Used as a central repository to store time-series data within an enterprise, kdb+ supports real-time analysis of billions of records and fast access to terabytes of historical data. It also provides seamless scalability; runs on industry standard server platforms; is top-ranked in third-party benchmark testing; has an extremely small footprint, which makes installation and maintenance fast and straightforward; easily accommodates available APIs for connectivity to major external systems and modules; requires fewer developers, contributing to lower total cost of ownership.
-Limitation:
-Kx shall not be liable for any damages, and in particular shall not be liable for any special, incidental, consequential, indirect or other similar damages, in connection with or arising out of the use of or inability to use the public q code library files, even if kx has been advised of the possibility of such damages. Such damages include, but are not limited to, loss of profits, revenue or business information.
-No support or maintenance.
-Reference:
-http://kx.com/q/license.txt
-http://kx.com/software.php
+Kx Systems:  
+Kx offers kdb+, a high-performance column-store database with a built-in expressive query and programming language, q. Used as a central repository to store time-series data within an enterprise, kdb+ supports real-time analysis of billions of records and fast access to terabytes of historical data. It also provides seamless scalability; runs on industry standard server platforms; is top-ranked in third-party benchmark testing; has an extremely small footprint, which makes installation and maintenance fast and straightforward; easily accommodates available APIs for connectivity to major external systems and modules; requires fewer developers, contributing to lower total cost of ownership.  
+Limitation:  
+Kx shall not be liable for any damages, and in particular shall not be liable for any special, incidental, consequential, indirect or other similar damages, in connection with or arising out of the use of or inability to use the public q code library files, even if kx has been advised of the possibility of such damages. Such damages include, but are not limited to, loss of profits, revenue or business information.  
+No support or maintenance.  
+Reference:  
+http://kx.com/q/license.txt  
+http://kx.com/software.php  
 
-LevelDB
-LevelDB is a light-weight, single-purpose library for persistence with bindings to many platforms.
-It has features like: Sorted by keys, arbitrary byte arrays and compressed storage.
-Leveldb is essentially a fast key value store implemented as a library that provides key-value store backend for a process. Disadvantage is the key value store can not be accessed by another process in a consistent way. Main advantage is this is a very fast key-value store.
-Reference:
-http://leveldb.org/
-http://www.quora.com/Which-is-the-best-Key-Value-Pair-Database
+LevelDB  
+LevelDB is a light-weight, single-purpose library for persistence with bindings to many platforms.  
+It has features like: Sorted by keys, arbitrary byte arrays and compressed storage.  
+Leveldb is essentially a fast key value store implemented as a library that provides key-value store backend for a process. Disadvantage is the key value store can not be accessed by another process in a consistent way. Main advantage is this is a very fast key-value store.  
+Reference:  
+http://leveldb.org/  
+http://www.quora.com/Which-is-the-best-Key-Value-Pair-Database  
 
-LogicBlox:
-The two key elements of LogicBlox technology are its query language (LogiQL) and its high performance smart database engine. LogiQL empowers users to express sophisticated high-fidelity models in a unified and declarative way, and the smart database optimizes and evaluates the model to find the right answers fast.
-LogiQL is designed to be expressive and practical, with only a few simple language constructs. LogiQL is used to build applications that combine transactional, analytical, graph, probabilistic, and mathematical programming. LogiQL makes possible new classes of hybrid applications that are hard or impossible to build on a traditional tech stack that requires a hairball of multiple programming languages and databases.
-The LogicBlox database is designed to handle a wide variety of queries and concurrent data access patterns needed for today’s smart applications. It has following features:
-Query Optimization, query Evaluation, incremental view maintenance, concurrent transaction management, smarter Predictive Analytics and integrated optimization.
-Reference:
-http://www.logicblox.com/technology.html
-
-Lokad:
-Lokad.Cloud is a framework for distributed computing in Windows Azure, plus a set of independent toolkits like Lokad.Cloud.Storage for simpler and more reliable cloud storage access and Lokad.Cloud.Provisioning for dynamic worker auto-scaling. We use Lokad.Cloud at Lokad to deal with our massive and rapidly changing computation demands.
-Benefits:
-Non-atomic deployments; Lots of blobs to poll for changes; Replacing an application is easy, getting back not so; Growing demand for stronger runtime
-Weakness:
-Store everything (assemblies, config, settings) in a single blob and give the currently active blob a special name. Disadvantage: the whole blob can get large and has to be touched by every single settings change. 
+LogicBlox:  
+The two key elements of LogicBlox technology are its query language (LogiQL) and its high performance smart database engine. LogiQL empowers users to express sophisticated high-fidelity models in a unified and declarative way, and the smart database optimizes and evaluates the model to find the right answers fast.  
+LogiQL is designed to be expressive and practical, with only a few simple language constructs. LogiQL is used to build applications that combine transactional, analytical, graph, probabilistic, and mathematical programming. LogiQL makes possible new classes of hybrid applications that are hard or impossible to build on a traditional tech stack that requires a hairball of multiple programming languages and databases.  
+The LogicBlox database is designed to handle a wide variety of queries and concurrent data access patterns needed for today’s smart applications. It has following features:  
+Query Optimization, query Evaluation, incremental view maintenance, concurrent transaction management, smarter Predictive Analytics and integrated optimization.  
+Reference:  
+http://www.logicblox.com/technology.html  
+ 
+Lokad:  
+Lokad.Cloud is a framework for distributed computing in Windows Azure, plus a set of independent toolkits like Lokad.Cloud.Storage for simpler and more reliable cloud storage access and Lokad.Cloud.Provisioning for dynamic worker auto-scaling. We use Lokad.Cloud at Lokad to deal with our massive and rapidly changing computation demands.  
+Benefits:  
+Non-atomic deployments; Lots of blobs to poll for changes; Replacing an application is easy, getting back not so; Growing demand for stronger runtime  
+Weakness:  
+Store everything (assemblies, config, settings) in a single blob and give the currently active blob a special name. Disadvantage: the whole blob can get large and has to be touched by every single settings change.   
 Checking a remote repository for changes is more expensive than a simple azure blob storage ETag check (git beats svn here).
-Reference: 
-http://christoph.ruegg.name/blog/lokadcloud-application-deployment-and-versioning-refresh.html
-http://www.lokad.com/forecasting-technology
+Reference:   
+http://christoph.ruegg.name/blog/lokadcloud-application-deployment-and-versioning-refresh.html  
+http://www.lokad.com/forecasting-technology  
 
-Lucene:
-Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.
-Features:
-Scalable, High-Performance Indexing; Powerful, Accurate and Efficient Search Algorithms; Cross-Platform Solution.
-Weakness:
-The downside of Lucene is that a non-programmer will not be able to figure out how to install, test, configure, and deploy the system. Open source programs are often quite good technically, but some lack the graphical interfaces and training wheels that are standard with some commercial search and content processing systems.
-Reference:
-http://lucene.apache.org/core/
-http://arnoldit.com/wordpress/2008/01/27/lucene-merits-a-test-drive-and-a-close-look/
+Lucene:  
+Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.  
+Features:  
+Scalable, High-Performance Indexing; Powerful, Accurate and Efficient Search Algorithms; Cross-Platform Solution.  
+Weakness:  
+The downside of Lucene is that a non-programmer will not be able to figure out how to install, test, configure, and deploy the system. Open source programs are often quite good technically, but some lack the graphical interfaces and training wheels that are standard with some commercial search and content processing systems.  
+Reference:  
+http://lucene.apache.org/core/  
+http://arnoldit.com/wordpress/2008/01/27/lucene-merits-a-test-drive-and-a-close-look/  
 
-LucidDB
-LucidDB is the first and only open-source RDBMS purpose-built entirely for data warehousing and business intelligence. It is based on architectural cornerstones such as column-store, bitmap indexing, hash join/aggregation, and page-level multiversioning. 
-Benefits:
-Very high data compression rates for columns with many repeated values; reduced I/O for queries which access only a subset of columns; greater cache effectiveness.
-Automatically adapts to either bitmap or btree representation depending on data distribution (even using both in the same index for different portions of the same table), yielding optimal data compression, reduced I/O, and fast evaluation of boolean expressions, without the need for a DBA to choose index type.
-Supports read/write concurrency with snapshot consistency, allowing readers to access a table while data is being bulk loaded or updated; versioning at page-level is much more efficient than transactional multi-versioning schemes such as row-level versioning or log-based page reconstruction.
-Allows the system to be backed up consistently while queries and ETL are running, eliminating downtime; incremental and compression options minimize archival storage and bandwidth.
-Reference:
-http://luciddb.sourceforge.net/
+LucidDB  
+LucidDB is the first and only open-source RDBMS purpose-built entirely for data warehousing and business intelligence. It is based on architectural cornerstones such as column-store, bitmap indexing, hash join/aggregation, and page-level multiversioning.   
+Benefits:  
+Very high data compression rates for columns with many repeated values; reduced I/O for queries which access only a subset of columns; greater cache effectiveness.  
+Automatically adapts to either bitmap or btree representation depending on data distribution (even using both in the same index for different portions of the same table), yielding optimal data compression, reduced I/O, and fast evaluation of boolean expressions, without the need for a DBA to choose index type.  
+Supports read/write concurrency with snapshot consistency, allowing readers to access a table while data is being bulk loaded or updated; versioning at page-level is much more efficient than transactional multi-versioning schemes such as row-level versioning or log-based page reconstruction.  
+Allows the system to be backed up consistently while queries and ETL are running, eliminating downtime; incremental and compression options minimize archival storage and bandwidth.  
+Reference:  
+http://luciddb.sourceforge.net/  
 
-MagnetoDB
-MagnetoDB is a key-value store service for OpenStack. It provides horizontally scalable, queryable storage, accessible via REST API. MagnetoDB supports Amazon DynamoDB API as well. 
-The key features of the MagnetoDB service are:
-An easy-to-integrate REST-like API (usable with the AWS SDK, boto clients); 
-Schemaless, non-relational table-based model; Put/get/query/scan item operations.
-Eventual and strong consistency reads; Local Secondary indexes; Batch read/write operations; Designed to handle any amount of data and any level of request traffic; Seamless throughput and storage scaling; Fault tolerance.
-Reference:
-https://wiki.openstack.org/wiki/MagnetoDB
-https://www.mirantis.com/blog/introducing-magnetodb-nosql-database-service- 
-openstack/
+MagnetoDB  
+MagnetoDB is a key-value store service for OpenStack. It provides horizontally scalable, queryable storage, accessible via REST API. MagnetoDB supports Amazon DynamoDB API as well.   
+The key features of the MagnetoDB service are:  
+An easy-to-integrate REST-like API (usable with the AWS SDK, boto clients);    
+Schemaless, non-relational table-based model; Put/get/query/scan item operations.  
+Eventual and strong consistency reads; Local Secondary indexes; Batch read/write operations; Designed to handle any amount of data and any level of request traffic; Seamless throughput and storage scaling; Fault tolerance.  
+Reference:  
+https://wiki.openstack.org/wiki/MagnetoDB  
+https://www.mirantis.com/blog/introducing-magnetodb-nosql-database-service-openstack/  
 
-MammothDB
-MammothDB is an inexpensive enterprise analytics database, provided either in the cloud or on-premises.
-MammothDB leverages open source technologies, like Hadoop and MySQL, to deliver an inexpensive massively parallel processing analytics database which complies with industry standards; like STAR data schemas and SQL queries.
-Reference:
-https://www.crunchbase.com/organization/mammothdb
+MammothDB  
+MammothDB is an inexpensive enterprise analytics database, provided either in the cloud or on-premises.  
+MammothDB leverages open source technologies, like Hadoop and MySQL, to deliver an inexpensive massively parallel processing analytics database which complies with industry standards; like STAR data schemas and SQL queries.  
+Reference:   
+https://www.crunchbase.com/organization/mammothdb  
 
-MapR
-MapR is a complete distribution for Apache Hadoop that packages more than a dozen projects from the Hadoop ecosystem to provide you with a broad set of big data capabilities. The MapR platform not only provides enterprise-grade features such as high availability, disaster recovery, security, and full data protection but also allows Hadoop to be easily accessed as traditional network attached storage (NAS) with read-write capabilities.
-MapR doesn't provide end-to-end security (strong authentication), which is a big problem for enterprises running shared, multi-tenant clusters. It has a disadvantage of not being as close to the Apache Hadoop mainstream so lack features like security with their initial product offering.
-Reference:
-http://www.quora.com/How-does-MapR-plan-to-compete-with-Cloudera
-https://www.mapr.com/why-hadoop/why-mapr
+MapR  
+MapR is a complete distribution for Apache Hadoop that packages more than a dozen projects from the Hadoop ecosystem to provide you with a broad set of big data capabilities. The MapR platform not only provides enterprise-grade features such as high availability, disaster recovery, security, and full data protection but also allows Hadoop to be easily accessed as traditional network attached storage (NAS) with read-write capabilities.  
+MapR doesn't provide end-to-end security (strong authentication), which is a big problem for enterprises running shared, multi-tenant clusters. It has a disadvantage of not being as close to the Apache Hadoop mainstream so lack features like security with their initial product offering.  
+Reference:  
+http://www.quora.com/How-does-MapR-plan-to-compete-with-Cloudera  
+https://www.mapr.com/why-hadoop/why-mapr  
 
-MariaDB
-It is a scalable, highly available and powerful transformative database services with features such as superior scalability, high Availability including zero downtime, developer friendly and powerful transformative services.
-Reference:
-https://mariadb.com/
+MariaDB  
+It is a scalable, highly available and powerful transformative database services with features such as superior scalability, high Availability including zero downtime, developer friendly and powerful transformative services.  
+Reference:  
+https://mariadb.com/  
 
-MarkLogic
-MarkLogic is a software business that makes a NoSQL database, a platform for handling big data applications. MarkLogic's Enterprise NoSQL Database is a new generation database technology capable of handling any data, at any volume, in any structure. 
-Benefits:
+MarkLogic  
+MarkLogic is a software business that makes a NoSQL database, a platform for handling big data applications. MarkLogic's Enterprise NoSQL Database is a new generation database technology capable of handling any data, at any volume, in any structure.   
+Benefits:  
 Powerful and complete platform to speed development. 
 Accessible and agile to ensure you see results fast. 
 Trusted to run the most mission-critical applications.
-Reference:
-https://www.crunchbase.com/organization/marklogic
-http://www.marklogic.com/
+Reference:  
+https://www.crunchbase.com/organization/marklogic  
+http://www.marklogic.com/  
 
-Memcached:
-It is open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
-Memcached is a hosted and distributed key value store and can be extended to use a cluster of nodes each serving consistent copies of the data. Memcached is mainly used as a memory based cache. 
-One obvious disadvantage is there is no persistent storage associated with memcached unless entire memory is battery backed up (which is, in most cases, expensive). There are add-on implementations that provide persistent storage backend to memcached like MemcacheDB, CouchBase etc. 
-Reference:
-http://memcached.org/
-http://www.quora.com/Which-is-the-best-Key-Value-Pair-Database
+Memcached:  
+It is open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.  
+Memcached is a hosted and distributed key value store and can be extended to use a cluster of nodes each serving consistent copies of the data. Memcached is mainly used as a memory based cache.   
+One obvious disadvantage is there is no persistent storage associated with memcached unless entire memory is battery backed up (which is, in most cases, expensive). There are add-on implementations that provide persistent storage backend to memcached like MemcacheDB, CouchBase etc.   
+Reference:  
+http://memcached.org/  
+http://www.quora.com/Which-is-the-best-Key-Value-Pair-Database  
 
-MongoDB 
-It is an open-source document database, and the leading NoSQL database. It retains some friendly properties of SQL. (Query, index)
-It is best used if you need dynamic queries. If you prefer to define indexes, not map/reduce functions. If you need good performance on a big DB. If you wanted CouchDB, but your data changes too much, filling up disks.
-Reference:
-http://www.mongodb.org/
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+MongoDB   
+It is an open-source document database, and the leading NoSQL database. It retains some friendly properties of SQL. (Query, index)  
+It is best used if you need dynamic queries. If you prefer to define indexes, not map/reduce functions. If you need good performance on a big DB. If you wanted CouchDB, but your data changes too much, filling up disks.  
+Reference:  
+http://www.mongodb.org/  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-MemCachier
-It implements the memcache protocol but is not based on memcached, the open source daemon.
-Reference:
-https://www.memcachier.com/how-it-works
+MemCachier  
+It implements the memcache protocol but is not based on memcached, the open source daemon.  
+Reference:  
+https://www.memcachier.com/how-it-works  
 
-Metamarkets
-Metamarkets is a real-time analytics platform for the digital advertising space.  We give exchanges, SSPs, DSPs and ad networks the ability to visualize programmatic trends & opportunities as they happen and the freedom to focus on building deeper client relationships instead of software.
-Reference:
-https://www.crunchbase.com/organization/metamarkets
+Metamarkets  
+Metamarkets is a real-time analytics platform for the digital advertising space.  We give exchanges, SSPs, DSPs and ad networks the ability to visualize programmatic trends & opportunities as they happen and the freedom to focus on building deeper client relationships instead of software.  
+Reference:  
+https://www.crunchbase.com/organization/metamarkets  
 
-MetaScale:
-MetaScale provides fully scalable, enterprise big data solutions.
-MetaScale leverages proven methodologies, best practices, patent pending tools and experienced resources to accelerate the return on big data investment.
-MetaScale offers a complete set of Hadoop infrastructure and support services. 
-MetaScale can develop and support a robust, open source Hadoop ecosystem that can be scaled to meet your big data needs. We can configure and integrate your Hadoop environment with your structured and unstructured data sources to ensure that you gain value from all of your enterprise data.
-Reference:
-http://www.metascale.com/
+MetaScale:  
+MetaScale provides fully scalable, enterprise big data solutions.  
+MetaScale leverages proven methodologies, best practices, patent pending tools and experienced resources to accelerate the return on big data investment.  
+MetaScale offers a complete set of Hadoop infrastructure and support services.   
+MetaScale can develop and support a robust, open source Hadoop ecosystem that can be scaled to meet your big data needs. We can configure and integrate your Hadoop environment with your structured and unstructured data sources to ensure that you gain value from all of your enterprise data.  
+Reference:  
+http://www.metascale.com/  
 
-Microsoft HDInsight
-HDInsight is based on the Hortonworks Data Platform, which is a completely open source distribution of Apache Hadoo. HDInsight provides a software framework designed to manage, analyze, and report on data. Apache Hadoop core provides reliable data storage with the Hadoop Distributed File System (HDFS), and a simple MapReduce programming model to process and analyze in parallel the data stored in this distributed system. To simplify configuration, management, and running MapReduce jobs, HDinsight provides interactive, web-based consoles which can be used to perform tasks using JavaScript or HiveQL.
-Reference:
-https://technet.microsoft.com/en-us/library/dn247618.aspx
+Microsoft HDInsight  
+HDInsight is based on the Hortonworks Data Platform, which is a completely open source distribution of Apache Hadoo. HDInsight provides a software framework designed to manage, analyze, and report on data. Apache Hadoop core provides reliable data storage with the Hadoop Distributed File System (HDFS), and a simple MapReduce programming model to process and analyze in parallel the data stored in this distributed system. To simplify configuration, management, and running MapReduce jobs, HDinsight provides interactive, web-based consoles which can be used to perform tasks using JavaScript or HiveQL.  
+Reference:  
+https://technet.microsoft.com/en-us/library/dn247618.aspx  
 
-Microsoft SQL server
-The foundation of Microsoft’s comprehensive data platform, SQL Server delivers breakthrough performance for mission-critical applications, using in-memory technologies, faster insights from any data to any user in familiar tools like Excel, and a resilient platform for building, deploying, and managing solutions that span on-premises and cloud.
-Benefits:
-SQL Server 2014 makes it easier and more cost effective to build high-performance, mission-critical applications, enterprise ready Big Data assets, and BI solutions that help employees make better decisions, faster. These solutions have the flexibility of being deployed on premises, in the cloud or in a hybrid environment, and can be managed through a common and familiar tool set.
-Mission-critical performance
-SQL Server 2014 accelerates reliable, mission critical applications with a new in-memory OLTP engine that can deliver on average 10x, and up to 30x transactional performance gains. 
-Get to insights faster with a complete BI platform that speeds up how you access, analyze, clean and shape both internal and external data. 
-Platform for hybrid cloud
-Disadvantage:
-One of the major disadvantages to using Microsoft SQL Server instead of an alternative relational database management system is that the licensing options are pretty pricey.
-Limited Compatibility
-Microsoft SQL Server is only designed to run on Windows-based servers. For various reasons, including licensing costs and security concerns, developers may opt to host their websites on Unix-based machines. They would be unable to use SQL Server in this case. Competing products are frequently able to run on other platforms. 
-Reference:
-http://www.ehow.com/list_6143309_disadvantages-microsoft-sql-server.html
-http://www.microsoft.com/en-us/server-cloud/products/sql-server/default.aspx?WT.srch=1&WT.mc_id=SEM_GOO_USEvergreenSearch_Cloud&CR_CC=Unassigned 
+Microsoft SQL server  
+The foundation of Microsoft’s comprehensive data platform, SQL Server delivers breakthrough performance for mission-critical applications, using in-memory technologies, faster insights from any data to any user in familiar tools like Excel, and a resilient platform for building, deploying, and managing solutions that span on-premises and cloud.  
+Benefits:  
+SQL Server 2014 makes it easier and more cost effective to build high-performance, mission-critical applications, enterprise ready Big Data assets, and BI solutions that help employees make better decisions, faster. These solutions have the flexibility of being deployed on premises, in the cloud or in a hybrid environment, and can be managed through a common and familiar tool set.  
+Mission-critical performance  
+SQL Server 2014 accelerates reliable, mission critical applications with a new in-memory OLTP engine that can deliver on average 10x, and up to 30x transactional performance gains.   
+Get to insights faster with a complete BI platform that speeds up how you access, analyze, clean and shape both internal and external data.   
+Platform for hybrid cloud  
+Disadvantage:  
+One of the major disadvantages to using Microsoft SQL Server instead of an alternative relational database management system is that the licensing options are pretty pricey.  
+Limited Compatibility  
+Microsoft SQL Server is only designed to run on Windows-based servers. For various reasons, including licensing costs and security concerns, developers may opt to host their websites on Unix-based machines. They would be unable to use SQL Server in this case. Competing products are frequently able to run on other platforms.   
+Reference:  
+http://www.ehow.com/list_6143309_disadvantages-microsoft-sql-server.html  
+http://www.microsoft.com/en-us/server-cloud/products/sql-server/default.aspx?WT.srch=1&WT.mc_id=SEM_GOO_USEvergreenSearch_Cloud&CR_CC=Unassigned   
 
-Mortar Data
-It is a powerful platform for big data processing and analysis.
-Mortar seamlessly unites the best technologies for working with data in one simple, solid, scalable platform. Data scientists and engineers use Mortar's instant feedback tools to develop data applications quickly, then run them at scale with a single command. 
-Reference:
-https://www.crunchbase.com/organization/mortar-data
+Mortar Data  
+It is a powerful platform for big data processing and analysis.  
+Mortar seamlessly unites the best technologies for working with data in one simple, solid, scalable platform. Data scientists and engineers use Mortar's instant feedback tools to develop data applications quickly, then run them at scale with a single command.   
+Reference:   
+https://www.crunchbase.com/organization/mortar-data  
 
-MySQL
-MySQL is the most popular large-scale database servers. It is a feature rich, open-source product that powers a lot of web-sites and applications online. Getting started with MySQL is relatively easy and developers have access to a massive array of information regarding the database on the internet.
-Advantages of MySQL: easy to work with, rich feature, security, scalability and powerful and efficiency.
-Disadvantages of MySQL: known limitations, less reliability, stagnated development.
-Referemce:
-https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+MySQL  
+MySQL is the most popular large-scale database servers. It is a feature rich, open-source product that powers a lot of web-sites and applications online. Getting started with MySQL is relatively easy and developers have access to a massive array of information regarding the database on the internet.  
+Advantages of MySQL: easy to work with, rich feature, security, scalability and powerful and efficiency.  
+Disadvantages of MySQL: known limitations, less reliability, stagnated development.  
+Referemce:  
+https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems  
 
-MemSQL
-MemSQL is fast with a possibility to use all MySQL client tools. In addition, the troubleshooting becomes much easier due to the use of mySQL. It has weakness including a huge cache folder created by the database in the plancache folder. Besides, MemSQL does not allow you to create users, at least in the developer edition used for the benchmark.
-Reference:
-http://blog.altoros.com/newsql-featured-benchmarks-of-voltdb-nuodb-xeround-tokudb-clustrix-and-memsql.html
+MemSQL  
+MemSQL is fast with a possibility to use all MySQL client tools. In addition, the troubleshooting becomes much easier due to the use of mySQL. It has weakness including a huge cache folder created by the database in the plancache folder. Besides, MemSQL does not allow you to create users, at least in the developer edition used for the benchmark.  
+Reference:  
+http://blog.altoros.com/newsql-featured-benchmarks-of-voltdb-nuodb-xeround-tokudb-clustrix-and-memsql.html  
 
-Neo4j
-It is a graph database with features as following:
-Full ACID conformity (including durable data). Both nodes and relationships can have metadata. Integrated pattern-matching-based query language ("Cypher"). Also the "Gremlin" graph traversal language can be used. Indexing of nodes and relationships. Nice self-contained web admin
-Advanced path-finding with multiple algorithms. Indexing of keys and relationships. Optimized for reads. Has transactions (in the Java API).
-It is best used for graph-style, rich or complex, interconnected data.
-Reference:
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+Neo4j  
+It is a graph database with features as following:  
+Full ACID conformity (including durable data). Both nodes and relationships can have metadata. Integrated pattern-matching-based query language ("Cypher"). Also the "Gremlin" graph traversal language can be used. Indexing of nodes and relationships. Nice self-contained web admin  
+Advanced path-finding with multiple algorithms. Indexing of keys and relationships. Optimized for reads. Has transactions (in the Java API).  
+It is best used for graph-style, rich or complex, interconnected data.  
+Reference:  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-NGDATA
-NGDATA is the consumer intelligence management solutions company that empowers enterprises seeking greater customer lifetime value to drive continuous, actionable insights to enable sales and increase customer loyalty. 
-Reference:
-https://www.crunchbase.com/organization/ngdata
+NGDATA  
+NGDATA is the consumer intelligence management solutions company that empowers enterprises seeking greater customer lifetime value to drive continuous, actionable insights to enable sales and increase customer loyalty.   
+Reference:  
+https://www.crunchbase.com/organization/ngdata  
 
-NuoDB
-NuoDB is a scale-out SQL database for the cloud and the modern datacenter. It is the NewSQL solution you need to simplify application deployment.
-Different from traditional shared-disk or shared-nothing architectures, NuoDB is a new distributed, peer-to-peer, asynchronous approach. 
-Features include:
-Durable Distributed Cache; Atoms: Internal Object Structure; Multi-Version Concurrency Control; Data Durability; Commit Protocol; Management and Operations Model
-Reference:
-http://www.nuodb.com/
+NuoDB  
+NuoDB is a scale-out SQL database for the cloud and the modern datacenter. It is the NewSQL solution you need to simplify application deployment.  
+Different from traditional shared-disk or shared-nothing architectures, NuoDB is a new distributed, peer-to-peer, asynchronous approach.   
+Features include:  
+Durable Distributed Cache; Atoms: Internal Object Structure; Multi-Version Concurrency Control; Data Durability; Commit Protocol; Management and Operations Model  
+Reference:  
+http://www.nuodb.com/  
 
-Objectivity:
-Objectivity/DB, the company’s flagship product and patented object orientated database technology, enables customers to maximize existing infrastructure to capture information needed to address evolving, complex, analytic requirements within Big Data.
-Objectivity/DB is an advanced embedded object database technology for developers of critical systems, applications and devices.
-Supports virtually any data model, and enables live queries against any data type, volume and source.
+Objectivity:  
+Objectivity/DB, the company’s flagship product and patented object orientated database technology, enables customers to maximize existing infrastructure to capture information needed to address evolving, complex, analytic requirements within Big Data.  
+Objectivity/DB is an advanced embedded object database technology for developers of critical systems, applications and devices.  
+Supports virtually any data model, and enables live queries against any data type, volume and source.  
 Enables Big Data management for high performance, real-time applications in distributed and massively scalable environments.
-Ideal for realizing business value from today’s “Internet of Things” by empowering complex Big Data analytics, network analysis, data fusion, and similar systems.
-Reference:
-http://www.objectivity.com/products/objectivitydb/#.VMWwD_7aFIE
+Ideal for realizing business value from today’s “Internet of Things” by empowering complex Big Data analytics, network analysis, data fusion, and similar systems.  
+Reference:  
+http://www.objectivity.com/products/objectivitydb/#.VMWwD_7aFIE  
 
-ObjectRocket:
+ObjectRocket:  
 It is a data platform which is scalable, fast, reliable, and automated MongoDB & Redis with Fanatical Support.
-Features of it are as follows:
-Scalability
-As the only inherently sharded MongoDB & Redis service, ObjectRocket enables you to provision an instance in seconds and grow automatically without pain. 
-Speed
-Optimizing every aspect of the stack specifically for MongoDB & Redis to making MongoDB & Redis as fast as possible.
-Safety
-When an instance is provisioned, it’s automatically multiplexed across multiple, physically separate systems. Load-balanced mongos servers provide access, and replica sets with at least one secondary are standard. Backups are automatic.Support
-There is an easy-to-use, amazing ready-to-go MongoDB & Redis service.
-Reference:
-https://objectrocket.com/
+Features of it are as follows:  
+Scalability  
+As the only inherently sharded MongoDB & Redis service, ObjectRocket enables you to provision an instance in seconds and grow automatically without pain.   
+Speed  
+Optimizing every aspect of the stack specifically for MongoDB & Redis to making MongoDB & Redis as fast as possible.  
+Safety  
+When an instance is provisioned, it’s automatically multiplexed across multiple, physically separate systems. Load-balanced mongos servers provide access, and replica sets with at least one secondary are standard. Backups are automatic. Support
+There is an easy-to-use, amazing ready-to-go MongoDB & Redis service.  
+Reference:  
+https://objectrocket.com/  
 
-Openstack trove:
-Trove is the database as a service open source project for OpenStack. The mission of Trove is to provide scalable and reliable cloud database as a service provisioning functionality for relational and nonrelational database engines, and to improve its full-featured and extensible open source framework.
-There are two primary markets that will benefit from Trove: the first being service providers such as RackSpace who provide cloud-based services similar to Amazon’s AWS. With Trove, much of the management of the database system is taken care of by automating a significant portion of the configuration and initial setup steps necessitated when launching a new server. This includes deployment, configuration, patching, backups, restores, and monitoring that can be administered from either a CLI interface, RESTful API’s or OpenStack’s Horizon dashboard. 
-Trove is only able to deliver single instances of SQL/NoSQL databases for customers, but a database in single instance (SI) mode has a set of limitations dictated by the environment where it's installed, primarily related to read/write-operations.
-Reference:
-https://www.openstack.org/summit/openstack-summit-atlanta-2014/session-videos/presentation/openstack-dbaas-trove-mysql-replication-overview
-http://www.percona.com/blog/2014/08/25/openstacks-trove-the-benefits-of-this-database-as-a-service-dbaas/
-http://www.tesora.com/openstack/what-is-trove
+Openstack trove:  
+Trove is the database as a service open source project for OpenStack. The mission of Trove is to provide scalable and reliable cloud database as a service provisioning functionality for relational and nonrelational database engines, and to improve its full-featured and extensible open source framework.  
+There are two primary markets that will benefit from Trove: the first being service providers such as RackSpace who provide cloud-based services similar to Amazon’s AWS. With Trove, much of the management of the database system is taken care of by automating a significant portion of the configuration and initial setup steps necessitated when launching a new server. This includes deployment, configuration, patching, backups, restores, and monitoring that can be administered from either a CLI interface, RESTful API’s or OpenStack’s Horizon dashboard.   
+Trove is only able to deliver single instances of SQL/NoSQL databases for customers, but a database in single instance (SI) mode has a set of limitations dictated by the environment where it's installed, primarily related to read/write-operations.  
+Reference:  
+https://www.openstack.org/summit/openstack-summit-atlanta-2014/session-videos/presentation/openstack-dbaas-trove-mysql-replication-overview  
+http://www.percona.com/blog/2014/08/25/openstacks-trove-the-benefits-of-this-database-as-a-service-dbaas/  
+http://www.tesora.com/openstack/what-is-trove  
 
-ObjectStore:
-It is the leading in-memory database for applications that demand high-performance, extreme scalability and real time responsiveness. 
-ObjectStore stores relationship-centric models that power high performance data processing, analytics, and ACID transactions, leverages in-memory caching and fast event data capture, enables developers to build custom, highly tuned data structures.
-Key Differentiating Features:
-Achieve high-performance without over-simplifying your data models or compromising transactional integrity
-Provide optimal data structure for app performance without compromising durability and availability
-Dramatically reduce query latency
-Distributed Transactional Caching
-Flexible Programming Model
-Enable ability to make and handle rapid changes to complex application data models
-Reference:
-http://www.objectstore.com/product
+ObjectStore:  
+It is the leading in-memory database for applications that demand high-performance, extreme scalability and real time responsiveness.   
+ObjectStore stores relationship-centric models that power high performance data processing, analytics, and ACID transactions, leverages in-memory caching and fast event data capture, enables developers to build custom, highly tuned data structures.  
+Key Differentiating Features:  
+Achieve high-performance without over-simplifying your data models or compromising transactional integrity  
+Provide optimal data structure for app performance without compromising durability and availability  
+Dramatically reduce query latency  
+Distributed Transactional Caching  
+Flexible Programming Model   
+Enable ability to make and handle rapid changes to complex application data models  
+Reference:  
+http://www.objectstore.com/product  
 
-OrientDB 
-It is a document-based graph database with key features as following:
-OrientDB as transactions, full ACID conformity. It can be used both as a document and as a graph database. Both nodes and relationships can have metadata. It has Multi-master architecture. It supports relationships between documents via persistent pointers (LINK, LINKSET, LINKMAP, LINKLIST field types). SQL-like query language and web-based GUI (quite good-looking, self-contained). Inheritance between classes. Indexing of nodes and relationships. User functions in SQL or JavaScript.
-It is best used for graph-style, rich or complex, interconnected data.
-References:
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+OrientDB   
+It is a document-based graph database with key features as following:  
+OrientDB as transactions, full ACID conformity. It can be used both as a document and as a graph database. Both nodes and relationships can have metadata. It has Multi-master architecture. It supports relationships between documents via persistent pointers (LINK, LINKSET, LINKMAP, LINKLIST field types). SQL-like query language and web-based GUI (quite good-looking, self-contained). Inheritance between classes. Indexing of nodes and relationships. User functions in SQL or JavaScript.  
+It is best used for graph-style, rich or complex, interconnected data.  
+References:  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-Oracle big data appliance:
-It delivers comprehensive and secure big data capabilities to the enterprise at a low overall total cost of ownership. It is integrated, optimized, and tuned to shorten deployment times and reduce risk.
-It is a high-performance, secure platform for running diverse workloads on Hadoop and NoSQL systems. With Oracle Big Data SQL, Oracle Big Data Appliance extends Oracle’s industry-leading implementation of SQL to Hadoop and NoSQL systems. 
-The Oracle Big Data Appliance offers the following benefits:
-Rapid provisioning of a highly-available and scalable system for managing massive amounts of data
-A high-performance platform for acquiring, organizing, and analyzing big data in Hadoop and using R on raw-data sources 
-Control of IT costs by pre-integrating all hardware and software components into a single big data solution that complements enterprise data warehouses
-References:
-http://www.oracle.com/us/technologies/big-data/big-data-strategy-guide-1536569.pdf
-http://www.oracle.com/technetwork/database/bigdata-appliance/overview/index.html
-https://www.oracle.com/engineered-systems/big-data-appliance/index.html
-
-Oracle Big Data Cloud
-Big Data in the Cloud delivers the power of Hadoop as a secure, managed, elastic, and fully-integrated service. 
-Benefits:
+Oracle big data appliance:  
+It delivers comprehensive and secure big data capabilities to the enterprise at a low overall total cost of ownership. It is integrated, optimized, and tuned to shorten deployment times and reduce risk.  
+It is a high-performance, secure platform for running diverse workloads on Hadoop and NoSQL systems. With Oracle Big Data SQL, Oracle Big Data Appliance extends Oracle’s industry-leading implementation of SQL to Hadoop and NoSQL systems.   
+The Oracle Big Data Appliance offers the following benefits:  
+Rapid provisioning of a highly-available and scalable system for managing massive amounts of data  
+A high-performance platform for acquiring, organizing, and analyzing big data in Hadoop and using R on raw-data sources   
+Control of IT costs by pre-integrating all hardware and software components into a single big data solution that complements enterprise data warehouses  
+References:  
+http://www.oracle.com/us/technologies/big-data/big-data-strategy-guide-1536569.pdf  
+http://www.oracle.com/technetwork/database/bigdata-appliance/overview/index.html  
+https://www.oracle.com/engineered-systems/big-data-appliance/index.html  
+  
+Oracle Big Data Cloud  
+Big Data in the Cloud delivers the power of Hadoop as a secure, managed, elastic, and fully-integrated service.   
+Benefits:  
 Provision fully configured Hadoop clusters on demand. Choose compute shapes and number of nodes based on your needs.
-Scale worker nodes based on compute requirements.
-Cluster nodes automatically recover upon failure.
+Scale worker nodes based on compute requirements.  
+Cluster nodes automatically recover upon failure.  
 Have Oracle manage the cluster for you, or manage it yourself with easy-to-use tooling. Single-click patching and upgrades.
-Leverage Oracle Compute Cloud Service’s security lists and rules for flexible enterprise-grade security.
-Seamlessly integrate with other Oracle services using big data connectors.
-Reference:
-https://cloud.oracle.com/bigdata
+Leverage Oracle Compute Cloud Service’s security lists and rules for flexible enterprise-grade security.  
+Seamlessly integrate with other Oracle services using big data connectors.  
+Reference:  
+https://cloud.oracle.com/bigdata  
 
-Oracle Coherence
-Oracle Coherence is the industry leading in-memory data grid solution that enables organizations to predictably scale mission-critical applications by providing fast access to frequently used data. As data volumes and customer expectations increase, driven by the “internet of things”, social, mobile, cloud and always-connected devices, so does the need to handle more data in real-time, offload over-burdened shared data services and provide availability guarantees.
-Weakness:
-The coherence cache implementation is done in Java. There are however also drawbacks in particular when it relates to handling large amounts of data with predictable response time. It is difficult to configure Java garbage collection in order to get good and predictable performance and to avoid time-outs, how many instances one should run each server to avoid to large heap sizes with long GC pauses etc etc.
-Another weakness is the support for distributed transactions that is not fully implemented for the cache topology "near cache". This is better supported in some other NOSQL products. 
-Another problem is that, in real world use cases, ‘get’ and ‘put’ are not enough. Users inevitably evolve more complex access patterns that necessitate the use of queries and queries don’t scale in the same way.When Coherence executes a query, that query cannot leverage the hashing algorithm used to partition data. Thus the query must be sent to all nodes in the cluster.
-In addition, configuring a second backup provides no extra guarantee that the second backup will be held on a different machine to the first, hence loss of two machines may still cause data loss (but the probability of this has been reduced)."
-Reference:
-http://www.oracle.com/technetwork/middleware/coherence/overview/index.html
-https://community.oracle.com/thread/2447944
+Oracle Coherence  
+Oracle Coherence is the industry leading in-memory data grid solution that enables organizations to predictably scale mission-critical applications by providing fast access to frequently used data. As data volumes and customer expectations increase, driven by the “internet of things”, social, mobile, cloud and always-connected devices, so does the need to handle more data in real-time, offload over-burdened shared data services and provide availability guarantees.  
+Weakness:  
+The coherence cache implementation is done in Java. There are however also drawbacks in particular when it relates to handling large amounts of data with predictable response time. It is difficult to configure Java garbage collection in order to get good and predictable performance and to avoid time-outs, how many instances one should run each server to avoid to large heap sizes with long GC pauses etc etc.  
+Another weakness is the support for distributed transactions that is not fully implemented for the cache topology "near cache". This is better supported in some other NOSQL products.   
+Another problem is that, in real world use cases, ‘get’ and ‘put’ are not enough. Users inevitably evolve more complex access patterns that necessitate the use of queries and queries don’t scale in the same way.When Coherence executes a query, that query cannot leverage the hashing algorithm used to partition data. Thus the query must be sent to all nodes in the cluster.  
+In addition, configuring a second backup provides no extra guarantee that the second backup will be held on a different machine to the first, hence loss of two machines may still cause data loss (but the probability of this has been reduced)."  
+Reference:  
+http://www.oracle.com/technetwork/middleware/coherence/overview/index.html  
+https://community.oracle.com/thread/2447944  
 
-Oracle Database
-An Oracle database is a collection of data treated as a unit. The purpose of a database is to store and retrieve related information. A database server is the key to solving the problems of information management.
-Oracle Database is the first database designed for enterprise grid computing, the most flexible and cost effective way to manage information and applications. Enterprise grid computing creates large pools of industry-standard, modular storage and servers. With this architecture, each new system can be rapidly provisioned from the pool of components. There is no need for peak workloads, because capacity can be easily added or reallocated from the resource pools as needed.
-Advantages:
-Grouping Transactions
-The ability to group several transactions into the same batch for processing sets Oracle apart from its competitors. Oracle can expand horizontally by clustering transactions for more efficient processing.
-Improved Performance
-In addition to batch processing of transactions, Oracle offers other methods of improving your database's performance. 
-Versatility
-Oracle SQL gives you the flexibility of choosing to run your database in any operating system.
-Disadvantages:
-Cost
-The cost of operating Oracle SQL puts it at a disadvantage in comparison to other versions of SQL. 
-Difficulty
-Oracle SQL is also more difficult to learn and operate than its competitors. 
-References:
-http://www.ehow.com/list_6309384_advantages-disadvantages-oracle-sql.html
-http://docs.oracle.com/cd/B19306_01/server.102/b14220/intro.htm#i57253
+Oracle Database  
+An Oracle database is a collection of data treated as a unit. The purpose of a database is to store and retrieve related information. A database server is the key to solving the problems of information management.  
+Oracle Database is the first database designed for enterprise grid computing, the most flexible and cost effective way to manage information and applications. Enterprise grid computing creates large pools of industry-standard, modular storage and servers. With this architecture, each new system can be rapidly provisioned from the pool of components. There is no need for peak workloads, because capacity can be easily added or reallocated from the resource pools as needed.  
+Advantages:  
+Grouping Transactions  
+The ability to group several transactions into the same batch for processing sets Oracle apart from its competitors. Oracle can expand horizontally by clustering transactions for more efficient processing.  
+Improved Performance  
+In addition to batch processing of transactions, Oracle offers other methods of improving your database's performance.   
+Versatility  
+Oracle SQL gives you the flexibility of choosing to run your database in any operating system.  
+Disadvantages:  
+Cost  
+The cost of operating Oracle SQL puts it at a disadvantage in comparison to other versions of SQL.   
+Difficulty  
+Oracle SQL is also more difficult to learn and operate than its competitors.   
+References:  
+http://www.ehow.com/list_6309384_advantages-disadvantages-oracle-sql.html  
+http://docs.oracle.com/cd/B19306_01/server.102/b14220/intro.htm#i57253  
 
-Oracle Exadata
-Oracle Exadata is software and hardware engineered together to provide the highest-performing and most-available platform for running Oracle Database. Its architecture features a scale-out design with industry-standard servers and intelligent storage, including state-of-the-art flash technology, and a high-speed InfiniBand internal fabric. Elastic configurations enable systems tailored to specific database workloads.
-Advantages:
-Infiniband networking between storage and compute nodes, the real source of Exadata's speed.
-Hybrid columnar compression.
-Index Fast Full Scans.
-Absolutely Free Platinum Support Services from Oracle Corporation for Exadata owners.
-Disadvantages:
-Complex patching due to various layers
-You need to open a gateway to the free Oracle Platinum Support for Exadata.
-This is not always feasible in production systems carrying sensitive data.
-Constant patching is required for any bug fixes.
-Reference:
-http://www.bayt.com/en/specialties/q/2645/what-are-the-advantages-and-disadvantages-of-oracle-exadata/
-https://www.oracle.com/engineered-systems/exadata/index.html
-
-Oracle NoSQL
-Oracle NoSQL Database provides a powerful and flexible transaction model that greatly simplifies the process of developing a NoSQL-based application. It scales horizontally with high availability and transparent load balancing even when dynamically adding new capacity.
-Data is stored as key-value pairs, which are written to particular storage node(s), based on the hashed value of the primary key. Storage nodes are replicated to ensure high availability, rapid failover in the event of a node failure and optimal load balancing of queries. Customer applications are written using an easy-to-use Java/C API to read and write data.
+Oracle Exadata  
+Oracle Exadata is software and hardware engineered together to provide the highest-performing and most-available platform for running Oracle Database. Its architecture features a scale-out design with industry-standard servers and intelligent storage, including state-of-the-art flash technology, and a high-speed InfiniBand internal fabric. Elastic configurations enable systems tailored to specific database workloads.  
+Advantages:  
+Infiniband networking between storage and compute nodes, the real source of Exadata's speed.  
+Hybrid columnar compression.  
+Index Fast Full Scans.  
+Absolutely Free Platinum Support Services from Oracle Corporation for Exadata owners.  
+Disadvantages:  
+Complex patching due to various layers  
+You need to open a gateway to the free Oracle Platinum Support for Exadata.  
+This is not always feasible in production systems carrying sensitive data.  
+Constant patching is required for any bug fixes.  
+Reference:  
+http://www.bayt.com/en/specialties/q/2645/what-are-the-advantages-and-disadvantages-of-oracle-exadata/  
+https://www.oracle.com/engineered-systems/exadata/index.html  
+ 
+Oracle NoSQL  
+Oracle NoSQL Database provides a powerful and flexible transaction model that greatly simplifies the process of developing a NoSQL-based application. It scales horizontally with high availability and transparent load balancing even when dynamically adding new capacity.  
+Data is stored as key-value pairs, which are written to particular storage node(s), based on the hashed value of the primary key. Storage nodes are replicated to ensure high availability, rapid failover in the event of a node failure and optimal load balancing of queries. Customer applications are written using an easy-to-use Java/C API to read and write data.  
 Oracle NoSQL Driver links with the customer application, providing access to the data via appropriate storage node for the requested key.  A web based console as well as command line interface is available for easy administration of the cluster.
-Limitations:
-Only support Java programming language.
-Don't support mapReduce.
-There is also security weakness in NoSQL.
-Reference:
-http://db-engines.com/en/system/Cassandra%3BOracle+NoSQL
+Limitations:  
+Only support Java programming language.  
+Don't support mapReduce.  
+There is also security weakness in NoSQL.  
+Reference:  
+http://db-engines.com/en/system/Cassandra%3BOracle+NoSQL  
 
-Oracle TimesTen
-Oracle TimesTen In-Memory Database is a full-featured relational database that runs in the application tier, storing all data in main memory. This dramatically reduces latency and increases throughput.
-For heavy OLTP workload TimesTen can be quite good, considering that NAS storage based traditional database can only reach similar throughput by sacrificing data consistency in BATCH commit mode. If TimesTen is used in grid, the performance can be even better, and data consistency will be also preserved.
-Performance of TimesTen really depends on actually cached data and on the size of memory cache. If somehow higher hit rate can be achieved, TimesTen would outperform Oracle Database.
-Reference:
-http://www.oracle.com/us/products/database/timesten/overview/index.html 
-Evaluation of in-memory database TimesTen. http://zenodo.org/record/7566/files/CERN_openlab_report_Endre_Andras_Simon.pdf
+Oracle TimesTen  
+Oracle TimesTen In-Memory Database is a full-featured elational database that runs in the application tier, storing all data in main memory. This dramatically reduces latency and increases throughput.  
+For heavy OLTP workload TimesTen can be quite good, considering that NAS storage based traditional database can only reach similar throughput by sacrificing data consistency in BATCH commit mode. If TimesTen is used in grid, the performance can be even better, and data consistency will be also preserved.  
+Performance of TimesTen really depends on actually cached data and on the size of memory cache. If somehow higher hit rate can be achieved, TimesTen would outperform Oracle Database.  
+Reference:  
+http://www.oracle.com/us/products/database/timesten/overview/index.html   
+Evaluation of in-memory database TimesTen. http://zenodo.org/record/7566/files/CERN_openlab_report_Endre_Andras_Simon.pdf  
 
-Pivotal GemFire
-It is the distributed, in-memory database for developers who are building the highest scaling and performing data-centric apps in the world. When you have to process hundreds of thousands of simultaneous transactions involving terabytes of operational data, you need a data management system that can deliver performance at scale, while ensuring consistency of data, and providing high availability and resiliency.
-The features of Pivotal GemFire that help customers achieve these capabilities include:
-Scale-Out Performance with in-memory storage, performance-optimized disk persistence, configurable consistency and distributed queries.
-High Availability, Resilience, and Global Scale.
-Easy Administration of Distributed Grids.
-Reference:
-http://www.pivotal.io/big-data/pivotal-gemfire
+Pivotal GemFire  
+It is the distributed, in-memory database for developers who are building the highest scaling and performing data-centric apps in the world. When you have to process hundreds of thousands of simultaneous transactions involving terabytes of operational data, you need a data management system that can deliver performance at scale, while ensuring consistency of data, and providing high availability and resiliency.  
+The features of Pivotal GemFire that help customers achieve these capabilities include:  
+Scale-Out Performance with in-memory storage, performance-optimized disk persistence, configurable consistency and distributed queries.  
+High Availability, Resilience, and Global Scale.  
+Easy Administration of Distributed Grids.  
+Reference:  
+http://www.pivotal.io/big-data/pivotal-gemfire  
 
-Pivotal Greenplum:
-Pivotal Greenplum Database (Pivotal GPDB) manages, stores and analyzes terabytes to petabytes of data in large-scale analytic data warehouses around the world. Using the purpose-built Pivotal GPDB platform, your organization can experience 10x, 100x or even 1000x better performance over traditional RDBMS products. Pivotal GPDB extracts the data you need to determine which modern applications will best serve customers in context, at the right location, and during the right activities using a shared-nothing, massively parallel processing (MPP) architecture and flexible column- and row-oriented storage. It also leverages fully parallel communication with external databases and Hadoop to continually harness data.
-Reference:
-http://www.pivotal.io/big-data/pivotal-greenplum-database
+Pivotal Greenplum:  
+Pivotal Greenplum Database (Pivotal GPDB) manages, stores and analyzes terabytes to petabytes of data in large-scale analytic data warehouses around the world. Using the purpose-built Pivotal GPDB platform, your organization can experience 10x, 100x or even 1000x better performance over traditional RDBMS products. Pivotal GPDB extracts the data you need to determine which modern applications will best serve customers in context, at the right location, and during the right activities using a shared-nothing, massively parallel processing (MPP) architecture and flexible column- and row-oriented storage. It also leverages fully parallel communication with external databases and Hadoop to continually harness data.  
+Reference:  
+http://www.pivotal.io/big-data/pivotal-greenplum-database    
+ 
+Pivotal SQLfire  
+It is an in-memory distributed SQL Database that delivers dynamic scalability and high performance for modern, data-intensive applications. The memory-optimized architecture of Pivotal SQLFire minimizes time spent waiting for disk access, the main performance bottleneck in traditional databases.   
+Benefits:  
+Reduced latency for SQL applications — Memory based data management accelerates application performance, eliminating many disk and network latencies.  
+Standard SQL syntax and tools— Database application developers can easily incorporate a memory-oriented approach to data management with a familiar, standard SQL interface.  
+Easy scaling to meet the highest demands — Data easily scales out across servers to meet changes in loads or resource availability.  
+High availability and disaster recovery – Ensures continuous availability within or across datacenters and supports granular disaster recovery to the level of individual tables.  
+Ideal for high transaction rates — Pivotal SQLFire is ideal for applications such as large transaction oriented Web sites where disk and network overheads choke delivery of many small data items.  
+Memory-oriented and cloud-optimized – Use of nonproprietary hardware offers an economical way to achieve high database performance at extremely large scale.  
+Reference:  
+https://www.pivotal.io/sites/default/files/Pivotal_SQLFire_DS_042213_FINAL.pdf  
 
-Pivotal SQLfire
-It is an in-memory distributed SQL Database that delivers dynamic scalability and high performance for modern, data-intensive applications. The memory-optimized architecture of Pivotal SQLFire minimizes time spent waiting for disk access, the main performance bottleneck in traditional databases. 
-Benefits:
-Reduced latency for SQL applications — Memory based data management accelerates application performance, eliminating many disk and network latencies.
-Standard SQL syntax and tools— Database application developers can easily incorporate a memory-oriented approach to data management with a familiar, standard SQL interface.
-Easy scaling to meet the highest demands — Data easily scales out across servers to meet changes in loads or resource availability.
-High availability and disaster recovery – Ensures continuous availability within or across datacenters and supports granular disaster recovery to the level of individual tables.
-Ideal for high transaction rates — Pivotal SQLFire is ideal for applications such as large transaction oriented Web sites where disk and network overheads choke delivery of many small data items.
-Memory-oriented and cloud-optimized – Use of nonproprietary hardware offers an economical way to achieve high database performance at extremely large scale.
-Reference:
-https://www.pivotal.io/sites/default/files/Pivotal_SQLFire_DS_042213_FINAL.pdf
+PostgreSQL:  
+It is the most advanced, open source SQL-compliant and open-source objective-RDBMS.  
+Advantages of PostgreSQL  
+An open-source SQL standard compliant RDBMS:  
+PostgreSQL is open-source and free, yet a very powerful relational database management system.  
+It has advantages as following: PostgreSQL is supported by a devoted and experienced community. It has strong third-party support. It is extensible with stored procedures.  
+It is objective but an objective one - with support for nesting, and more.  
+Disadvantages of PostgreSQL:  
+For simple read-heavy operations, PostgreSQL can be an over-kill and might have lower performance. It lacks popularity, despite the very large amount of deployments. It is harder to come by hosts or service providers that offer managed PostgreSQL instances.  
+Reference:  
+https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems  
 
-PostgreSQL:
-It is the most advanced, open source SQL-compliant and open-source objective-RDBMS.
-Advantages of PostgreSQL
-An open-source SQL standard compliant RDBMS:
-PostgreSQL is open-source and free, yet a very powerful relational database management system.
-It has advantages as following: PostgreSQL is supported by a devoted and experienced community. It has strong third-party support. It is extensible with stored procedures.
-It is objective but an objective one - with support for nesting, and more.
-Disadvantages of PostgreSQL:
-For simple read-heavy operations, PostgreSQL can be an over-kill and might have lower performance. It lacks popularity, despite the very large amount of deployments. It is harder to come by hosts or service providers that offer managed PostgreSQL instances.
-Reference:
-https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+Presto  
+It is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes. Presto was designed and written from the ground up for interactive analytics and approaches the speed of commercial data warehouses while scaling to the size of organizations like Facebook.  
+Advantages:  
+20 times faster than Hadoop/Map-reduce,  
+Presto efficiently executes complex algorithms such as machine learning, graph processing.  
+By extending R, Presto allows programmers to leverage optimized math libraries and reuse the many freely available R.  
+Disadvantages.  
+It is a licensed software from HP company.  
+No solution for all type of problems.  
+Not customized also.  
+Only R language support.  
+Spark project is olny query based, not useful for manipulations.  
+Reference:  
+http://prestodb.io/  
+http://www.slideshare.net/sandishk/sparkhadooppresto  
 
-Presto
-It is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes. Presto was designed and written from the ground up for interactive analytics and approaches the speed of commercial data warehouses while scaling to the size of organizations like Facebook.
-Advantages:
-20 times faster than Hadoop/Map-reduce,
-Presto efficiently executes complex algorithms such as machine learning, graph processing.
-By extending R, Presto allows programmers to leverage optimized math libraries and reuse the many freely available R.
-Disadvantages.
-It is a licensed software from HP company.
-No solution for all type of problems.
-Not customized also.
-Only R language support.
-Spark project is olny query based, not useful for manipulations.
-Reference:
-http://prestodb.io/
-http://www.slideshare.net/sandishk/sparkhadooppresto
-
-The Progress OpenEdge
+The Progress OpenEdge  
 The Progress OpenEdge Relational Database Management System (RDBMS) leads the database market with low cost of ownership and the ability to scale to meet the demands of enterprise applications, e-commerce and application service providers. 
-The OpenEdge database can handle thousands of users and high-traffic loads with sub-second response times. It helps to ensure that users are productive, customers are satisfied, and, for SaaS/Cloud computing environments, service-level agreements are met.
-Key benefits include:
-Cost effective: Reduce capital and administrative expenses with a database that runs on laptops, desktops and production servers.
-Productive: Raise productivity with the highly efficient OpenEdge Advanced Business Language (ABL) and the highly effective OpenEdge SQL as they create and report online transaction processing results.
-Easy to administer: OpenEdge production systems' ease of automation and administration allow your database team to focus on service for the business users.
-Scalable: OpenEdge applications can scale up to thousands of users and multi-terabyte databases.
-Easy to manage: Consolidate datacenter management functions as your business grows.
-Reference:
-https://www.progress.com/products/openedge/components/rdbms
+The OpenEdge database can handle thousands of users and high-traffic loads with sub-second response times. It helps to ensure that users are productive, customers are satisfied, and, for SaaS/Cloud computing environments, service-level agreements are met.  
+Key benefits include:  
+Cost effective: Reduce capital and administrative expenses with a database that runs on laptops, desktops and production servers.  
+Productive: Raise productivity with the highly efficient OpenEdge Advanced Business Language (ABL) and the highly effective OpenEdge SQL as they create and report online transaction processing results.  
+Easy to administer: OpenEdge production systems' ease of automation and administration allow your database team to focus on service for the business users.  
+Scalable: OpenEdge applications can scale up to thousands of users and multi-terabyte databases.  
+Easy to manage: Consolidate datacenter management functions as your business grows.  
+Reference:  
+https://www.progress.com/products/openedge/components/rdbms  
 
-Qubole
-Qubole is a Big Data as a Service (BDaas) Platform Running on Leading Cloud Offerings Like AWS. We Make Fast Data Analysis Super Simple for all Users.
-Benefits:
-Better Utilization
-An auto-scaling cluster, improved I/O optimization, faster queries and support for hybrid pricing — realize significant cost savings (as much as 50%-60% in total) while accomplishing tasks faster.
-Instant Deployment
-Your Hadoop cluster is ready within minutes post signup, letting you focus on building sophisticated data pipelines, running queries, scheduling jobs and monetizing your big data.
-Easy to Use
-Provide your data analysts with an easy to use graphical interface, built-in connectors, and seamless, elastic cloud infrastructure—tools that are so intuitive, anyone can use them.
-Reference:
-http://www.qubole.com/features/
+Qubole  
+Qubole is a Big Data as a Service (BDaas) Platform Running on Leading Cloud Offerings Like AWS. We Make Fast Data Analysis Super Simple for all Users.  
+Benefits:  
+Better Utilization  
+An auto-scaling cluster, improved I/O optimization, faster queries and support for hybrid pricing — realize significant cost savings (as much as 50%-60% in total) while accomplishing tasks faster.  
+Instant Deployment  
+Your Hadoop cluster is ready within minutes post signup, letting you focus on building sophisticated data pipelines, running queries, scheduling jobs and monetizing your big data.  
+Easy to Use  
+Provide your data analysts with an easy to use graphical interface, built-in connectors, and seamless, elastic cloud infrastructure—tools that are so intuitive, anyone can use them.  
+Reference:  
+http://www.qubole.com/features/  
 
-Rackspace:
-It provides managed cloud service. Rackspace finds clear business benefits and increasing use of DevOps for rapid software development and deployment.
-Disadvantages:
+Rackspace:  
+It provides managed cloud service. Rackspace finds clear business benefits and increasing use of DevOps for rapid software development and deployment.  
+Disadvantages:  
 Poor value on the high end - Based on benchmarking we've conducted, performance is about the same between a 1GB and 16GB cloud server - you are basically just paying for more memory. Vertical scaling will be difficult within Rackspace Cloud
-Homogenous hardware environment: Cloud servers small or large run on the same AMD hardware and chipset. Contrast this to heterogeneous environments like EC2 which tend to provide better vertical scaling capabilities 
-No option for external instance storage: All VMs run off the host system's local storage. If that system were to fail for any reason (i.e. bad motherboard, power supply), your VM will be down until (a) you restore from a backup or (b) Rackspace gets the host system back online
-Very limited features in their cloud environment: Rackspace Cloud lacks many of the more advanced cloud features like, auto-scaling, reserve/spot pricing, external storage, reserved IPs, private cloud
-Accounts are tied to a single region only: Although Rackspace Cloud is run out of multiple data centers in Texas and Illinois, your account is associated with a single data center only and you can only deploy to that data center
-Reference:
-http://www.quora.com/What-are-the-disadvantages-of-Rackspace-Cloud-Servers
+Homogenous hardware environment: Cloud servers small or large run on the same AMD hardware and chipset. Contrast this to heterogeneous environments like EC2 which tend to provide better vertical scaling capabilities   
+No option for external instance storage: All VMs run off the host system's local storage. If that system were to fail for any reason (i.e. bad motherboard, power supply), your VM will be down until (a) you restore from a backup or (b) Rackspace gets the host system back online  
+Very limited features in their cloud environment: Rackspace Cloud lacks many of the more advanced cloud features like, auto-scaling, reserve/spot pricing, external storage, reserved IPs, private cloud  
+Accounts are tied to a single region only: Although Rackspace Cloud is run out of multiple data centers in Texas and Illinois, your account is associated with a single data center only and you can only deploy to that data center  
+Reference:  
+http://www.quora.com/What-are-the-disadvantages-of-Rackspace-Cloud-Servers  
 
-RavenDB
-RavenDB is the open source NoSQL database for .NET. 
-Benefits:
-It is schema-free and scalable:
-Raven supports replication, sharding, and multi-tenancy to work with your big data.
-Transactional: In RavenDB, all operations performed on documents are fully transactional.
-High Performance: Speed-obsessed. Self-tuning, intelligent indexes, optimized for blazing fast reads, never blocked by locks.
+RavenDB  
+RavenDB is the open source NoSQL database for .NET.   
+Benefits:  
+It is schema-free and scalable:  
+Raven supports replication, sharding, and multi-tenancy to work with your big data.  
+Transactional: In RavenDB, all operations performed on documents are fully transactional.  
+High Performance: Speed-obsessed. Self-tuning, intelligent indexes, optimized for blazing fast reads, never blocked by locks.  
 Easy to use: Built in .NET, for .NET. Raven has first-class LINQ support with an idiomatic, clean .NET API served over HTTP.
 Extensible: Use bundles like versioning or encryption, or extend RavenDB yourself using well-defined extensibility points.
-Lean, powerful, productive: Read more about Raven's awesomeness in the full feature list.
-Reference:
-http://ravendb.net/
+Lean, powerful, productive: Read more about Raven's awesomeness in the full feature list.  
+Reference:  
+http://ravendb.net/  
 
-Red Hat JBoss Data Grid
-Data grids are in-memory distributed databases designed for scalability and fast access to large volumes of data. More than just a distributed caching solution, data grids also offer additional functionality such as map/reduce, querying, processing for streaming data, and transaction capabilities.
-Benefits of JBoss Data Grid:
-Performance
-Accessing objects from local memory is faster than accessing objects from remote data stores (such as a database). JBoss Data Grid provides an efficient way to store in-memory objects coming from a slower data source, resulting in faster performance than a remote data store. JBoss Data Grid also offers optimization for both clustered and non-clustered caches to further improve performance.
-Consistency
-JBoss Data Grid uses mechanisms such as cache invalidation and expiration to remove stale data entries from the cache. Additionally, JBoss Data Grid supports JTA, distributed (XA) and two-phase commit transactions along with transaction recovery and a version API to remove or replace data according to saved versions.
-Massive Heap and High Availability
-In JBoss Data Grid, applications no longer need to delegate the majority of their data lookup processes to a large single server database for performance benefits. 
-Scalability
-A significant benefit of a distributed data grid over a replicated clustered cache is that a data grid is scalable in terms of both capacity and performance. 
-Reference:
-http://www.redhat.com/en/technologies/jboss-middleware/data-grid
-https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Grid/6.1/html/Developer_Guide/JBoss_Data_Grid_Benefits2.html
+Red Hat JBoss Data Grid  
+Data grids are in-memory distributed databases designed for scalability and fast access to large volumes of data. More than just a distributed caching solution, data grids also offer additional functionality such as map/reduce, querying, processing for streaming data, and transaction capabilities.  
+Benefits of JBoss Data Grid:  
+Performance  
+Accessing objects from local memory is faster than accessing objects from remote data stores (such as a database). JBoss Data Grid provides an efficient way to store in-memory objects coming from a slower data source, resulting in faster performance than a remote data store. JBoss Data Grid also offers optimization for both clustered and non-clustered caches to further improve performance.  
+Consistency  
+JBoss Data Grid uses mechanisms such as cache invalidation and expiration to remove stale data entries from the cache. Additionally, JBoss Data Grid supports JTA, distributed (XA) and two-phase commit transactions along with transaction recovery and a version API to remove or replace data according to saved versions.  
+Massive Heap and High Availability  
+In JBoss Data Grid, applications no longer need to delegate the majority of their data lookup processes to a large single server database for performance benefits.   
+Scalability  
+A significant benefit of a distributed data grid over a replicated clustered cache is that a data grid is scalable in terms of both capacity and performance.   
+Reference:  
+http://www.redhat.com/en/technologies/jboss-middleware/data-grid  
+https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Data_Grid/6.1/html/Developer_Guide/JBoss_Data_Grid_Benefits2.html  
 
-Redis
-Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. Its key benefit is blazing fast. It is best used for rapidly changing data with a foreseeable database size.
-Reference:
-http://redis.io/
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+Redis  
+Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs. Its key benefit is blazing fast. It is best used for rapidly changing data with a foreseeable database size.  
+Reference:  
+http://redis.io/  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-Riak 
-Its key benefit is the fault tolerance. Some other features of it tunable trade-offs for distribution and replication. Pre- and post-commit hooks in JavaScript or Erlang, for validation and security. Map/reduce in JavaScript or Erlang. Secondary indices and large object support. Full-text search, indexing, querying with Riak Search.
-It is a good fit if you want something Dynamo-like data storage, but no way are you going to deal with the bloat and complexity. If you need very good single-site scalability, availability and fault-tolerance, but you're ready to pay for multi-site replication.
-Reference:
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+Riak   
+Its key benefit is the fault tolerance. Some other features of it tunable trade-offs for distribution and replication. Pre- and post-commit hooks in JavaScript or Erlang, for validation and security. Map/reduce in JavaScript or Erlang. Secondary indices and large object support. Full-text search, indexing, querying with Riak Search.  
+It is a good fit if you want something Dynamo-like data storage, but no way are you going to deal with the bloat and complexity. If you need very good single-site scalability, availability and fault-tolerance, but you're ready to pay for multi-site replication.  
+Reference:  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-RethinkDB
-RethinkDB is built to store JSON documents, and scale to multiple machines with very little effort. It has a pleasant query language that supports really useful queries like table joins and group by, and is easy to setup and learn.
-Benefits:
-Simple programming model.
-Easy administration.
-Horizontal scalability.
-RethinkDB compared to other databases.
-Reference:
-http://rethinkdb.com/
+RethinkDB  
+RethinkDB is built to store JSON documents, and scale to multiple machines with very little effort. It has a pleasant query language that supports really useful queries like table joins and group by, and is easy to setup and learn.  
+Benefits:  
+Simple programming model.  
+Easy administration.  
+Horizontal scalability.  
+RethinkDB compared to other databases.  
+Reference:  
+http://rethinkdb.com/  
 
-SAP HANA
-It is the Platform for Next-Generation applications and analytics. SAP HANA converges database and application platform capabilities in-memory to transform transactions, analytics, text analysis, predictive and spatial processing so businesses can operate in real-time.
-The key features of SAP HANA can be summarised as follows:
-The in-memory technology lets users explore and analyse all transactional and analytical data in real time from virtually any data source.
-Source-agnostic data access & integration services allow accessing and indexing external data from across the entire organisation and adding them to existing analytical models. 
-Real-time analytical processing can be performed to analyse business operations in real-time using huge volumes of detailed information while business is happening.
-Data can be aggregated from many applications and data sources without perturbing in any way the on-going business transactions.
+SAP HANA  
+It is the Platform for Next-Generation applications and analytics. SAP HANA converges database and application platform capabilities in-memory to transform transactions, analytics, text analysis, predictive and spatial processing so businesses can operate in real-time.  
+The key features of SAP HANA can be summarised as follows:  
+The in-memory technology lets users explore and analyse all transactional and analytical data in real time from virtually any data source.  
+Source-agnostic data access & integration services allow accessing and indexing external data from across the entire organisation and adding them to existing analytical models.   
+Real-time analytical processing can be performed to analyse business operations in real-time using huge volumes of detailed information while business is happening.  
+Data can be aggregated from many applications and data sources without perturbing in any way the on-going business transactions.  
 Views of business information can be persisted in a Persistent Data Repository, and reconstituted in case of a crash.
-Real-time Replication Service can be used to access and replicate data from SAP ERP.
-Tight integration with SAP Business Objects BI solutions for insight and analytics.
-SQL and MDX interfaces for third- party application access.
-Unified information modelling and design environment. The great advantage here is that all data models are purely virtual, and calculate results based on the underlying detailed operational data. 
-Simplification of existing models, of modelling and re-modelling.
-Reduced costs through simplifications in hardware, maintenance and testing.
-Simplified Operations and Monitoring with the integration of basic HANA administration capabilities with the BW Admin Cockpit.
-Unified information modelling and design environment. The great advantage here is that all data models are purely virtual, and calculate results based on the underlying detailed operational data. 
-Simplification of existing models, of modelling and re-modelling.
-Reduced costs through simplifications in hardware, maintenance and testing.
-Simplified Operations and Monitoring with the integration of basic HANA administration capabilities with the BW Admin Cockpit.
-Reference:
-http://hana.sap.com/abouthana.html
-http://www.infinitesolutions.be/SAP-HANA-Features-and-Benefits
+Real-time Replication Service can be used to access and replicate data from SAP ERP.  
+Tight integration with SAP Business Objects BI solutions for insight and analytics.  
+SQL and MDX interfaces for third- party application access.  
+Unified information modelling and design environment. The great advantage here is that all data models are purely virtual, and calculate results based on the underlying detailed operational data.   
+Simplification of existing models, of modelling and re-modelling.  
+Reduced costs through simplifications in hardware, maintenance and testing.  
+Simplified Operations and Monitoring with the integration of basic HANA administration capabilities with the BW Admin Cockpit.  
+Unified information modelling and design environment. The great advantage here is that all data models are purely virtual, and calculate results based on the underlying detailed operational data.   
+Simplification of existing models, of modelling and re-modelling.  
+Reduced costs through simplifications in hardware, maintenance and testing.  
+Simplified Operations and Monitoring with the integration of basic HANA administration capabilities with the BW Admin Cockpit.  
+Reference:  
+http://hana.sap.com/abouthana.html  
+http://www.infinitesolutions.be/SAP-HANA-Features-and-Benefits  
 
-SAP Sybase ASE
+SAP Sybase ASE  
 SAP Adaptive Server Enterprise (ASE) is a high-performance relational database management system for mission-critical, data-intensive environments. It ensures highest operational efficiency and throughput on a broad range of platforms.
-ASE is short for "Adaptive Server Enterprise", the relational database management software manufactured and sold by Sybase, Inc. ASE is a versatile, enterprise-class RDBMS which is especially good at handling OLTP workloads. ASE is used intensively in the financial world (banks, stock exchanges, insurance companies), in E-commerce, as well as in virtually every other area. 
-It is best for extreme transaction processing systems that need to support concurrent users with ultra-fast, nonstop performance on cost-effective, standards-based platforms.
-Reference:
-http://scn.sap.com/community/ase
-https://websmp201.sap-ag.de/~sapidp/011000358700001121852012E/index.htm
+ASE is short for "Adaptive Server Enterprise", the relational database management software manufactured and sold by Sybase, Inc. ASE is a versatile, enterprise-class RDBMS which is especially good at handling OLTP workloads. ASE is used intensively in the financial world (banks, stock exchanges, insurance companies), in E-commerce, as well as in virtually every other area.   
+It is best for extreme transaction processing systems that need to support concurrent users with ultra-fast, nonstop performance on cost-effective, standards-based platforms.  
+Reference:   
+http://scn.sap.com/community/ase  
+https://websmp201.sap-ag.de/~sapidp/011000358700001121852012E/index.htm  
+  
+SAP Sybase IQ  
+It is best for big data analytics in the real world. With 10 to 100 times faster performance than other traditional database and Hadoop integration, SAP Sybase IQ delivers the performance your customers demand for terabytes and petabytes of data.  
+Reference:    
+https://websmp201.sap-ag.de/~sapidp/011000358700001121852012E/index.htm  
 
-SAP Sybase IQ
-It is best for big data analytics in the real world. With 10 to 100 times faster performance than other traditional database and Hadoop integration, SAP Sybase IQ delivers the performance your customers demand for terabytes and petabytes of data.
-Reference:
-https://websmp201.sap-ag.de/~sapidp/011000358700001121852012E/index.htm
+Sybase SQL Anywhere  
+It is best for keeping data synchronized with thousands of mobile devices or remote offices, so that all business users can access vital data – anytime, anywhere.  
+Reference:  
+https://websmp201.sap-ag.de/~sapidp/011000358700001121852012E/index.htm  
 
-Sybase SQL Anywhere
-It is best for keeping data synchronized with thousands of mobile devices or remote offices, so that all business users can access vital data – anytime, anywhere.
-Reference:
-https://websmp201.sap-ag.de/~sapidp/011000358700001121852012E/index.htm
+ScaleBase:  
+ScaleBase develops a distributed database management system architected for the cloud. It is a simple, reliable and powerful solution built on MySQL.  
+ScaleBase enables next generation applications that require big data transactional processing, without changing the existing infrastructure.   
+Reference:  
+https://www.crunchbase.com/organization/scalebase  
 
-ScaleBase:
-ScaleBase develops a distributed database management system architected for the cloud. It is a simple, reliable and powerful solution built on MySQL.
-ScaleBase enables next generation applications that require big data transactional processing, without changing the existing infrastructure. 
-Reference:
-https://www.crunchbase.com/organization/scalebase
-
-ScaleDB
+ScaleDB  
 It is a software platform, transforms MySQL into a cluster of database servers and storage nodes that manage big data.
-ScaleDB provides a MySQL storage engine that makes MySQL work like Oracle RAC, but in the cloud.
-ScaleDB adds dynamic elasticity, high-availability, and freedom from the pain of partitioning. ScaleDB turns MySQL into a shared-cache database. Your MySQL application simply scales-out elastically without modification.
-Reference:
-https://www.crunchbase.com/organization/scaledb
+ScaleDB provides a MySQL storage engine that makes MySQL work like Oracle RAC, but in the cloud.  
+ScaleDB adds dynamic elasticity, high-availability, and freedom from the pain of partitioning. ScaleDB turns MySQL into a shared-cache database. Your MySQL application simply scales-out elastically without modification.  
+Reference:  
+https://www.crunchbase.com/organization/scaledb  
 
-Softlayer
-SoftLayer gives you the highest performing cloud infrastructure available. This platform that takes data centers around the world that are full of the widest range of cloud computing options, and then integrates and automates everything.
-Three key benefits:
-Choice of deployment infrastructure
-Unified management for the entire platform
-Triple Network Architecture with a dedicated backend network
-Reference:
-http://www.softlayer.com/our-platform
-http://thoughtsoncloud.com/2014/01/three-key-advantages-of-using-softlayer-for-cloud-deployment/
+Softlayer  
+SoftLayer gives you the highest performing cloud infrastructure available. This platform that takes data centers around the world that are full of the widest range of cloud computing options, and then integrates and automates everything.  
+Three key benefits:  
+Choice of deployment infrastructure  
+Unified management for the entire platform  
+Triple Network Architecture with a dedicated backend network  
+Reference: 
+http://thoughtsoncloud.com/2014/01/three-key-advantages-of-using-softlayer-for-cloud-deployment/  
 
-SciDB:
-It is the computational DBMS for data-obsessed organizations; programmable from R & Python.
-Benefits:
-SciDB supports a query language API that allows users to codify the data manipulation they want to do in queries, rather than as procedural code. Query languages are enormously powerful tools. 
-SciDB borrows ideas from modern, distributed file-systems. We replicate data chunks on multiple physical nodes to insure against data loss, for example. And because we're obliged to deal with large scale operations, we're working on making our platform continue working even when we lose resources in the middle of a query. 
-Weakness:
-The transactions does not do very well. We support basic concurrent UPDATE and INSERT operations. We provide isolated transactions. But we're haven't optimized this part of our system's processing. 
-It is not pretty immature in the tooling and interaction with other software. Specifically, we don't do things like GIS operations very efficiently. 
-Reference:
-http://www.scidb.org/
-http://www.scidb.org/forum/viewtopic.php?f=6&t=495
+SciDB:  
+It is the computational DBMS for data-obsessed organizations; programmable from R & Python.  
+Benefits:  
+SciDB supports a query language API that allows users to codify the data manipulation they want to do in queries, rather than as procedural code. Query languages are enormously powerful tools.   
+SciDB borrows ideas from modern, distributed file-systems. We replicate data chunks on multiple physical nodes to insure against data loss, for example. And because we're obliged to deal with large scale operations, we're working on making our platform continue working even when we lose resources in the middle of a query.    
+Weakness:  
+The transactions does not do very well. We support basic concurrent UPDATE and INSERT operations. We provide isolated transactions. But we're haven't optimized this part of our system's processing.   
+It is not pretty immature in the tooling and interaction with other software. Specifically, we don't do things like GIS operations very efficiently.   
+Reference:  
+http://www.scidb.org/  
+http://www.scidb.org/forum/viewtopic.php?f=6&t=495  
 
-Software AG
-Software AG helps organizations achieve their business objectives faster. The company’s big data, integration and business process technologies enable customers to drive operational efficiency, modernize their systems and optimize processes for smarter decisions and better service. Building on over 40 years of customer-centric innovation, the company is ranked as a “leader” in more than a dozen market categories, fueled by core product families Adabas-Natural, Alfabet, Apama, ARIS, Terracotta, webMethods and Software AG Live.
-Reference:
-http://www.softwareag.com/corporate/company/companyinfo/overview/default.asp
+Software AG  
+Software AG helps organizations achieve their business objectives faster. The company’s big data, integration and business process technologies enable customers to drive operational efficiency, modernize their systems and optimize processes for smarter decisions and better service. Building on over 40 years of customer-centric innovation, the company is ranked as a “leader” in more than a dozen market categories, fueled by core product families Adabas-Natural, Alfabet, Apama, ARIS, Terracotta, webMethods and Software AG Live.  
+Reference:  
+http://www.softwareag.com/corporate/company/companyinfo/overview/default.asp  
 
-SpaceCurve
+SpaceCurve  
 Introducing SpaceCurve, the spatial data platform that transforms the Internet of Everything into operational intelligence. 
-We solved foundational computer science problems to create the first platform purpose-built to spatially organize and analyze machine-generated data sources in real-time at extreme scales. SpaceCurve continuously indexes reality in space and time while making it easily analyzable and immediately actionable.
-SpaceCurve delivers a single, seamless, live model of your data. Our core technology ingests and stores data at network speed. You get a real-time, adaptive, spatially organized, distributed index that preserves spatial proximity across all data sources. From ad hoc queries and analytics, to mobile apps and automated actions, SpaceCurve makes it easy to use your data.
-Reference:
+We solved foundational computer science problems to create the first platform purpose-built to spatially organize and analyze machine-generated data sources in real-time at extreme scales. SpaceCurve continuously indexes reality in space and time while making it easily analyzable and immediately actionable.  
+SpaceCurve delivers a single, seamless, live model of your data. Our core technology ingests and stores data at network speed. You get a real-time, adaptive, spatially organized, distributed index that preserves spatial proximity across all data sources. From ad hoc queries and analytics, to mobile apps and automated actions, SpaceCurve makes it easy to use your data.  
+Reference:  
 http://www.spacecurve.com/
 
-Splunk
-Splunk offers the leading platform for Operational Intelligence. It enables the curious to look closely at what others ignore—machine data—and find what others never see: insights that can help make your company more productive, profitable, competitive and secure. 
-Reference:
-http://www.splunk.com/en_us/products.html
+Splunk  
+Splunk offers the leading platform for Operational Intelligence. It enables the curious to look closely at what others ignore—machine data—and find what others never see: insights that can help make your company more productive, profitable, competitive and secure.   
+Reference:  
+http://www.splunk.com/en_us/products.html  
 
-SQream
-SQream Technologies delivers the World’s most rapid and scalable big data analytics SQL database available on the market. Using a revolutionary technology – SQream enables organizations to easily correlate all their high velocity data, analyze it and figure out the riddles that have been puzzling them thus far. With SQream, the unattainable becomes attainable.
-Benefits:
-SQream Technologies introduces the first patent-pending innovative technology that boosts analytics performance through massive parallel computing, using a GPU-based technology (Graphic Processing Unit). This revolutionary technology in the Big Data field delivers up to 100 times faster big data analytics than any other key market player, with scalability capabilities surpassing existing database analytics by orders of magnitude – giving organizations a serious technology boost and releasing them from their up-until-now technological limitations that were holding them back trying to attain real-time critical insights.
-SQream provides organizations with real-time, comprehensive, actionable insights from enormous data sets through a standard server – saving energy and datacenter floor space, while lowering the TCO.  With SQream, customers of all sizes and needs are able to find the best solution for their unique functional and financial requirements – while powering an entire data center from a box.
-Reference:
-http://sqream.com/
+SQream  
+SQream Technologies delivers the World’s most rapid and scalable big data analytics SQL database available on the market. Using a revolutionary technology – SQream enables organizations to easily correlate all their high velocity data, analyze it and figure out the riddles that have been puzzling them thus far. With SQream, the unattainable becomes attainable.  
+Benefits:  
+SQream Technologies introduces the first patent-pending innovative technology that boosts analytics performance through massive parallel computing, using a GPU-based technology (Graphic Processing Unit). This revolutionary technology in the Big Data field delivers up to 100 times faster big data analytics than any other key market player, with scalability capabilities surpassing existing database analytics by orders of magnitude – giving organizations a serious technology boost and releasing them from their up-until-now technological limitations that were holding them back trying to attain real-time critical insights.  
+SQream provides organizations with real-time, comprehensive, actionable insights from enormous data sets through a standard server – saving energy and datacenter floor space, while lowering the TCO.  With SQream, customers of all sizes and needs are able to find the best solution for their unique functional and financial requirements – while powering an entire data center from a box.  
+Reference:  
+http://sqream.com/  
 
-StarCounter
-It is a combined in-memory database engine and application server for ultra fast development of high performance business applications.
-StatCounter has a limited “free” option and paid upgrades. The free version has a monthly page view limit (although it is pretty high at 250k), and only limited space for logging. That means they delete some of your data after a period of time. The “detailed logs” are only available for 11 hours before they’re deleted. You can upgrade to get more space for logging and keep track of more page views per month.
-Reference:
-http://www.nosegraze.com/bbb-question-google-analytics-vs-statcounter/
-http://www.starcounter.com/
+StarCounter  
+It is a combined in-memory database engine and application server for ultra fast development of high performance business applications.  
+StatCounter has a limited “free” option and paid upgrades. The free version has a monthly page view limit (although it is pretty high at 250k), and only limited space for logging. That means they delete some of your data after a period of time. The “detailed logs” are only available for 11 hours before they’re deleted. You can upgrade to get more space for logging and keep track of more page views per month.  
+Reference:  
+http://www.nosegraze.com/bbb-question-google-analytics-vs-statcounter/  
+http://www.starcounter.com/  
 
-Stardog:
-Stardog is the leading enterprise graph database: search, query, reasoning, and constraints in a lightweight, pure Java system. Stardog is a fast, lightweight, agile semantic graph database—equally adept in client-server, middleware, and embedded modes. 
-http://docs.stardog.com/
+Stardog:  
+Stardog is the leading enterprise graph database: search, query, reasoning, and constraints in a lightweight, pure Java system. Stardog is a fast, lightweight, agile semantic graph database—equally adept in client-server, middleware, and embedded modes.   
+http://docs.stardog.com/  
 
-SQLite
-SQLite is a self-contained, file-based database. SQLite offers an amazing set of tools to handle all sorts of data with much less constraint and ease compared to hosted, process based (server) relational databases.
-Advantages of SQLite
-The entire database consists of a single file on the disk, which makes it extremely portable.
-It is great for developing and even testing.
-Disadvantages of SQLite: no user management, lack of possibility to tinker with for additional performance.
-Reference:
-https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+SQLite  
+SQLite is a self-contained, file-based database. SQLite offers an amazing set of tools to handle all sorts of data with much less constraint and ease compared to hosted, process based (server) relational databases.  
+Advantages of SQLite  
+The entire database consists of a single file on the disk, which makes it extremely portable.  
+It is great for developing and even testing.  
+Disadvantages of SQLite: no user management, lack of possibility to tinker with for additional performance.  
+Reference:  
+https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems  
 
-TempoIQ
-TempoIQ is the back-end technology for the world of sensor analytics, offering real-time data monitoring and analysis. 
-Benefits:
-Flexible Monitoring & Alerts
-Build real-time monitoring of sensor data into your application and push alerts to your users based on the conditions that matter to you. TempoIQ enables real-time visibility into your application, so you can understand changing conditions and take action now.
-Powerful, Custom Analytics
-Add powerful time series and sensor data analytics to your application with rollups, aggregations, interpolation, summaries, annotations and more built in. TempoIQ is optimized for scalable performance, so you can dynamically query your sensor data whether you have one or one million sensors.
-Scalable, Secure Backend
-Integrate our sensor analytics backend and launch your application now with our simple REST API. TempoIQ supports millions of high sampling rate sensors and long range historical datasets, so you can scale your application with confidence.
-Reference:
-https://www.tempoiq.com/
+TempoIQ  
+TempoIQ is the back-end technology for the world of sensor analytics, offering real-time data monitoring and analysis.   
+Benefits:  
+Flexible Monitoring & Alerts  
+Build real-time monitoring of sensor data into your application and push alerts to your users based on the conditions that matter to you. TempoIQ enables real-time visibility into your application, so you can understand changing conditions and take action now.  
+Powerful, Custom Analytics  
+Add powerful time series and sensor data analytics to your application with rollups, aggregations, interpolation, summaries, annotations and more built in. TempoIQ is optimized for scalable performance, so you can dynamically query your sensor data whether you have one or one million sensors.  
+Scalable, Secure Backend  
+Integrate our sensor analytics backend and launch your application now with our simple REST API. TempoIQ supports millions of high sampling rate sensors and long range historical datasets, so you can scale your application with confidence.  
+Reference:  
+https://www.tempoiq.com/  
 
-TokuDB
-TokuDB is able to compress the dataset significantly. In fact, it would be possible to fill TokuDB’s tables with one billion of rows using the same disk size. 
-One limitation of it is TokuDB requires sequential primary key inserts.
-References:
-http://www.percona.com/blog/2013/05/07/benchmarking-percona-server-tokudb-vs-innodb/
+TokuDB  
+TokuDB is able to compress the dataset significantly. In fact, it would be possible to fill TokuDB’s tables with one billion of rows using the same disk size.   
+One limitation of it is TokuDB requires sequential primary key inserts.  
+References:  
+http://www.percona.com/blog/2013/05/07/benchmarking-percona-server-tokudb-vs-innodb/  
 
-TeraData
+TeraData  
 Teradata delivers an affordable family of purpose built platforms, a high performing technology and innovative industry-specific solutions that enable you to solve a wide range of data warehousing and business challenges. 
-They offer the world’s largest and most experienced force of industry, data warehousing and business intelligence consultants who will design and implement your system and enable you to drive top and bottom-line growth.
-Reference:
-http://www.teradata.com/features-and-benefits/?ICID=Atfb&LangType=1033&LangSelect=true
+They offer the world’s largest and most experienced force of industry, data warehousing and business intelligence consultants who will design and implement your system and enable you to drive top and bottom-line growth.  
+Reference:  
+http://www.teradata.com/features-and-benefits/?ICID=Atfb&LangType=1033&LangSelect=true  
 
-TIBCO loglogic
-TIBCO LogLogic Analytics adds rich visual analytics to the IT data management power and scalability of TIBCO LogLogic, creating a new level of operational and actionable insight to your IT big data.
-IT operations teams can collect and analyze terabytes of big data generated by IT assets and find actionable information to identify issues within their environment. Users will gain insight into patterns from potentially thousands of log sources with the ability to filter and explore log data more easily and interactively then ever before.
-Thousands of customers already use TIBCO LogLogic to manage their enterprise logging requirements – now with TIBCO LogLogic Analytics they can more effectively unleash the value hiding within their IT data.
-Key Features:
-Dynamic log data visualization and pattern discovery
-Enrich log data with info from disparate data sources for added insight
-Integrated predictive analytics and statistical tools
-Benefits:
-Faster insight into compliance, security or service level issues
-Discover relationships and impact you never knew existed
-Predict failures, optimize network resources, forecast trends
-Reference:
-http://www.tibco.com/products/loglogic-analytics-infra
+TIBCO loglogic  
+TIBCO LogLogic Analytics adds rich visual analytics to the IT data management power and scalability of TIBCO LogLogic, creating a new level of operational and actionable insight to your IT big data.  
+IT operations teams can collect and analyze terabytes of big data generated by IT assets and find actionable information to identify issues within their environment. Users will gain insight into patterns from potentially thousands of log sources with the ability to filter and explore log data more easily and interactively then ever before.  
+Thousands of customers already use TIBCO LogLogic to manage their enterprise logging requirements – now with TIBCO LogLogic Analytics they can more effectively unleash the value hiding within their IT data.  
+Key Features:  
+Dynamic log data visualization and pattern discovery  
+Enrich log data with info from disparate data sources for added insight  
+Integrated predictive analytics and statistical tools  
+Benefits:  
+Faster insight into compliance, security or service level issues  
+Discover relationships and impact you never knew existed  
+Predict failures, optimize network resources, forecast trends  
+Reference:  
+http://www.tibco.com/products/loglogic-analytics-infra  
 
-Treasure Data:
-Treasure Data is the end-to-end, fully-managed cloud service for Big Data, that’s trusted and simple. It provides flexible cloud service for massive data processing. It brings fast, powerful SQL access to big data from connected applications and products, with no new infrastructure or special skills required.
-Benefits:
-More data, better decisions.
-Grow without efforts.
-Leverage SQL skills and BI tools
-Integrate seamlessly, export anytime
-Reference:
-http://www.treasuredata.com/benefits.php
-https://www.crunchbase.com/organization/treasure-data
+Treasure Data:  
+Treasure Data is the end-to-end, fully-managed cloud service for Big Data, that’s trusted and simple. It provides flexible cloud service for massive data processing. It brings fast, powerful SQL access to big data from connected applications and products, with no new infrastructure or special skills required.  
+Benefits:  
+More data, better decisions.  
+Grow without efforts.  
+Leverage SQL skills and BI tools  
+Integrate seamlessly, export anytime  
+Reference:  
+http://www.treasuredata.com/benefits.php  
+https://www.crunchbase.com/organization/treasure-data  
 
-TransLattice
+TransLattice  
 TransLattice is the geographically distributed database company that provides data where and when it is needed, for enterprise, cloud and hybrid environments. This new approach to enterprise and cloud infrastructure results in significantly reduced costs and deployment complexity, while dramatically improving system reliability, scalability and response time. 
-Resilience
-TransLattice’s self-healing architecture recognizes possible problems and automatically adjusts to prevent disruption in service. 
-Elasticity. 
-Scaling a TransLattice cluster as simple as deploying additional TransLattice nodes in the new locations and connecting them to your network. As nodes are added, capacity, performance and resilience increase.
-Data Governance
-Policy-based data location ensures your data complies with applicable regulations and organizational requirements while providing you with a consolidated, global view of all your business operations. 
-Lower Cost
-TransLattice nodes can be deployed as virtual machines, cloud instances or physical appliances, in any combination, allowing you to expand and contract processing power in sync with the ebb and flow of your business. Economical cloud instances can provide burst capabilities to handle unexpected spikes in workload without investing capital in additional hardware. 
-Cloud Migration
-Designed to run on many relatively small systems, TransLattice solutions make it easy to move enterprise databases and applications to the cloud.
-Performance
-TransLattice nodes can be deployed close to end users, wherever they are needed. By placing data on nodes where it is most likely to be used, TransLattice improves response time for end users.
-Reference:
-http://www.translattice.com/Benefits_Overview.shtml
+Resilience  
+TransLattice’s self-healing architecture recognizes possible problems and automatically adjusts to prevent disruption in service.   
+Elasticity.   
+Scaling a TransLattice cluster as simple as deploying additional TransLattice nodes in the new locations and connecting them to your network. As nodes are added, capacity, performance and resilience increase.  
+Data Governance  
+Policy-based data location ensures your data complies with applicable regulations and organizational requirements while providing you with a consolidated, global view of all your business operations.   
+Lower Cost  
+TransLattice nodes can be deployed as virtual machines, cloud instances or physical appliances, in any combination, allowing you to expand and contract processing power in sync with the ebb and flow of your business. Economical cloud instances can provide burst capabilities to handle unexpected spikes in workload without investing capital in additional hardware.   
+Cloud Migration  
+Designed to run on many relatively small systems, TransLattice solutions make it easy to move enterprise databases and applications to the cloud.  
+Performance  
+TransLattice nodes can be deployed close to end users, wherever they are needed. By placing data on nodes where it is most likely to be used, TransLattice improves response time for end users.  
+Reference:  
+http://www.translattice.com/Benefits_Overview.shtml  
 
-VoltDB
-It has fast transactions and rapidly changing data. Its key features are as follows: In-memory relational database. It is able to export data into Hadoop, supports ANSI SQL, stores procedures in Java and cross-datacenter replication. It is best used: Where you need to act fast on massive amounts of incoming data.
-References:
-http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+VoltDB  
+It has fast transactions and rapidly changing data. Its key features are as follows: In-memory relational database. It is able to export data into Hadoop, supports ANSI SQL, stores procedures in Java and cross-datacenter replication. It is best used: Where you need to act fast on massive amounts of incoming data.  
+References:  
+http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis  
 
-Voldemort
-Voldemort is a distributed key-value storage system.
-Voldemort offers a number of advantages:
-Voldemort combines in memory caching with the storage system so that a separate caching tier is not required (instead the storage system itself is just fast)
-Unlike MySQL replication, both reads and writes scale horizontally
-Data portioning is transparent, and allows for cluster expansion without rebalancing all data
-Data replication and placement is decided by a simple API to be able to accommodate a wide range of application specific strategies
-The storage layer is completely mockable so development and unit testing can be done against a throw-away in-memory storage system without needing a real cluster (or even a real storage system) for simple testing.
-Reference:
-http://www.project-voldemort.com/voldemort/
-
-
-WakandaDB
-It is an Open Source Model-driven NoSQL database engine with a comprehensive REST web interface. The database schema, server-side processing, and querying are all done in JavaScript.
-Features:
+Voldemort  
+Voldemort is a distributed key-value storage system.  
+Voldemort offers a number of advantages:  
+Voldemort combines in memory caching with the storage system so that a separate caching tier is not required (instead the storage system itself is just fast)  
+Unlike MySQL replication, both reads and writes scale horizontally  
+Data portioning is transparent, and allows for cluster expansion without rebalancing all data  
+Data replication and placement is decided by a simple API to be able to accommodate a wide range of application specific strategies  
+The storage layer is completely mockable so development and unit testing can be done against a throw-away in-memory storage system without needing a real cluster (or even a real storage system) for simple testing.  
+Reference:  
+http://www.project-voldemort.com/voldemort/  
+ 
+WakandaDB  
+It is an Open Source Model-driven NoSQL database engine with a comprehensive REST web interface. The database schema, server-side processing, and querying are all done in JavaScript.  
+Features:  
 Wakanda, while its architecture is made to enhance interoperability, wants to propose an already quite complete platform to:
-Use an unified language everyone in the development stack can share
-Design the Business Objects only once and have them accessible either on the clients and server
-Make all the Business Logic, the roles, and Access rights consistent everywhere
-Make Debugging and Maintenance more effective
-Wakanda can be used as an "Integrated" complete solution to produce a business application.
-Wakanda is also capable being interoperable with other systems as server or Database or client.
-Challenges:
-Platform maturity, interoperability and cloud deployment.
-References:
-http://forum.wakanda.org/showthread.php?384-Wakanda-server-v.s.-NodeJS-server-strategy!
-http://wakandadb.org/
-Wakanda white paper, ftp://ftp.wakanda.org/WhitePapers/WhitePaper-IDC-Wakanda.pdf
+Use an unified language everyone in the development stack can share  
+Design the Business Objects only once and have them accessible either on the clients and server  
+Make all the Business Logic, the roles, and Access rights consistent everywhere  
+Make Debugging and Maintenance more effective   
+Wakanda can be used as an "Integrated" complete solution to produce a business application.  
+Wakanda is also capable being interoperable with other systems as server or Database or client.  
+Challenges:  
+Platform maturity, interoperability and cloud deployment.  
+References:  
+http://forum.wakanda.org/showthread.php?384-Wakanda-server-v.s.-NodeJS-server-strategy!  
+http://wakandadb.org/  
+Wakanda white paper, ftp://ftp.wakanda.org/WhitePapers/WhitePaper-IDC-Wakanda.pdf  
 
-WebScaleSQL  
+WebScaleSQL   
 It is a collaboration among engineers from several companies that face the same challenges in deploying MySQL at scale, and seek greater performance from a database technology tailored for their needs.  
 Features:  
 It is an automated framework that will, for each proposed change, run and publish the results of MySQL's built-in test system.  
